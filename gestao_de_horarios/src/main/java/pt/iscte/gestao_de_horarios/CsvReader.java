@@ -1,5 +1,6 @@
 package pt.iscte.gestao_de_horarios;
 import java.io.BufferedReader;
+import java.io.File;
 import java.io.FileReader;
 import java.io.FileWriter;
 import java.io.IOException;
@@ -9,10 +10,10 @@ import java.util.List;
 import com.google.gson.Gson;
 
 public class CsvReader {
-	    public static List<Horario> carregarHorario(String caminhoFicheiro) {
+	    public static List<Horario> carregarHorario(File file) {
 	        List<Horario> horarios = new ArrayList<>();
 	        String linha;
-	        try (BufferedReader br = new BufferedReader(new FileReader(caminhoFicheiro))) {
+	        try (BufferedReader br = new BufferedReader(new FileReader(file))) {
 	            while ((linha = br.readLine()) != null) {
 	            	
 	                String[] dados = linha.split(";"); // Assume que a vírgula é o delimitador
@@ -35,15 +36,15 @@ public class CsvReader {
 	        return horarios;
 	    }
 	    
-	    public static void main(String[] args) {
+	/*    public static void main(String[] args) {
 	        // Caminho para o ficheiro CSV local
 	        String caminhoFicheiro = "C:\\Users\\tiago\\Downloads\\HorarioDeExemplo.csv";
 	        List<Horario> horarios = carregarHorario(caminhoFicheiro);
 	        // Fazer algo com a lista de horários
 	        
-	       /* for(Horario h: horarios) {
+	        for(Horario h: horarios) {
 	        	System.out.println(h);
-	        }*/
+	        }
 	        
 	        
 	        Gson gson = new Gson();
@@ -55,7 +56,30 @@ public class CsvReader {
 	            System.out.println("escreveu");
 	        } catch (IOException e) {
 	            e.printStackTrace();
+	    } */
+	        
+	        
+	    public String convertToJson(File file) {
+	    	
+		        List<Horario> horarios = carregarHorario(file);
+		        // Fazer algo com a lista de horários
+		        
+		       /* for(Horario h: horarios) {
+		        	System.out.println(h);
+		        }*/
+		        
+		        
+		        Gson gson = new Gson();
+		        String horariosJson = gson.toJson(horarios);
+		        String name = "horarios.json";
+		        // Save the JSON string to a file
+		        try (FileWriter fileWriter = new FileWriter(name)) {
+		            fileWriter.write(horariosJson);
+		            System.out.println("escreveu");
+		        } catch (IOException e) {
+		            e.printStackTrace();
+		    }
+		        return name;
 	    }
-	}
-
 }
+
