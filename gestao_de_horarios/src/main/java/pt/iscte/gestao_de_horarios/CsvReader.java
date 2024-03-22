@@ -73,7 +73,7 @@ public class CsvReader {
 		        String horariosJson = gson.toJson(horarios);
 		        String name = "horarios.json";
 		        // Save the JSON string to a file
-		        try (FileWriter fileWriter = new FileWriter(name)) {
+		        try (FileWriter fileWriter = new FileWriter("public/" + name)) {
 		            fileWriter.write(horariosJson);
 		            System.out.println("escreveu");
 		        } catch (IOException e) {

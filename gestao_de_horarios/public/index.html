@@ -9,11 +9,15 @@
     <div id="example-table"></div>
 
     <script type="text/javascript">
-    // Load horarios data from horarios.json
-    fetch('http://localhost:8080/horarios.json')
+    // Get the filename from query parameter
+    var urlParams = new URLSearchParams(window.location.search);
+    var fileName = urlParams.get('fileName');
+
+    // Load horarios data from JSON file
+    fetch('http://localhost:8080/' + fileName)
         .then(response => response.json())
         .then(dataArray => {
-       	 	var dataWithoutTitles = dataArray.slice(1);
+            var dataWithoutTitles = dataArray.slice(1);
             var table = new Tabulator("#example-table", {
                 data: dataWithoutTitles,
                 layout: "fitDatafill",
@@ -40,6 +44,6 @@
             console.error('Error fetching data:', error);
             // Handle error
         });
-		</script>
+    </script>
 </body>
 </html>
