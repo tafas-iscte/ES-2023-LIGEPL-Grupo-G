@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Tabela de Salas</title>
+    <link href="https://unpkg.com/tabulator-tables/dist/css/tabulator.min.css" rel="stylesheet">
+    <script type="text/javascript" src="https://unpkg.com/tabulator-tables/dist/js/tabulator.min.js"></script>
+</head>
+<body>
+    <div id="sala-table"></div>
+
+    <script type="text/javascript">
+    // Load data from JSON file
+    fetch('http://localhost:8080/salas.json')
+        .then(response => response.json())
+        .then(dataArray => {
+        	var dataWithoutTitles = dataArray.slice(1);
+            var table = new Tabulator("#sala-table", {
+                data: dataWithoutTitles,
+                layout: "fitDatafill",
+                pagination: "local",
+                paginationSize: 10,
+                paginationSizeSelector: [5, 10, 20, 40],
+                movableColumns: true,
+                columns: [
+                    { title: "Edifício", field: "edificio", headerFilter: "input" },
+                    { title: "Nome da Sala", field: "nomesala", headerFilter: "input" },
+                    { title: "Capacidade Normal", field: "capacidadenormal", headerFilter: "input" },
+                    { title: "Capacidade Exame", field: "capacidadeexame", headerFilter: "input" },
+                    { title: "Número de Características", field: "numerocaracteristicas", headerFilter: "input" },
+                    { title: "Anfiteatro para Aulas", field: "anfiteatroaulas", headerFilter: "input" },
+                    { title: "Apoio Técnico para Eventos", field: "apoiotecnicoeventos", headerFilter: "input" },
+                    { title: "Arq1", field: "arq1", headerFilter: "input" },
+                    { title: "Arq2", field: "arq2", headerFilter: "input" },
+                    { title: "Arq3", field: "arq3", headerFilter: "input" },
+                    { title: "Arq4", field: "arq4", headerFilter: "input" },
+                    { title: "Arq5", field: "arq5", headerFilter: "input" },
+                    { title: "Arq6", field: "arq6", headerFilter: "input" },
+                    { title: "Arq9", field: "arq9", headerFilter: "input" },
+                    { title: "BYOD", field: "byod", headerFilter: "input" },
+                    { title: "Focus Group", field: "focusgroup", headerFilter: "input" },
+                    { title: "Horários Sala Portal Público", field: "horariossalaportalpublico", headerFilter: "input" },
+                    { title: "Laboratório Arq1", field: "laboratorioarq1", headerFilter: "input" },
+                    { title: "Laboratório Arq2", field: "laboratorioarq2", headerFilter: "input" },
+                    { title: "Laboratório Eng", field: "laboratorioeng", headerFilter: "input" },
+                    { title: "Laboratório Eletro", field: "laboratorioeletro", headerFilter: "input" },
+                    { title: "Laboratório Infor", field: "laboratorioinfor", headerFilter: "input" },
+                    { title: "Laboratório Jorna", field: "laboratoriojorna", headerFilter: "input" },
+                    { title: "Laboratório Redes 1", field: "laboratorioredes1", headerFilter: "input" },
+                    { title: "Laboratório Redes 2", field: "laboratorioredes2", headerFilter: "input" },
+                    { title: "Laboratório Telec", field: "laboratoriotelec", headerFilter: "input" },
+                    { title: "Mestrado", field: "mestrado", headerFilter: "input" },
+                    { title: "Mestrado Plus", field: "mestradoplus", headerFilter: "input" },
+                    { title: "NEE", field: "nee", headerFilter: "input" },
+                    { title: "Provas", field: "provas", headerFilter: "input" },
+                    { title: "Reuniões", field: "reunioes", headerFilter: "input" },
+                    { title: "Arquitetura", field: "arquitetura", headerFilter: "input" },
+                    { title: "Normal", field: "normal", headerFilter: "input" },
+                    { title: "Videoconferência", field: "videoconferencia", headerFilter: "input" },
+                    { title: "Trio", field: "trio", headerFilter: "input" }
+                ],
+            });
+        })
+        .catch(error => {
+            console.error('Error fetching data:', error);
+            // Handle error
+        });
+    </script>
+</body>
+</html>
