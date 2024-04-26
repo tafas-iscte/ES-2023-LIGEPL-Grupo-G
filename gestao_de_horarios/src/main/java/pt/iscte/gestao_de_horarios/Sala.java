@@ -1,5 +1,11 @@
 package pt.iscte.gestao_de_horarios;
 
+
+
+import java.lang.reflect.Field;
+import java.util.Arrays;
+import java.util.stream.Collectors;
+
 public class Sala {
 	
 	private String edificio;
@@ -117,6 +123,25 @@ public class Sala {
 		
 	}
 	
+	
+	public String toCsv() {
+        Field[] fields = this.getClass().getDeclaredFields(); // Obter todos os campos da classe
+
+        String csvLine = Arrays.stream(fields)
+                .map(field -> {
+                    field.setAccessible(true); // Permitir acesso aos campos privados
+                    try {
+                        Object value = field.get(this); // Obter o valor do campo
+                        return value != null ? value.toString() : ""; // Se o valor for nulo, retornar uma string vazia
+                    } catch (IllegalAccessException e) {
+                        e.printStackTrace();
+                        return ""; // Em caso de exceção, retornar uma string vazia
+                    }
+                })
+                .collect(Collectors.joining(",")); // Juntar os valores separados por vírgula
+
+        return csvLine;
+    }
 	
 	
 	

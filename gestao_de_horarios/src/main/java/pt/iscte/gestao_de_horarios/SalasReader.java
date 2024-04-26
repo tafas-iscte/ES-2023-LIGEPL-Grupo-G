@@ -99,4 +99,22 @@ public class SalasReader {
 	    }
 	        return name;
     }
+	    
+	    
+	    public static void salasToCsv(List<Sala> salas, String filePath) {
+            try (FileWriter writer = new FileWriter(filePath)) {
+                // Escrever o cabeçalho do CSV
+                writer.write("Edificio,NomeSala,CapacidadeNormal,CapacidadeExame,NumeroCaracteristicas,AnfiteatroAulas,ApoioTecnicoEventos,Arq1,Arq2,Arq3,Arq4,Arq5,Arq6,Arq9,Byod,FocusGroup,HorariosSalasPortalPublico,LaboratorioArq1,LaboratorioArq2,LaboratorioEng,LaboratorioEletro,LaboratorioInfor,LaboratorioJorna,LaboratorioRedes1,LaboratorioRedes2,LaboratorioTelec,Mestrado,MestradoPlus,Nee,Provas,Reunioes,Arquitetura,Normal,Videoconferencia,Trio\n");
+
+                // Iterar sobre cada sala na lista
+                for (Sala sala : salas) {
+                    // Escrever a linha CSV correspondente à sala atual
+                    writer.write(sala.toCsv() + "\n");
+                }
+                System.out.println("CSV gerado com sucesso em: " + filePath);
+            } catch (IOException e) {
+                System.err.println("Erro ao escrever no arquivo: " + e.getMessage());
+                e.printStackTrace();
+            }
+        }
 }
