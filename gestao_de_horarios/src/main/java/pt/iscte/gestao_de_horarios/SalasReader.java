@@ -3,6 +3,7 @@ package pt.iscte.gestao_de_horarios;
 import java.awt.Desktop;
 import java.io.BufferedReader;
 import java.io.File;
+import java.io.FileNotFoundException;
 import java.io.FileReader;
 import java.io.FileWriter;
 import java.io.IOException;
@@ -65,12 +66,17 @@ public class SalasReader {
 	         }
 	    }
 	    
-	    private void openBrowserWindow(String url) {
+	    void openBrowserWindow(String url) throws FileNotFoundException {
 	        try {
 	            Desktop.getDesktop().browse(java.net.URI.create(url));
-	        } catch (IOException e) {
+	        }catch(NullPointerException e) {
+                e.printStackTrace();
+                throw new NullPointerException();
+            }catch (IOException e) {
 	            e.printStackTrace();
-	        }
+	            throw new FileNotFoundException();
+            }
+            
 	    }
 	    
 	    
@@ -101,7 +107,7 @@ public class SalasReader {
     }
 	    
 	    
-	    public static void salasToCsv(List<Sala> salas, String filePath) {
+	   /* public static void salasToCsv(List<Sala> salas, String filePath) {
             try (FileWriter writer = new FileWriter(filePath)) {
                 // Escrever o cabeçalho do CSV
                 writer.write("Edificio,NomeSala,CapacidadeNormal,CapacidadeExame,NumeroCaracteristicas,AnfiteatroAulas,ApoioTecnicoEventos,Arq1,Arq2,Arq3,Arq4,Arq5,Arq6,Arq9,Byod,FocusGroup,HorariosSalasPortalPublico,LaboratorioArq1,LaboratorioArq2,LaboratorioEng,LaboratorioEletro,LaboratorioInfor,LaboratorioJorna,LaboratorioRedes1,LaboratorioRedes2,LaboratorioTelec,Mestrado,MestradoPlus,Nee,Provas,Reunioes,Arquitetura,Normal,Videoconferencia,Trio\n");
@@ -116,5 +122,5 @@ public class SalasReader {
                 System.err.println("Erro ao escrever no arquivo: " + e.getMessage());
                 e.printStackTrace();
             }
-        }
+        }*/
 }
