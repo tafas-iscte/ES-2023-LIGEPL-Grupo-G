@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Substituição de Aula</title>
+</head>
+<body>
+    <h1>Substituição de Aula</h1>
+
+    <!-- Dropdown menu para selecionar aula -->
+    <div>
+        <label for="aula">Selecione a Aula:</label>
+        <select id="aula">
+            <!-- As opções serão preenchidas dinamicamente pelo JavaScript -->
+        </select>
+    </div>
+
+    <!-- Dropdown menu para períodos excluídos - Dia da Semana -->
+    <div>
+        <label for="periodosExcluidosDia">Períodos Excluídos - Dia da Semana:</label>
+        <select id="periodosExcluidosDia">
+            <option value="segunda">Segunda-feira</option>
+            <option value="terca">Terça-feira</option>
+            <option value="quarta">Quarta-feira</option>
+            <!-- Adicione mais opções conforme necessário -->
+        </select>
+    </div>
+
+    <!-- Dropdown menu para períodos excluídos - Hora do Dia -->
+    <div>
+        <label for="periodosExcluidosHora">Períodos Excluídos - Hora do Dia:</label>
+        <select id="periodosExcluidosHora">
+            <option value="manha">Manhã</option>
+            <option value="tarde">Tarde</option>
+            <option value="noite">Noite</option>
+            <!-- Adicione mais opções conforme necessário -->
+        </select>
+    </div>
+
+    <!-- Dropdown menu para períodos disponíveis -->
+    <div>
+        <label for="periodosDisponiveis">Períodos Disponíveis:</label>
+        <select id="periodosDisponiveis">
+            <option value="mesmoDia">No Mesmo Dia</option>
+            <option value="mesmaSemana">Na Mesma Semana</option>
+            <option value="entreDatas">Entre Duas Datas/Horas</option>
+            <!-- Adicione mais opções conforme necessário -->
+        </select>
+    </div>
+
+    <!-- Dropdown menu para preferência de tipos de sala -->
+    <div>
+        <label for="preferenciaSala">Preferência de Tipos de Sala:</label>
+        <select id="preferenciaSala">
+            <option value="normal">Normal</option>
+            <option value="laboratorioarq1">Laboratório</option>
+            <option value="anfiteatroaulas">Anfiteatro</option>
+            <!-- Adicione mais opções conforme necessário -->
+        </select>
+    </div>
+
+    <!-- Dropdown menu para tipos de salas não aceitáveis -->
+    <div>
+        <label for="salasNaoAceitaveis">Tipos de Salas Não Aceitáveis:</label>
+        <select id="salasNaoAceitaveis">
+            <option value="byod">BYOD</option>
+            <option value="0S08">0S08</option>
+            <option value="laboratorioarq1">Laboratório de Redes</option>
+            <!-- Adicione mais opções conforme necessário -->
+        </select>
+    </div>
+
+    <!-- Botão de submit -->
+    <button onclick="gerarSugestoes()">Gerar Sugestões</button>
+
+    <!-- Tabela para exibir as sugestões -->
+    <table id="sugestoesTable">
+        <thead>
+            <tr>
+                <th>Aula</th>
+                <th>Dia de semana disponíveis</th>
+                <th>Período do dia disponível</th>
+                <th>Período Disponível</th>
+                <th>Salas Disponíveis</th> <!-- Nova coluna -->
+                <!-- Adicione mais colunas conforme necessário -->
+            </tr>
+        </thead>
+        <tbody>
+            <!-- As sugestões serão preenchidas dinamicamente pelo JavaScript -->
+        </tbody>
+    </table>
+
+<script type="text/javascript">
+    function gerarSugestoes() {
+        // Obter os valores selecionados pelos dropdown menus
+        var aulaSelecionada = document.getElementById("aula").value;
+        var periodoExcluidoDia = document.getElementById("periodosExcluidosDia").value;
+        var periodoExcluidoHora = document.getElementById("periodosExcluidosHora").value;
+        var periodoDisponivel = document.getElementById("periodosDisponiveis").value;
+        var preferenciaSala = document.getElementById("preferenciaSala").value;
+        var salaNaoAceitavel = document.getElementById("salasNaoAceitaveis").value;
+
+        // Obter todas as opções dos dropdown menus
+        var diasOpcoes = Array.from(document.getElementById("periodosExcluidosDia").options).map(option => option.value);
+        var periodosOpcoes = Array.from(document.getElementById("periodosExcluidosHora").options).map(option => option.value);
+
+        // Filtrar as opções excluídas dos dropdown menus
+        var diasDisponiveis = diasOpcoes.filter(dia => dia !== periodoExcluidoDia);
+        var periodosDisponiveis = periodosOpcoes.filter(periodo => periodo !== periodoExcluidoHora);
+
+        // Carregar dados das salas do arquivo JSON
+        fetch('salas.json')
+            .then(response => response.json())
+            .then(dataArray => {
+                // Filtrar as salas com base na preferência selecionada
+                var salasDisponiveis = dataArray.filter(sala => sala[preferenciaSala] === "X");
+                console.log("Salas disponíveis após filtragem por tipo aceitável:", salasDisponiveis)
+				var salasNaoDisponiveis = dataArray.filter(sala => sala[salasNaoAceitaveis] === "X");
+				
+				console.log("Salas disponíveis após filtragem por tipo não aceitável:", salasNaoDisponiveis);
+
+                // Preencher a coluna "Salas Disponíveis" com os nomes das salas filtradas
+                var salasDisponiveisString = salasDisponiveis.map(sala => sala.nomesala).join(', ');
+
+                // Limpar a tabela de sugestões
+                var tableBody = document.querySelector("#sugestoesTable tbody");
+                tableBody.innerHTML = "";
+
+                // Preencher a tabela com as sugestões
+                diasDisponiveis.forEach(function(dia) {
+                    periodosDisponiveis.forEach(function(periodo) {
+                        var row = tableBody.insertRow();
+                        var cellAula = row.insertCell(0);
+                        var cellDiasDisponiveis = row.insertCell(1);
+                        var cellPeriodoDiaDisponivel = row.insertCell(2);
+                        var cellPeriodoDisponivel = row.insertCell(3);
+                        var cellSalasDisponiveis = row.insertCell(4); // Nova coluna para Salas Disponíveis
+
+                        cellAula.innerHTML = aulaSelecionada;
+                        cellDiasDisponiveis.innerHTML = dia;
+                        cellPeriodoDiaDisponivel.innerHTML = periodo;
+                        cellPeriodoDisponivel.innerHTML = periodoDisponivel;
+
+                        // Inserir os nomes das salas em uma única linha
+                        cellSalasDisponiveis.innerHTML = salasDisponiveisString;
+
+                        // Definir estilo para evitar quebra de linha
+                        cellSalasDisponiveis.style.whiteSpace = "nowrap"; // Impede a quebra de linha
+                        cellSalasDisponiveis.style.overflow = "hidden"; // Oculta o texto que não couber na célula
+                        cellSalasDisponiveis.style.textOverflow = "ellipsis"; // Adiciona "..." ao final do texto que não couber
+                    });
+                });
+            })
+            .catch(error => {
+                console.error('Error fetching data:', error);
+                // Lidar com o erro
+            });
+    }
+</script>
+   <script type="text/javascript">
+    // Carregar dados das aulas do arquivo JSON
+    fetch('http://localhost:8080/horarios.json')
+        .then(response => response.json())
+        .then(dataArray => {
+            // Remover a primeira linha que contém apenas os nomes das colunas
+            var dataWithoutTitles = dataArray.slice(1);
+
+            // Preencher as opções no menu suspenso de seleção de aula
+            var selectAula = document.getElementById("aula");
+            dataWithoutTitles.forEach(function(row) {
+                var option = document.createElement("option");
+                option.text = `${row.curso} - ${row.uc} - ${row.Turno} - ${row.Turma} - ${row.Inscritos_no_turno} - ${row.Dia_da_semana} - ${row.Hora_init_aula} - ${row.Hora_fim_aula} - ${row.Data_aula} - ${row.Caracteristicas_sala_pedida} - ${row.Sala_atribuida_aula}`; // Concatenar todas as informações relevantes da linha
+                option.value = JSON.stringify(row); // Armazenar toda a linha como valor da opção
+                selectAula.add(option);
+            });
+        })
+        .catch(error => {
+            console.error('Error fetching data:', error);
+            // Lidar com o erro
+        });
+</script>
+
+</body>
+</html>
