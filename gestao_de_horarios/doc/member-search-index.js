@@ -1,0 +1,1 @@
+memberSearchIndex = [{"p":"pt.iscte.gestao_de_horarios","c":"LancaBrowser","l":"LancaBrowser()","url":"%3Cinit%3E()"},{"p":"pt.iscte.gestao_de_horarios","c":"LancaBrowser","l":"main(String[])","url":"main(java.lang.String[])"}]
