@@ -4,7 +4,7 @@ import java.util.HashMap;
 
 public class Horario {
 	private String curso;
-	private String uc;
+	private String uc; 
 	private String Turno;
 	private String Turma; 
 	private String Inscritos_no_turno;
