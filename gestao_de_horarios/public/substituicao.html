@@ -14,11 +14,7 @@
         </select>
     </div>
 
-<<<<<<< HEAD
-    <!-- Dropdown menu para períodos excluídos - Dia da Semana -->
-=======
   <!-- Dropdown menu para períodos excluídos - Dia da Semana -->
->>>>>>> ponto-5-e-6
     <div>
         <label for="periodosExcluidosDia">Períodos Excluídos - Dia da Semana:</label>
         <select id="periodosExcluidosDia">
@@ -56,16 +52,11 @@
         <label for="preferenciaSala">Preferência de Tipos de Sala:</label>
         <select id="preferenciaSala">
             <option value="normal">Normal</option>
-<<<<<<< HEAD
-            <option value="laboratorioarq1">Laboratório</option>
-            <option value="anfiteatroaulas">Anfiteatro</option>
-=======
             <option value="laboratorioarq1">Laboratório de Redes ARQ1</option>
             <option value="laboratorioarq2">Laboratório de Redes ARQ2</option>
             <option value="anfiteatroaulas">Anfiteatro</option>
             <option value="laboratorioeng">Laboratório de Engenharia</option>
             <option value="laboratorioinfor">Laboratório de Informática</option>
->>>>>>> ponto-5-e-6
             <!-- Adicione mais opções conforme necessário -->
         </select>
     </div>
@@ -76,15 +67,11 @@
         <select id="salasNaoAceitaveis">
             <option value="byod">BYOD</option>
             <option value="0S08">0S08</option>
-<<<<<<< HEAD
-            <option value="laboratorioarq1">Laboratório de Redes</option>
-=======
             <option value="laboratorioarq1">Laboratório de Redes ARQ1</option>
             <option value="laboratorioarq2">Laboratório de Redes ARQ2</option>
             <option value="laboratorioarq3">Laboratório de Redes ARQ3</option>
             <option value="laboratorioarq4">Laboratório de Redes ARQ4</option>
             
->>>>>>> ponto-5-e-6
             <!-- Adicione mais opções conforme necessário -->
         </select>
     </div>
@@ -131,17 +118,6 @@
         fetch('salas.json')
             .then(response => response.json())
             .then(dataArray => {
-<<<<<<< HEAD
-                // Filtrar as salas com base na preferência selecionada
-                var salasDisponiveis = dataArray.filter(sala => sala[preferenciaSala] === "X");
-                console.log("Salas disponíveis após filtragem por tipo aceitável:", salasDisponiveis)
-				var salasNaoDisponiveis = dataArray.filter(sala => sala[salasNaoAceitaveis] === "X");
-				
-				console.log("Salas disponíveis após filtragem por tipo não aceitável:", salasNaoDisponiveis);
-
-                // Preencher a coluna "Salas Disponíveis" com os nomes das salas filtradas
-                var salasDisponiveisString = salasDisponiveis.map(sala => sala.nomesala).join(', ');
-=======
                 var salasDisponiveis = dataArray.filter(sala => sala[preferenciaSala] === "X");
                 console.log("Salas disponíveis após filtragem por tipo aceitável:", salasDisponiveis)
 				var salasNaoDisponiveis = dataArray.filter(sala => sala[salaNaoAceitavel] === "X");
@@ -151,7 +127,6 @@
 
                 // Preencher a coluna "Salas Disponíveis" com os nomes das salas filtradas
                 var salasDisponiveisString = salasDisponiveisFiltradas.map(sala => sala.nomesala).join(', ');
->>>>>>> ponto-5-e-6
 
                 // Limpar a tabela de sugestões
                 var tableBody = document.querySelector("#sugestoesTable tbody");
