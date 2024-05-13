@@ -6,25 +6,15 @@
 <body>
     <h1>Substituição de Aula</h1>
 
-    <!-- Dropdown menu para selecionar a UC -->
+    <!-- Dropdown menu para selecionar aula -->
     <div>
-        <label for="uc">Selecione a UC:</label>
-        <select id="uc">
+        <label for="aula">Selecione a Aula:</label>
+        <select id="aula">
             <!-- As opções serão preenchidas dinamicamente pelo JavaScript -->
         </select>
     </div>
 
-    <!-- Dropdown menu para selecionar o número de aulas -->
-    <div>
-        <label for="numAulas">Número de Aulas:</label>
-        <select id="numAulas">
-            <option value="1">1</option>
-            <option value="2">2</option>
-            <option value="3">3</option>
-        </select>
-    </div>
-
-    <!-- Dropdown menu para períodos excluídos - Dia da Semana -->
+  <!-- Dropdown menu para períodos excluídos - Dia da Semana -->
     <div>
         <label for="periodosExcluidosDia">Períodos Excluídos - Dia da Semana:</label>
         <select id="periodosExcluidosDia">
@@ -93,7 +83,7 @@
     <table id="sugestoesTable">
         <thead>
             <tr>
-                <th>UC</th>
+                <th>Aula</th>
                 <th>Dia de semana disponíveis</th>
                 <th>Período do dia disponível</th>
                 <th>Período Disponível</th>
@@ -109,14 +99,12 @@
 <script type="text/javascript">
     function gerarSugestoes() {
         // Obter os valores selecionados pelos dropdown menus
-        var selectUC = document.getElementById("uc");
-        var aulaSelecionada = selectUC.value;
+        var aulaSelecionada = document.getElementById("aula").value;
         var periodoExcluidoDia = document.getElementById("periodosExcluidosDia").value;
         var periodoExcluidoHora = document.getElementById("periodosExcluidosHora").value;
         var periodoDisponivel = document.getElementById("periodosDisponiveis").value;
         var preferenciaSala = document.getElementById("preferenciaSala").value;
         var salaNaoAceitavel = document.getElementById("salasNaoAceitaveis").value;
-        var numAulas = parseInt(document.getElementById("numAulas").value);
 
         // Obter todas as opções dos dropdown menus
         var diasOpcoes = Array.from(document.getElementById("periodosExcluidosDia").options).map(option => option.value);
@@ -130,7 +118,6 @@
         fetch('salas.json')
             .then(response => response.json())
             .then(dataArray => {
-                // Filtrar as salas com base na preferência selecionada
                 var salasDisponiveis = dataArray.filter(sala => sala[preferenciaSala] === "X");
                 console.log("Salas disponíveis após filtragem por tipo aceitável:", salasDisponiveis)
 				var salasNaoDisponiveis = dataArray.filter(sala => sala[salaNaoAceitavel] === "X");
@@ -146,31 +133,29 @@
                 tableBody.innerHTML = "";
 
                 // Preencher a tabela com as sugestões
-                for (var i = 1; i <= numAulas; i++) {
-                    diasDisponiveis.forEach(function(dia) {
-                        periodosDisponiveis.forEach(function(periodo) {
-                            var row = tableBody.insertRow();
-                            var cellAula = row.insertCell(0);
-                            var cellDiasDisponiveis = row.insertCell(1);
-                            var cellPeriodoDiaDisponivel = row.insertCell(2);
-                            var cellPeriodoDisponivel = row.insertCell(3);
-                            var cellSalasDisponiveis = row.insertCell(4); // Nova coluna para Salas Disponíveis
+                diasDisponiveis.forEach(function(dia) {
+                    periodosDisponiveis.forEach(function(periodo) {
+                        var row = tableBody.insertRow();
+                        var cellAula = row.insertCell(0);
+                        var cellDiasDisponiveis = row.insertCell(1);
+                        var cellPeriodoDiaDisponivel = row.insertCell(2);
+                        var cellPeriodoDisponivel = row.insertCell(3);
+                        var cellSalasDisponiveis = row.insertCell(4); // Nova coluna para Salas Disponíveis
 
-                            cellAula.innerHTML = i + " - " + aulaSelecionada;
-                            cellDiasDisponiveis.innerHTML = dia;
-                            cellPeriodoDiaDisponivel.innerHTML = periodo;
-                            cellPeriodoDisponivel.innerHTML = periodoDisponivel;
+                        cellAula.innerHTML = aulaSelecionada;
+                        cellDiasDisponiveis.innerHTML = dia;
+                        cellPeriodoDiaDisponivel.innerHTML = periodo;
+                        cellPeriodoDisponivel.innerHTML = periodoDisponivel;
 
-                            // Inserir os nomes das salas em uma única linha
-                            cellSalasDisponiveis.innerHTML = salasDisponiveisString;
+                        // Inserir os nomes das salas em uma única linha
+                        cellSalasDisponiveis.innerHTML = salasDisponiveisString;
 
-                            // Definir estilo para evitar quebra de linha
-                            cellSalasDisponiveis.style.whiteSpace = "nowrap"; // Impede a quebra de linha
-                            cellSalasDisponiveis.style.overflow = "hidden"; // Oculta o texto que não couber na célula
-                            cellSalasDisponiveis.style.textOverflow = "ellipsis"; // Adiciona "..." ao final do texto que não couber
-                        });
+                        // Definir estilo para evitar quebra de linha
+                        cellSalasDisponiveis.style.whiteSpace = "nowrap"; // Impede a quebra de linha
+                        cellSalasDisponiveis.style.overflow = "hidden"; // Oculta o texto que não couber na célula
+                        cellSalasDisponiveis.style.textOverflow = "ellipsis"; // Adiciona "..." ao final do texto que não couber
                     });
-                }
+                });
             })
             .catch(error => {
                 console.error('Error fetching data:', error);
@@ -178,11 +163,7 @@
             });
     }
 </script>
-
-
-
-
-<script type="text/javascript">
+   <script type="text/javascript">
     // Carregar dados das aulas do arquivo JSON
     fetch('http://localhost:8080/horarios.json')
         .then(response => response.json())
@@ -190,24 +171,13 @@
             // Remover a primeira linha que contém apenas os nomes das colunas
             var dataWithoutTitles = dataArray.slice(1);
 
-            // Array para armazenar todas as UCs únicas
-            var uniqueUCs = [];
-
-            // Iterar sobre cada linha e extrair a UC
+            // Preencher as opções no menu suspenso de seleção de aula
+            var selectAula = document.getElementById("aula");
             dataWithoutTitles.forEach(function(row) {
-                var uc = row.uc;
-                if (!uniqueUCs.includes(uc)) {
-                    uniqueUCs.push(uc);
-                }
-            });
-
-            // Preencher as opções no menu suspenso de seleção de UC
-            var selectUC = document.getElementById("uc");
-            uniqueUCs.forEach(function(uc) {
                 var option = document.createElement("option");
-                option.text = uc;
-                option.value = uc;
-                selectUC.add(option);
+                option.text = `${row.curso} - ${row.uc} - ${row.Turno} - ${row.Turma} - ${row.Inscritos_no_turno} - ${row.Dia_da_semana} - ${row.Hora_init_aula} - ${row.Hora_fim_aula} - ${row.Data_aula} - ${row.Caracteristicas_sala_pedida} - ${row.Sala_atribuida_aula}`; // Concatenar todas as informações relevantes da linha
+                option.value = JSON.stringify(row); // Armazenar toda a linha como valor da opção
+                selectAula.add(option);
             });
         })
         .catch(error => {
