@@ -1,25 +1,139 @@
-
 <!DOCTYPE html>
 <html>
 <head>
     <title>Tabela de Horários</title>
     <link href="https://unpkg.com/tabulator-tables/dist/css/tabulator.min.css" rel="stylesheet">
     <script type="text/javascript" src="https://unpkg.com/tabulator-tables/dist/js/tabulator.min.js"></script>
+    <style>
+        /* Estilo para o rodapé */
+        footer {
+            background-color: #f2f2f2;
+            padding: 20px;
+            text-align: center;
+            color: #555;
+            position: fixed;
+            left: 0;
+            bottom: 0;
+            width: 100%;
+        }
+
+        /* Estilo para o cabeçalho */
+        header {
+            background: rgb(0,212,255);
+			background: linear-gradient(90deg, rgba(0,212,255,1) 0%, rgba(48,48,106,1) 74%, rgba(2,0,36,1) 94%);
+            padding: 20px;
+            text-align: center;
+            box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+            position: fixed;
+            left: 0;
+            top: 0;
+            width: 100%;
+            
+        }
+        button{
+        	background: white;
+        }
+
+        /* Estilo para o logotipo */
+        .logo {
+        	float: left;
+            max-width: 300px;
+        }
+
+        /* Estilo para os botões */
+        .button-container {
+            display: flex; /* Exibe os botões em uma linha */
+            justify-content: space-between; /* Distribui os botões uniformemente */
+            margin-top: 100px; /* Adapte conforme necessário */
+        }
+
+        .button-85 {
+            padding: 0.6em 2em;
+            border: none;
+            outline: none;
+            color: rgb(255, 255, 255);
+            background: #111;
+            cursor: pointer;
+            position: relative;
+            z-index: 0;
+            border-radius: 10px;
+            user-select: none;
+            -webkit-user-select: none;
+            touch-action: manipulation;
+        }
+
+        .button-85:before {
+            content: "";
+            background: linear-gradient(
+                45deg,
+                #ff0000,
+                #ff7300,
+                #fffb00,
+                #48ff00,
+                #00ffd5,
+                #002bff,
+                #7a00ff,
+                #ff00c8,
+                #ff0000
+            );
+            position: absolute;
+            top: -2px;
+            left: -2px;
+            background-size: 400%;
+            z-index: -1;
+            filter: blur(5px);
+            -webkit-filter: blur(5px);
+            width: calc(100% + 4px);
+            height: calc(100% + 4px);
+            animation: glowing-button-85 20s linear infinite;
+            transition: opacity 0.3s ease-in-out;
+            border-radius: 10px;
+        }
+
+        @keyframes glowing-button-85 {
+            0% {
+                background-position: 0 0;
+            }
+            50% {
+                background-position: 400% 0;
+            }
+            100% {
+                background-position: 0 0;
+            }
+        }
+
+        .button-85:after {
+            z-index: -1;
+            content: "";
+            position: absolute;
+            width: 100%;
+            height: 100%;
+            background: #222;
+            left: 0;
+            top: 0;
+            border-radius: 10px;
+        }
+    </style>
 </head>
 <body>
+    <header>
+        <img src="logoiscte.png" alt="Logo ISCTE" class="logo">
+    </header>
+    <br><br><br><br>
     <div id="example-table"></div>
 
     <script type="text/javascript">
     // Get the filename from query parameter
     var urlParams = new URLSearchParams(window.location.search);
     var fileName = urlParams.get('fileName');
+    var table;
 
     // Load horarios data from JSON file
     fetch('http://localhost:8080/' + fileName)
         .then(response => response.json())
         .then(dataArray => {
             var dataWithoutTitles = dataArray.slice(1);
-            var table = new Tabulator("#example-table", {
+            table = new Tabulator("#example-table", {
                 data: dataWithoutTitles,
                 layout: "fitDatafill",
                 pagination: "local",
@@ -45,10 +159,54 @@
             console.error('Error fetching data:', error);
             // Handle error
         });
-    </script>
-    
-        <button onclick="window.location.href = 'substituicao.html';">Marcar aula de substituição</button>
-        <button onclick="window.location.href = 'ucSubstituicao.html';">Marcar Aulas da UC</button>
+
+    function mostrarAulasConflito() {
+        var rows = table.getData();
+        var conflitos = {};
+
+        rows.forEach(row => {
+            var chave = row.Hora_init_aula + "_" + row.Data_aula + "_" + row.Sala_atribuida_aula;
+            console.log(chave);
+            if (conflitos[chave]) {
+                conflitos[chave].push(row);
+            } else {
+                conflitos[chave] = [row];
+            }
+        });
+
+        var aulasComConflito = Object.values(conflitos).filter(aulas => aulas.length > 1);
         
+        // Exemplo de exibição das aulas com conflito (pode ser personalizado)
+        if (aulasComConflito.length > 0) {
+            var listaConflitos = document.createElement('ul');
+            aulasComConflito.forEach(conflito => {
+                var itemLista = document.createElement('li');
+                itemLista.textContent = "Conflito de aulas:";
+                conflito.forEach(aula => {
+                    var aulaInfo = document.createElement('p');
+                    aulaInfo.style.color = "red";
+                    aulaInfo.textContent = "Curso: " + aula.curso + ", UC: " + aula.uc + ", Turma: " + aula.Turma + ", Hora início da aula: " + aula.Hora_init_aula +", sala: " + aula.Sala_atribuida_aula + ", DataAula: " + aula.Data_aula  ;
+                    itemLista.appendChild(aulaInfo);
+                });
+                listaConflitos.appendChild(itemLista);
+            });
+            document.body.appendChild(listaConflitos);
+        } else {
+            alert("Não há aulas com conflito.");
+        }
+    }
+    </script>
+
+    <footer>
+        All Rigths Reserved to Vasco Araújo
+    </footer>
+    
+    <br>
+    
+    <div class="button-container">
+        <button class="button-85" role="button" onclick="window.location.href = 'substituicao.html';">Marcar aula de substituição</button>
+        <button class="button-85" role="button" onclick="window.location.href = 'ucSubstituicao.html';">Marcar Aulas da UC</button>
+        <button class="button-85" role="button" onclick="mostrarAulasConflito();">Mostrar Aulas com Conflito</button>
+    </div>
 </body>
 </html>
