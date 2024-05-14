@@ -1,0 +1,4618 @@
+{
+  "id": "663ecb69bda37ccc18e29e3f",
+  "nodeId": "ari:cloud:trello::board/workspace/65f72f4355af4bc543d041b8/663ecb69bda37ccc18e29e3f",
+  "name": "Product Backlog Apresentação Final",
+  "desc": "",
+  "descData": null,
+  "closed": false,
+  "dateClosed": null,
+  "idOrganization": "65f72f4355af4bc543d041b8",
+  "idEnterprise": null,
+  "limits": {
+    "attachments": {
+      "perBoard": {
+        "status": "ok",
+        "disableAt": 36000,
+        "warnAt": 28800
+      },
+      "perCard": {
+        "status": "ok",
+        "disableAt": 1000,
+        "warnAt": 800
+      }
+    },
+    "boards": {
+      "totalMembersPerBoard": {
+        "status": "ok",
+        "disableAt": 1600,
+        "warnAt": 1280
+      },
+      "totalAccessRequestsPerBoard": {
+        "status": "ok",
+        "disableAt": 4000,
+        "warnAt": 3200
+      }
+    },
+    "cards": {
+      "openPerBoard": {
+        "status": "ok",
+        "disableAt": 5000,
+        "warnAt": 4000
+      },
+      "openPerList": {
+        "status": "ok",
+        "disableAt": 5000,
+        "warnAt": 4000
+      },
+      "totalPerBoard": {
+        "status": "ok",
+        "disableAt": 2000000,
+        "warnAt": 1600000
+      },
+      "totalPerList": {
+        "status": "ok",
+        "disableAt": 1000000,
+        "warnAt": 800000
+      }
+    },
+    "checklists": {
+      "perBoard": {
+        "status": "ok",
+        "disableAt": 1800000,
+        "warnAt": 1440000
+      },
+      "perCard": {
+        "status": "ok",
+        "disableAt": 500,
+        "warnAt": 400
+      }
+    },
+    "checkItems": {
+      "perChecklist": {
+        "status": "ok",
+        "disableAt": 200,
+        "warnAt": 160
+      }
+    },
+    "customFields": {
+      "perBoard": {
+        "status": "ok",
+        "disableAt": 50,
+        "warnAt": 40
+      }
+    },
+    "customFieldOptions": {
+      "perField": {
+        "status": "ok",
+        "disableAt": 50,
+        "warnAt": 40
+      }
+    },
+    "labels": {
+      "perBoard": {
+        "status": "ok",
+        "disableAt": 1000,
+        "warnAt": 800
+      }
+    },
+    "lists": {
+      "openPerBoard": {
+        "status": "ok",
+        "disableAt": 500,
+        "warnAt": 400
+      },
+      "totalPerBoard": {
+        "status": "ok",
+        "disableAt": 3000,
+        "warnAt": 2400
+      }
+    },
+    "stickers": {
+      "perCard": {
+        "status": "ok",
+        "disableAt": 70,
+        "warnAt": 56
+      }
+    },
+    "reactions": {
+      "perAction": {
+        "status": "ok",
+        "disableAt": 900,
+        "warnAt": 720
+      },
+      "uniquePerAction": {
+        "status": "ok",
+        "disableAt": 17,
+        "warnAt": 14
+      }
+    }
+  },
+  "pinned": false,
+  "starred": false,
+  "url": "https://trello.com/b/lcngm0L3/product-backlog-apresenta%C3%A7%C3%A3o-final",
+  "prefs": {
+    "permissionLevel": "org",
+    "hideVotes": false,
+    "voting": "disabled",
+    "comments": "members",
+    "invitations": "members",
+    "selfJoin": true,
+    "cardCovers": true,
+    "cardCounts": false,
+    "isTemplate": false,
+    "cardAging": "regular",
+    "calendarFeedEnabled": false,
+    "hiddenPluginBoardButtons": [],
+    "switcherViews": [
+      {
+        "viewType": "Board",
+        "enabled": true
+      },
+      {
+        "viewType": "Table",
+        "enabled": true
+      },
+      {
+        "viewType": "Calendar",
+        "enabled": false
+      },
+      {
+        "viewType": "Dashboard",
+        "enabled": false
+      },
+      {
+        "viewType": "Timeline",
+        "enabled": false
+      },
+      {
+        "viewType": "Map",
+        "enabled": false
+      }
+    ],
+    "background": "663eca05f72855d13438e2b9",
+    "backgroundColor": null,
+    "backgroundImage": "https://trello-backgrounds.s3.amazonaws.com/SharedBackground/original/b0fcca75e4ed4b6b4e5d5fb2d8b76db7/photo-1714470564615-621519090941",
+    "backgroundTile": false,
+    "backgroundBrightness": "light",
+    "sharedSourceUrl": "https://images.unsplash.com/photo-1714470564615-621519090941?ixid=M3w3MDY2fDB8MXxjb2xsZWN0aW9ufDZ8MzE3MDk5fHx8fHwyfHwxNzE1MzkwODk4fA&ixlib=rb-4.0.3&w=2560&h=2048&q=90",
+    "backgroundImageScaled": [
+      {
+        "width": 140,
+        "height": 93,
+        "url": "https://trello-backgrounds.s3.amazonaws.com/SharedBackground/140x93/0323d37826bb027c4e5d984657178659/photo-1714470564615-621519090941.webp"
+      },
+      {
+        "width": 256,
+        "height": 171,
+        "url": "https://trello-backgrounds.s3.amazonaws.com/SharedBackground/256x171/0323d37826bb027c4e5d984657178659/photo-1714470564615-621519090941.webp"
+      },
+      {
+        "width": 480,
+        "height": 320,
+        "url": "https://trello-backgrounds.s3.amazonaws.com/SharedBackground/480x320/0323d37826bb027c4e5d984657178659/photo-1714470564615-621519090941.webp"
+      },
+      {
+        "width": 960,
+        "height": 640,
+        "url": "https://trello-backgrounds.s3.amazonaws.com/SharedBackground/960x640/0323d37826bb027c4e5d984657178659/photo-1714470564615-621519090941.webp"
+      },
+      {
+        "width": 1024,
+        "height": 683,
+        "url": "https://trello-backgrounds.s3.amazonaws.com/SharedBackground/1024x683/0323d37826bb027c4e5d984657178659/photo-1714470564615-621519090941.webp"
+      },
+      {
+        "width": 1280,
+        "height": 854,
+        "url": "https://trello-backgrounds.s3.amazonaws.com/SharedBackground/1280x854/0323d37826bb027c4e5d984657178659/photo-1714470564615-621519090941.webp"
+      },
+      {
+        "width": 1920,
+        "height": 1280,
+        "url": "https://trello-backgrounds.s3.amazonaws.com/SharedBackground/1920x1280/0323d37826bb027c4e5d984657178659/photo-1714470564615-621519090941.webp"
+      },
+      {
+        "width": 2048,
+        "height": 1366,
+        "url": "https://trello-backgrounds.s3.amazonaws.com/SharedBackground/2048x1366/0323d37826bb027c4e5d984657178659/photo-1714470564615-621519090941.webp"
+      },
+      {
+        "width": 2400,
+        "height": 1600,
+        "url": "https://trello-backgrounds.s3.amazonaws.com/SharedBackground/2400x1600/0323d37826bb027c4e5d984657178659/photo-1714470564615-621519090941.webp"
+      },
+      {
+        "width": 2560,
+        "height": 1707,
+        "url": "https://trello-backgrounds.s3.amazonaws.com/SharedBackground/2560x1707/0323d37826bb027c4e5d984657178659/photo-1714470564615-621519090941.webp"
+      }
+    ],
+    "backgroundBottomColor": "#90abb3",
+    "backgroundTopColor": "#c4c4cb",
+    "canBePublic": true,
+    "canBeEnterprise": true,
+    "canBeOrg": true,
+    "canBePrivate": true,
+    "canInvite": true
+  },
+  "shortLink": "lcngm0L3",
+  "subscribed": false,
+  "labelNames": {
+    "green": "Front-End",
+    "yellow": "BackEnd",
+    "orange": "",
+    "red": "",
+    "purple": "",
+    "blue": "",
+    "sky": "",
+    "lime": "",
+    "pink": "",
+    "black": "",
+    "green_dark": "",
+    "yellow_dark": "GitHub",
+    "orange_dark": "",
+    "red_dark": "",
+    "purple_dark": "Trello",
+    "blue_dark": "",
+    "sky_dark": "",
+    "lime_dark": "",
+    "pink_dark": "",
+    "black_dark": "",
+    "green_light": "",
+    "yellow_light": "",
+    "orange_light": "",
+    "red_light": "",
+    "purple_light": "",
+    "blue_light": "",
+    "sky_light": "",
+    "lime_light": "",
+    "pink_light": "",
+    "black_light": ""
+  },
+  "powerUps": [],
+  "dateLastActivity": "2024-05-14T14:30:41.137Z",
+  "dateLastView": "2024-05-14T15:39:38.285Z",
+  "shortUrl": "https://trello.com/b/lcngm0L3",
+  "idTags": [],
+  "datePluginDisable": null,
+  "creationMethod": null,
+  "ixUpdate": "92",
+  "templateGallery": null,
+  "enterpriseOwned": false,
+  "idBoardSource": null,
+  "premiumFeatures": [
+    "additionalBoardBackgrounds",
+    "additionalStickers",
+    "customBoardBackgrounds",
+    "customEmoji",
+    "customStickers",
+    "plugins"
+  ],
+  "idMemberCreator": "65f72e1dd2c25f5adbfa85e9",
+  "actions": [
+    {
+      "id": "66437854621d736c8c82ff23",
+      "idMemberCreator": "65f72e1dd2c25f5adbfa85e9",
+      "data": {
+        "board": {
+          "name": "Product Backlog Apresentação Final",
+          "id": "663ecb69bda37ccc18e29e3f",
+          "shortLink": "lcngm0L3"
+        },
+        "old": {
+          "name": "Product Backlog"
+        }
+      },
+      "appCreator": null,
+      "type": "updateBoard",
+      "date": "2024-05-14T14:42:28.866Z",
+      "limits": null,
+      "memberCreator": {
+        "id": "65f72e1dd2c25f5adbfa85e9",
+        "activityBlocked": false,
+        "avatarHash": "6f5bb87f2fbabe67be91ef5b27eee617",
+        "avatarUrl": "https://trello-members.s3.amazonaws.com/65f72e1dd2c25f5adbfa85e9/6f5bb87f2fbabe67be91ef5b27eee617",
+        "fullName": "Tiago Alves Ferreira",
+        "idMemberReferrer": null,
+        "initials": "TF",
+        "nonPublic": {
+          "fullName": "Tiago Alves Ferreira",
+          "initials": "TF",
+          "avatarHash": null
+        },
+        "nonPublicAvailable": true,
+        "username": "tiagoalvesferreira27"
+      }
+    },
+    {
+      "id": "6643759143976cf02654711e",
+      "idMemberCreator": "65f72e1dd2c25f5adbfa85e9",
+      "data": {
+        "card": {
+          "desc": "",
+          "id": "664372e75f9cf9d22717c626",
+          "name": "Testes",
+          "idShort": 11,
+          "shortLink": "YJkOvgKX"
+        },
+        "old": {
+          "desc": "Fazer testes de avaliação à implementação feita"
+        },
+        "board": {
+          "id": "663ecb69bda37ccc18e29e3f",
+          "name": "Product Backlog",
+          "shortLink": "lcngm0L3"
+        },
+        "list": {
+          "id": "664372e75f9cf9d22717c4a1",
+          "name": "Requisitos"
+        }
+      },
+      "appCreator": null,
+      "type": "updateCard",
+      "date": "2024-05-14T14:30:41.166Z",
+      "limits": null,
+      "memberCreator": {
+        "id": "65f72e1dd2c25f5adbfa85e9",
+        "activityBlocked": false,
+        "avatarHash": "6f5bb87f2fbabe67be91ef5b27eee617",
+        "avatarUrl": "https://trello-members.s3.amazonaws.com/65f72e1dd2c25f5adbfa85e9/6f5bb87f2fbabe67be91ef5b27eee617",
+        "fullName": "Tiago Alves Ferreira",
+        "idMemberReferrer": null,
+        "initials": "TF",
+        "nonPublic": {
+          "fullName": "Tiago Alves Ferreira",
+          "initials": "TF",
+          "avatarHash": null
+        },
+        "nonPublicAvailable": true,
+        "username": "tiagoalvesferreira27"
+      }
+    },
+    {
+      "id": "664375821306c8b73d8e7932",
+      "idMemberCreator": "65f72e1dd2c25f5adbfa85e9",
+      "data": {
+        "card": {
+          "desc": "",
+          "id": "664372e75f9cf9d22717c628",
+          "name": "Powerups",
+          "idShort": 5,
+          "shortLink": "V3TQGMGL"
+        },
+        "old": {
+          "desc": "Colocar as powerups no Trello e conectar com o gitHub"
+        },
+        "board": {
+          "id": "663ecb69bda37ccc18e29e3f",
+          "name": "Product Backlog",
+          "shortLink": "lcngm0L3"
+        },
+        "list": {
+          "id": "664372e75f9cf9d22717c4a1",
+          "name": "Requisitos"
+        }
+      },
+      "appCreator": null,
+      "type": "updateCard",
+      "date": "2024-05-14T14:30:26.838Z",
+      "limits": null,
+      "memberCreator": {
+        "id": "65f72e1dd2c25f5adbfa85e9",
+        "activityBlocked": false,
+        "avatarHash": "6f5bb87f2fbabe67be91ef5b27eee617",
+        "avatarUrl": "https://trello-members.s3.amazonaws.com/65f72e1dd2c25f5adbfa85e9/6f5bb87f2fbabe67be91ef5b27eee617",
+        "fullName": "Tiago Alves Ferreira",
+        "idMemberReferrer": null,
+        "initials": "TF",
+        "nonPublic": {
+          "fullName": "Tiago Alves Ferreira",
+          "initials": "TF",
+          "avatarHash": null
+        },
+        "nonPublicAvailable": true,
+        "username": "tiagoalvesferreira27"
+      }
+    },
+    {
+      "id": "66437577df12948c13006d92",
+      "idMemberCreator": "65f72e1dd2c25f5adbfa85e9",
+      "data": {
+        "card": {
+          "desc": "",
+          "id": "664372e75f9cf9d22717c61c",
+          "name": "Atualizar Trello",
+          "idShort": 4,
+          "shortLink": "l7iKWW34"
+        },
+        "old": {
+          "desc": "Tratar da parte da atualização do trello, mais especificamente criação dos novos boards e listas com os cartões"
+        },
+        "board": {
+          "id": "663ecb69bda37ccc18e29e3f",
+          "name": "Product Backlog",
+          "shortLink": "lcngm0L3"
+        },
+        "list": {
+          "id": "664372e75f9cf9d22717c4a1",
+          "name": "Requisitos"
+        }
+      },
+      "appCreator": null,
+      "type": "updateCard",
+      "date": "2024-05-14T14:30:15.191Z",
+      "limits": null,
+      "memberCreator": {
+        "id": "65f72e1dd2c25f5adbfa85e9",
+        "activityBlocked": false,
+        "avatarHash": "6f5bb87f2fbabe67be91ef5b27eee617",
+        "avatarUrl": "https://trello-members.s3.amazonaws.com/65f72e1dd2c25f5adbfa85e9/6f5bb87f2fbabe67be91ef5b27eee617",
+        "fullName": "Tiago Alves Ferreira",
+        "idMemberReferrer": null,
+        "initials": "TF",
+        "nonPublic": {
+          "fullName": "Tiago Alves Ferreira",
+          "initials": "TF",
+          "avatarHash": null
+        },
+        "nonPublicAvailable": true,
+        "username": "tiagoalvesferreira27"
+      }
+    },
+    {
+      "id": "6643756a83f092f1f2e6337b",
+      "idMemberCreator": "65f72e1dd2c25f5adbfa85e9",
+      "data": {
+        "card": {
+          "desc": "",
+          "id": "664372e75f9cf9d22717c625",
+          "name": "Branch GitHub",
+          "idShort": 8,
+          "shortLink": "gFD8hgOv"
+        },
+        "old": {
+          "desc": "Fazer commit e push no gitHub"
+        },
+        "board": {
+          "id": "663ecb69bda37ccc18e29e3f",
+          "name": "Product Backlog",
+          "shortLink": "lcngm0L3"
+        },
+        "list": {
+          "id": "664372e75f9cf9d22717c4a1",
+          "name": "Requisitos"
+        }
+      },
+      "appCreator": null,
+      "type": "updateCard",
+      "date": "2024-05-14T14:30:02.238Z",
+      "limits": null,
+      "memberCreator": {
+        "id": "65f72e1dd2c25f5adbfa85e9",
+        "activityBlocked": false,
+        "avatarHash": "6f5bb87f2fbabe67be91ef5b27eee617",
+        "avatarUrl": "https://trello-members.s3.amazonaws.com/65f72e1dd2c25f5adbfa85e9/6f5bb87f2fbabe67be91ef5b27eee617",
+        "fullName": "Tiago Alves Ferreira",
+        "idMemberReferrer": null,
+        "initials": "TF",
+        "nonPublic": {
+          "fullName": "Tiago Alves Ferreira",
+          "initials": "TF",
+          "avatarHash": null
+        },
+        "nonPublicAvailable": true,
+        "username": "tiagoalvesferreira27"
+      }
+    },
+    {
+      "id": "6643755f87d90ba8b5a1ea4e",
+      "idMemberCreator": "65f72e1dd2c25f5adbfa85e9",
+      "data": {
+        "card": {
+          "desc": "",
+          "id": "664372e75f9cf9d22717c607",
+          "name": "Adicionar Ficheiros no GitHub",
+          "idShort": 6,
+          "shortLink": "3BNtiB6x"
+        },
+        "old": {
+          "desc": "Adicionar novos ficheiros, ou atualizações de ficheiros no repositório"
+        },
+        "board": {
+          "id": "663ecb69bda37ccc18e29e3f",
+          "name": "Product Backlog",
+          "shortLink": "lcngm0L3"
+        },
+        "list": {
+          "id": "664372e75f9cf9d22717c4a1",
+          "name": "Requisitos"
+        }
+      },
+      "appCreator": null,
+      "type": "updateCard",
+      "date": "2024-05-14T14:29:51.099Z",
+      "limits": null,
+      "memberCreator": {
+        "id": "65f72e1dd2c25f5adbfa85e9",
+        "activityBlocked": false,
+        "avatarHash": "6f5bb87f2fbabe67be91ef5b27eee617",
+        "avatarUrl": "https://trello-members.s3.amazonaws.com/65f72e1dd2c25f5adbfa85e9/6f5bb87f2fbabe67be91ef5b27eee617",
+        "fullName": "Tiago Alves Ferreira",
+        "idMemberReferrer": null,
+        "initials": "TF",
+        "nonPublic": {
+          "fullName": "Tiago Alves Ferreira",
+          "initials": "TF",
+          "avatarHash": null
+        },
+        "nonPublicAvailable": true,
+        "username": "tiagoalvesferreira27"
+      }
+    },
+    {
+      "id": "6643753ba578cd7105cc8e82",
+      "idMemberCreator": "65f72e1dd2c25f5adbfa85e9",
+      "data": {
+        "card": {
+          "pos": 172032,
+          "id": "664372e75f9cf9d22717c61e",
+          "name": "Relatório de avaliação da qualidade do software do projeto",
+          "idShort": 10,
+          "shortLink": "7A7U9YET"
+        },
+        "old": {
+          "pos": 16384
+        },
+        "board": {
+          "id": "663ecb69bda37ccc18e29e3f",
+          "name": "Product Backlog",
+          "shortLink": "lcngm0L3"
+        },
+        "list": {
+          "id": "664372e75f9cf9d22717c4a1",
+          "name": "Requisitos"
+        }
+      },
+      "appCreator": null,
+      "type": "updateCard",
+      "date": "2024-05-14T14:29:15.065Z",
+      "limits": null,
+      "memberCreator": {
+        "id": "65f72e1dd2c25f5adbfa85e9",
+        "activityBlocked": false,
+        "avatarHash": "6f5bb87f2fbabe67be91ef5b27eee617",
+        "avatarUrl": "https://trello-members.s3.amazonaws.com/65f72e1dd2c25f5adbfa85e9/6f5bb87f2fbabe67be91ef5b27eee617",
+        "fullName": "Tiago Alves Ferreira",
+        "idMemberReferrer": null,
+        "initials": "TF",
+        "nonPublic": {
+          "fullName": "Tiago Alves Ferreira",
+          "initials": "TF",
+          "avatarHash": null
+        },
+        "nonPublicAvailable": true,
+        "username": "tiagoalvesferreira27"
+      }
+    },
+    {
+      "id": "664375346e54f72d7b51f7f0",
+      "idMemberCreator": "65f72e1dd2c25f5adbfa85e9",
+      "data": {
+        "idMember": "65f72e1dd2c25f5adbfa85e9",
+        "deactivated": false,
+        "card": {
+          "id": "664372e75f9cf9d22717c61e",
+          "name": "Relatório de avaliação da qualidade do software do projeto",
+          "idShort": 10,
+          "shortLink": "7A7U9YET"
+        },
+        "board": {
+          "id": "663ecb69bda37ccc18e29e3f",
+          "name": "Product Backlog",
+          "shortLink": "lcngm0L3"
+        },
+        "member": {
+          "id": "65f72e1dd2c25f5adbfa85e9",
+          "name": "Tiago Alves Ferreira"
+        }
+      },
+      "appCreator": null,
+      "type": "removeMemberFromCard",
+      "date": "2024-05-14T14:29:08.708Z",
+      "limits": null,
+      "member": {
+        "id": "65f72e1dd2c25f5adbfa85e9",
+        "activityBlocked": false,
+        "avatarHash": "6f5bb87f2fbabe67be91ef5b27eee617",
+        "avatarUrl": "https://trello-members.s3.amazonaws.com/65f72e1dd2c25f5adbfa85e9/6f5bb87f2fbabe67be91ef5b27eee617",
+        "fullName": "Tiago Alves Ferreira",
+        "idMemberReferrer": null,
+        "initials": "TF",
+        "nonPublic": {
+          "fullName": "Tiago Alves Ferreira",
+          "initials": "TF",
+          "avatarHash": null
+        },
+        "nonPublicAvailable": true,
+        "username": "tiagoalvesferreira27"
+      },
+      "memberCreator": {
+        "id": "65f72e1dd2c25f5adbfa85e9",
+        "activityBlocked": false,
+        "avatarHash": "6f5bb87f2fbabe67be91ef5b27eee617",
+        "avatarUrl": "https://trello-members.s3.amazonaws.com/65f72e1dd2c25f5adbfa85e9/6f5bb87f2fbabe67be91ef5b27eee617",
+        "fullName": "Tiago Alves Ferreira",
+        "idMemberReferrer": null,
+        "initials": "TF",
+        "nonPublic": {
+          "fullName": "Tiago Alves Ferreira",
+          "initials": "TF",
+          "avatarHash": null
+        },
+        "nonPublicAvailable": true,
+        "username": "tiagoalvesferreira27"
+      }
+    },
+    {
+      "id": "664375315bd886314d1a05dd",
+      "idMemberCreator": "65f72e1dd2c25f5adbfa85e9",
+      "data": {
+        "card": {
+          "due": null,
+          "id": "664372e75f9cf9d22717c61e",
+          "name": "Relatório de avaliação da qualidade do software do projeto",
+          "idShort": 10,
+          "shortLink": "7A7U9YET"
+        },
+        "old": {
+          "due": "2024-04-26T14:00:00.000Z"
+        },
+        "board": {
+          "id": "663ecb69bda37ccc18e29e3f",
+          "name": "Product Backlog",
+          "shortLink": "lcngm0L3"
+        },
+        "list": {
+          "id": "664372e75f9cf9d22717c4a1",
+          "name": "Requisitos"
+        }
+      },
+      "appCreator": null,
+      "type": "updateCard",
+      "date": "2024-05-14T14:29:05.754Z",
+      "limits": null,
+      "memberCreator": {
+        "id": "65f72e1dd2c25f5adbfa85e9",
+        "activityBlocked": false,
+        "avatarHash": "6f5bb87f2fbabe67be91ef5b27eee617",
+        "avatarUrl": "https://trello-members.s3.amazonaws.com/65f72e1dd2c25f5adbfa85e9/6f5bb87f2fbabe67be91ef5b27eee617",
+        "fullName": "Tiago Alves Ferreira",
+        "idMemberReferrer": null,
+        "initials": "TF",
+        "nonPublic": {
+          "fullName": "Tiago Alves Ferreira",
+          "initials": "TF",
+          "avatarHash": null
+        },
+        "nonPublicAvailable": true,
+        "username": "tiagoalvesferreira27"
+      }
+    },
+    {
+      "id": "664375266d44fe820cc5d89c",
+      "idMemberCreator": "65f72e1dd2c25f5adbfa85e9",
+      "data": {
+        "idMember": "65f72e1dd2c25f5adbfa85e9",
+        "deactivated": false,
+        "card": {
+          "id": "664372e85f9cf9d22717ca34",
+          "name": "Gráfico de ocupação das salas",
+          "idShort": 3,
+          "shortLink": "qc6agGwC"
+        },
+        "board": {
+          "id": "663ecb69bda37ccc18e29e3f",
+          "name": "Product Backlog",
+          "shortLink": "lcngm0L3"
+        },
+        "member": {
+          "id": "65f72e1dd2c25f5adbfa85e9",
+          "name": "Tiago Alves Ferreira"
+        }
+      },
+      "appCreator": null,
+      "type": "removeMemberFromCard",
+      "date": "2024-05-14T14:28:54.138Z",
+      "limits": null,
+      "member": {
+        "id": "65f72e1dd2c25f5adbfa85e9",
+        "activityBlocked": false,
+        "avatarHash": "6f5bb87f2fbabe67be91ef5b27eee617",
+        "avatarUrl": "https://trello-members.s3.amazonaws.com/65f72e1dd2c25f5adbfa85e9/6f5bb87f2fbabe67be91ef5b27eee617",
+        "fullName": "Tiago Alves Ferreira",
+        "idMemberReferrer": null,
+        "initials": "TF",
+        "nonPublic": {
+          "fullName": "Tiago Alves Ferreira",
+          "initials": "TF",
+          "avatarHash": null
+        },
+        "nonPublicAvailable": true,
+        "username": "tiagoalvesferreira27"
+      },
+      "memberCreator": {
+        "id": "65f72e1dd2c25f5adbfa85e9",
+        "activityBlocked": false,
+        "avatarHash": "6f5bb87f2fbabe67be91ef5b27eee617",
+        "avatarUrl": "https://trello-members.s3.amazonaws.com/65f72e1dd2c25f5adbfa85e9/6f5bb87f2fbabe67be91ef5b27eee617",
+        "fullName": "Tiago Alves Ferreira",
+        "idMemberReferrer": null,
+        "initials": "TF",
+        "nonPublic": {
+          "fullName": "Tiago Alves Ferreira",
+          "initials": "TF",
+          "avatarHash": null
+        },
+        "nonPublicAvailable": true,
+        "username": "tiagoalvesferreira27"
+      }
+    },
+    {
+      "id": "66437517919e60630039fc03",
+      "idMemberCreator": "65f72e1dd2c25f5adbfa85e9",
+      "data": {
+        "card": {
+          "due": null,
+          "id": "664372e75f9cf9d22717c61d",
+          "name": "Gráfico de conflitos entre aulas",
+          "idShort": 2,
+          "shortLink": "Vwr4l1lK"
+        },
+        "old": {
+          "due": "2024-05-13T22:59:00.000Z"
+        },
+        "board": {
+          "id": "663ecb69bda37ccc18e29e3f",
+          "name": "Product Backlog",
+          "shortLink": "lcngm0L3"
+        },
+        "list": {
+          "id": "664372e75f9cf9d22717c4a1",
+          "name": "Requisitos"
+        }
+      },
+      "appCreator": null,
+      "type": "updateCard",
+      "date": "2024-05-14T14:28:39.175Z",
+      "limits": null,
+      "memberCreator": {
+        "id": "65f72e1dd2c25f5adbfa85e9",
+        "activityBlocked": false,
+        "avatarHash": "6f5bb87f2fbabe67be91ef5b27eee617",
+        "avatarUrl": "https://trello-members.s3.amazonaws.com/65f72e1dd2c25f5adbfa85e9/6f5bb87f2fbabe67be91ef5b27eee617",
+        "fullName": "Tiago Alves Ferreira",
+        "idMemberReferrer": null,
+        "initials": "TF",
+        "nonPublic": {
+          "fullName": "Tiago Alves Ferreira",
+          "initials": "TF",
+          "avatarHash": null
+        },
+        "nonPublicAvailable": true,
+        "username": "tiagoalvesferreira27"
+      }
+    },
+    {
+      "id": "6643750eeed313d2c547b145",
+      "idMemberCreator": "65f72e1dd2c25f5adbfa85e9",
+      "data": {
+        "card": {
+          "due": null,
+          "id": "664372e75f9cf9d22717c626",
+          "name": "Testes",
+          "idShort": 11,
+          "shortLink": "YJkOvgKX"
+        },
+        "old": {
+          "due": "2024-05-14T14:00:00.000Z"
+        },
+        "board": {
+          "id": "663ecb69bda37ccc18e29e3f",
+          "name": "Product Backlog",
+          "shortLink": "lcngm0L3"
+        },
+        "list": {
+          "id": "664372e75f9cf9d22717c4a1",
+          "name": "Requisitos"
+        }
+      },
+      "appCreator": null,
+      "type": "updateCard",
+      "date": "2024-05-14T14:28:30.307Z",
+      "limits": null,
+      "memberCreator": {
+        "id": "65f72e1dd2c25f5adbfa85e9",
+        "activityBlocked": false,
+        "avatarHash": "6f5bb87f2fbabe67be91ef5b27eee617",
+        "avatarUrl": "https://trello-members.s3.amazonaws.com/65f72e1dd2c25f5adbfa85e9/6f5bb87f2fbabe67be91ef5b27eee617",
+        "fullName": "Tiago Alves Ferreira",
+        "idMemberReferrer": null,
+        "initials": "TF",
+        "nonPublic": {
+          "fullName": "Tiago Alves Ferreira",
+          "initials": "TF",
+          "avatarHash": null
+        },
+        "nonPublicAvailable": true,
+        "username": "tiagoalvesferreira27"
+      }
+    },
+    {
+      "id": "66437503255155f8a6ba2028",
+      "idMemberCreator": "65f72e1dd2c25f5adbfa85e9",
+      "data": {
+        "idMember": "65f72e1dd2c25f5adbfa85e9",
+        "deactivated": false,
+        "card": {
+          "id": "664372e75f9cf9d22717c628",
+          "name": "Powerups",
+          "idShort": 5,
+          "shortLink": "V3TQGMGL"
+        },
+        "board": {
+          "id": "663ecb69bda37ccc18e29e3f",
+          "name": "Product Backlog",
+          "shortLink": "lcngm0L3"
+        },
+        "member": {
+          "id": "65f72e1dd2c25f5adbfa85e9",
+          "name": "Tiago Alves Ferreira"
+        }
+      },
+      "appCreator": null,
+      "type": "removeMemberFromCard",
+      "date": "2024-05-14T14:28:19.262Z",
+      "limits": null,
+      "member": {
+        "id": "65f72e1dd2c25f5adbfa85e9",
+        "activityBlocked": false,
+        "avatarHash": "6f5bb87f2fbabe67be91ef5b27eee617",
+        "avatarUrl": "https://trello-members.s3.amazonaws.com/65f72e1dd2c25f5adbfa85e9/6f5bb87f2fbabe67be91ef5b27eee617",
+        "fullName": "Tiago Alves Ferreira",
+        "idMemberReferrer": null,
+        "initials": "TF",
+        "nonPublic": {
+          "fullName": "Tiago Alves Ferreira",
+          "initials": "TF",
+          "avatarHash": null
+        },
+        "nonPublicAvailable": true,
+        "username": "tiagoalvesferreira27"
+      },
+      "memberCreator": {
+        "id": "65f72e1dd2c25f5adbfa85e9",
+        "activityBlocked": false,
+        "avatarHash": "6f5bb87f2fbabe67be91ef5b27eee617",
+        "avatarUrl": "https://trello-members.s3.amazonaws.com/65f72e1dd2c25f5adbfa85e9/6f5bb87f2fbabe67be91ef5b27eee617",
+        "fullName": "Tiago Alves Ferreira",
+        "idMemberReferrer": null,
+        "initials": "TF",
+        "nonPublic": {
+          "fullName": "Tiago Alves Ferreira",
+          "initials": "TF",
+          "avatarHash": null
+        },
+        "nonPublicAvailable": true,
+        "username": "tiagoalvesferreira27"
+      }
+    },
+    {
+      "id": "664374f8a1ae3e3e40957ad0",
+      "idMemberCreator": "65f72e1dd2c25f5adbfa85e9",
+      "data": {
+        "card": {
+          "due": null,
+          "id": "664372e75f9cf9d22717c628",
+          "name": "Powerups",
+          "idShort": 5,
+          "shortLink": "V3TQGMGL"
+        },
+        "old": {
+          "due": "2024-05-11T22:59:00.000Z"
+        },
+        "board": {
+          "id": "663ecb69bda37ccc18e29e3f",
+          "name": "Product Backlog",
+          "shortLink": "lcngm0L3"
+        },
+        "list": {
+          "id": "664372e75f9cf9d22717c4a1",
+          "name": "Requisitos"
+        }
+      },
+      "appCreator": null,
+      "type": "updateCard",
+      "date": "2024-05-14T14:28:08.465Z",
+      "limits": null,
+      "memberCreator": {
+        "id": "65f72e1dd2c25f5adbfa85e9",
+        "activityBlocked": false,
+        "avatarHash": "6f5bb87f2fbabe67be91ef5b27eee617",
+        "avatarUrl": "https://trello-members.s3.amazonaws.com/65f72e1dd2c25f5adbfa85e9/6f5bb87f2fbabe67be91ef5b27eee617",
+        "fullName": "Tiago Alves Ferreira",
+        "idMemberReferrer": null,
+        "initials": "TF",
+        "nonPublic": {
+          "fullName": "Tiago Alves Ferreira",
+          "initials": "TF",
+          "avatarHash": null
+        },
+        "nonPublicAvailable": true,
+        "username": "tiagoalvesferreira27"
+      }
+    },
+    {
+      "id": "664374ed48c9d623af06e0b5",
+      "idMemberCreator": "65f72e1dd2c25f5adbfa85e9",
+      "data": {
+        "card": {
+          "due": null,
+          "id": "664372e75f9cf9d22717c627",
+          "name": "Visualização da alocação das aulas de substituição e de uma UC",
+          "idShort": 7,
+          "shortLink": "olRT8nDl"
+        },
+        "old": {
+          "due": "2024-05-11T22:59:00.000Z"
+        },
+        "board": {
+          "id": "663ecb69bda37ccc18e29e3f",
+          "name": "Product Backlog",
+          "shortLink": "lcngm0L3"
+        },
+        "list": {
+          "id": "664372e75f9cf9d22717c4a1",
+          "name": "Requisitos"
+        }
+      },
+      "appCreator": null,
+      "type": "updateCard",
+      "date": "2024-05-14T14:27:57.089Z",
+      "limits": null,
+      "memberCreator": {
+        "id": "65f72e1dd2c25f5adbfa85e9",
+        "activityBlocked": false,
+        "avatarHash": "6f5bb87f2fbabe67be91ef5b27eee617",
+        "avatarUrl": "https://trello-members.s3.amazonaws.com/65f72e1dd2c25f5adbfa85e9/6f5bb87f2fbabe67be91ef5b27eee617",
+        "fullName": "Tiago Alves Ferreira",
+        "idMemberReferrer": null,
+        "initials": "TF",
+        "nonPublic": {
+          "fullName": "Tiago Alves Ferreira",
+          "initials": "TF",
+          "avatarHash": null
+        },
+        "nonPublicAvailable": true,
+        "username": "tiagoalvesferreira27"
+      }
+    },
+    {
+      "id": "664374e78d81e9cdde98806f",
+      "idMemberCreator": "65f72e1dd2c25f5adbfa85e9",
+      "data": {
+        "card": {
+          "due": null,
+          "id": "664372e75f9cf9d22717c61f",
+          "name": "Alocação de aulas de substituição",
+          "idShort": 1,
+          "shortLink": "FWYj605F"
+        },
+        "old": {
+          "due": "2024-05-10T22:59:00.000Z"
+        },
+        "board": {
+          "id": "663ecb69bda37ccc18e29e3f",
+          "name": "Product Backlog",
+          "shortLink": "lcngm0L3"
+        },
+        "list": {
+          "id": "664372e75f9cf9d22717c4a1",
+          "name": "Requisitos"
+        }
+      },
+      "appCreator": null,
+      "type": "updateCard",
+      "date": "2024-05-14T14:27:51.355Z",
+      "limits": null,
+      "memberCreator": {
+        "id": "65f72e1dd2c25f5adbfa85e9",
+        "activityBlocked": false,
+        "avatarHash": "6f5bb87f2fbabe67be91ef5b27eee617",
+        "avatarUrl": "https://trello-members.s3.amazonaws.com/65f72e1dd2c25f5adbfa85e9/6f5bb87f2fbabe67be91ef5b27eee617",
+        "fullName": "Tiago Alves Ferreira",
+        "idMemberReferrer": null,
+        "initials": "TF",
+        "nonPublic": {
+          "fullName": "Tiago Alves Ferreira",
+          "initials": "TF",
+          "avatarHash": null
+        },
+        "nonPublicAvailable": true,
+        "username": "tiagoalvesferreira27"
+      }
+    },
+    {
+      "id": "664374db57ebb2fabfdba6ba",
+      "idMemberCreator": "65f72e1dd2c25f5adbfa85e9",
+      "data": {
+        "card": {
+          "due": null,
+          "id": "664372e75f9cf9d22717c624",
+          "name": "Alocação de aulas de uma UC",
+          "idShort": 9,
+          "shortLink": "WMry3l2K"
+        },
+        "old": {
+          "due": "2024-05-11T22:59:00.000Z"
+        },
+        "board": {
+          "id": "663ecb69bda37ccc18e29e3f",
+          "name": "Product Backlog",
+          "shortLink": "lcngm0L3"
+        },
+        "list": {
+          "id": "664372e75f9cf9d22717c4a1",
+          "name": "Requisitos"
+        }
+      },
+      "appCreator": null,
+      "type": "updateCard",
+      "date": "2024-05-14T14:27:39.887Z",
+      "limits": null,
+      "memberCreator": {
+        "id": "65f72e1dd2c25f5adbfa85e9",
+        "activityBlocked": false,
+        "avatarHash": "6f5bb87f2fbabe67be91ef5b27eee617",
+        "avatarUrl": "https://trello-members.s3.amazonaws.com/65f72e1dd2c25f5adbfa85e9/6f5bb87f2fbabe67be91ef5b27eee617",
+        "fullName": "Tiago Alves Ferreira",
+        "idMemberReferrer": null,
+        "initials": "TF",
+        "nonPublic": {
+          "fullName": "Tiago Alves Ferreira",
+          "initials": "TF",
+          "avatarHash": null
+        },
+        "nonPublicAvailable": true,
+        "username": "tiagoalvesferreira27"
+      }
+    },
+    {
+      "id": "664374d396f4048c2bc0f107",
+      "idMemberCreator": "65f72e1dd2c25f5adbfa85e9",
+      "data": {
+        "card": {
+          "due": null,
+          "id": "664372e75f9cf9d22717c61c",
+          "name": "Atualizar Trello",
+          "idShort": 4,
+          "shortLink": "l7iKWW34"
+        },
+        "old": {
+          "due": "2024-05-11T22:59:00.000Z"
+        },
+        "board": {
+          "id": "663ecb69bda37ccc18e29e3f",
+          "name": "Product Backlog",
+          "shortLink": "lcngm0L3"
+        },
+        "list": {
+          "id": "664372e75f9cf9d22717c4a1",
+          "name": "Requisitos"
+        }
+      },
+      "appCreator": null,
+      "type": "updateCard",
+      "date": "2024-05-14T14:27:31.075Z",
+      "limits": null,
+      "memberCreator": {
+        "id": "65f72e1dd2c25f5adbfa85e9",
+        "activityBlocked": false,
+        "avatarHash": "6f5bb87f2fbabe67be91ef5b27eee617",
+        "avatarUrl": "https://trello-members.s3.amazonaws.com/65f72e1dd2c25f5adbfa85e9/6f5bb87f2fbabe67be91ef5b27eee617",
+        "fullName": "Tiago Alves Ferreira",
+        "idMemberReferrer": null,
+        "initials": "TF",
+        "nonPublic": {
+          "fullName": "Tiago Alves Ferreira",
+          "initials": "TF",
+          "avatarHash": null
+        },
+        "nonPublicAvailable": true,
+        "username": "tiagoalvesferreira27"
+      }
+    },
+    {
+      "id": "664374cbd4dce7af0c1a0dc2",
+      "idMemberCreator": "65f72e1dd2c25f5adbfa85e9",
+      "data": {
+        "idMember": "65f72e1dd2c25f5adbfa85e9",
+        "deactivated": false,
+        "card": {
+          "id": "664372e75f9cf9d22717c61c",
+          "name": "Atualizar Trello",
+          "idShort": 4,
+          "shortLink": "l7iKWW34"
+        },
+        "board": {
+          "id": "663ecb69bda37ccc18e29e3f",
+          "name": "Product Backlog",
+          "shortLink": "lcngm0L3"
+        },
+        "member": {
+          "id": "65f72e1dd2c25f5adbfa85e9",
+          "name": "Tiago Alves Ferreira"
+        }
+      },
+      "appCreator": null,
+      "type": "removeMemberFromCard",
+      "date": "2024-05-14T14:27:23.581Z",
+      "limits": null,
+      "member": {
+        "id": "65f72e1dd2c25f5adbfa85e9",
+        "activityBlocked": false,
+        "avatarHash": "6f5bb87f2fbabe67be91ef5b27eee617",
+        "avatarUrl": "https://trello-members.s3.amazonaws.com/65f72e1dd2c25f5adbfa85e9/6f5bb87f2fbabe67be91ef5b27eee617",
+        "fullName": "Tiago Alves Ferreira",
+        "idMemberReferrer": null,
+        "initials": "TF",
+        "nonPublic": {
+          "fullName": "Tiago Alves Ferreira",
+          "initials": "TF",
+          "avatarHash": null
+        },
+        "nonPublicAvailable": true,
+        "username": "tiagoalvesferreira27"
+      },
+      "memberCreator": {
+        "id": "65f72e1dd2c25f5adbfa85e9",
+        "activityBlocked": false,
+        "avatarHash": "6f5bb87f2fbabe67be91ef5b27eee617",
+        "avatarUrl": "https://trello-members.s3.amazonaws.com/65f72e1dd2c25f5adbfa85e9/6f5bb87f2fbabe67be91ef5b27eee617",
+        "fullName": "Tiago Alves Ferreira",
+        "idMemberReferrer": null,
+        "initials": "TF",
+        "nonPublic": {
+          "fullName": "Tiago Alves Ferreira",
+          "initials": "TF",
+          "avatarHash": null
+        },
+        "nonPublicAvailable": true,
+        "username": "tiagoalvesferreira27"
+      }
+    },
+    {
+      "id": "664374bee220187904d34b0f",
+      "idMemberCreator": "65f72e1dd2c25f5adbfa85e9",
+      "data": {
+        "idMember": "65f72e1dd2c25f5adbfa85e9",
+        "deactivated": false,
+        "card": {
+          "id": "664372e75f9cf9d22717c625",
+          "name": "Branch GitHub",
+          "idShort": 8,
+          "shortLink": "gFD8hgOv"
+        },
+        "board": {
+          "id": "663ecb69bda37ccc18e29e3f",
+          "name": "Product Backlog",
+          "shortLink": "lcngm0L3"
+        },
+        "member": {
+          "id": "65f72e1dd2c25f5adbfa85e9",
+          "name": "Tiago Alves Ferreira"
+        }
+      },
+      "appCreator": null,
+      "type": "removeMemberFromCard",
+      "date": "2024-05-14T14:27:10.788Z",
+      "limits": null,
+      "member": {
+        "id": "65f72e1dd2c25f5adbfa85e9",
+        "activityBlocked": false,
+        "avatarHash": "6f5bb87f2fbabe67be91ef5b27eee617",
+        "avatarUrl": "https://trello-members.s3.amazonaws.com/65f72e1dd2c25f5adbfa85e9/6f5bb87f2fbabe67be91ef5b27eee617",
+        "fullName": "Tiago Alves Ferreira",
+        "idMemberReferrer": null,
+        "initials": "TF",
+        "nonPublic": {
+          "fullName": "Tiago Alves Ferreira",
+          "initials": "TF",
+          "avatarHash": null
+        },
+        "nonPublicAvailable": true,
+        "username": "tiagoalvesferreira27"
+      },
+      "memberCreator": {
+        "id": "65f72e1dd2c25f5adbfa85e9",
+        "activityBlocked": false,
+        "avatarHash": "6f5bb87f2fbabe67be91ef5b27eee617",
+        "avatarUrl": "https://trello-members.s3.amazonaws.com/65f72e1dd2c25f5adbfa85e9/6f5bb87f2fbabe67be91ef5b27eee617",
+        "fullName": "Tiago Alves Ferreira",
+        "idMemberReferrer": null,
+        "initials": "TF",
+        "nonPublic": {
+          "fullName": "Tiago Alves Ferreira",
+          "initials": "TF",
+          "avatarHash": null
+        },
+        "nonPublicAvailable": true,
+        "username": "tiagoalvesferreira27"
+      }
+    },
+    {
+      "id": "66437496e261807e04cc3949",
+      "idMemberCreator": "65f72e1dd2c25f5adbfa85e9",
+      "data": {
+        "card": {
+          "due": null,
+          "id": "664372e75f9cf9d22717c625",
+          "name": "Branch GitHub",
+          "idShort": 8,
+          "shortLink": "gFD8hgOv"
+        },
+        "old": {
+          "due": "2024-05-08T22:59:00.000Z"
+        },
+        "board": {
+          "id": "663ecb69bda37ccc18e29e3f",
+          "name": "Product Backlog",
+          "shortLink": "lcngm0L3"
+        },
+        "list": {
+          "id": "664372e75f9cf9d22717c4a1",
+          "name": "Requisitos"
+        }
+      },
+      "appCreator": null,
+      "type": "updateCard",
+      "date": "2024-05-14T14:26:30.477Z",
+      "limits": null,
+      "memberCreator": {
+        "id": "65f72e1dd2c25f5adbfa85e9",
+        "activityBlocked": false,
+        "avatarHash": "6f5bb87f2fbabe67be91ef5b27eee617",
+        "avatarUrl": "https://trello-members.s3.amazonaws.com/65f72e1dd2c25f5adbfa85e9/6f5bb87f2fbabe67be91ef5b27eee617",
+        "fullName": "Tiago Alves Ferreira",
+        "idMemberReferrer": null,
+        "initials": "TF",
+        "nonPublic": {
+          "fullName": "Tiago Alves Ferreira",
+          "initials": "TF",
+          "avatarHash": null
+        },
+        "nonPublicAvailable": true,
+        "username": "tiagoalvesferreira27"
+      }
+    },
+    {
+      "id": "6643748b0406421376848b54",
+      "idMemberCreator": "65f72e1dd2c25f5adbfa85e9",
+      "data": {
+        "idMember": "65f72e1dd2c25f5adbfa85e9",
+        "deactivated": false,
+        "card": {
+          "id": "664372e75f9cf9d22717c61d",
+          "name": "Gráfico de conflitos entre aulas",
+          "idShort": 2,
+          "shortLink": "Vwr4l1lK"
+        },
+        "board": {
+          "id": "663ecb69bda37ccc18e29e3f",
+          "name": "Product Backlog",
+          "shortLink": "lcngm0L3"
+        },
+        "member": {
+          "id": "65f72e1dd2c25f5adbfa85e9",
+          "name": "Tiago Alves Ferreira"
+        }
+      },
+      "appCreator": null,
+      "type": "removeMemberFromCard",
+      "date": "2024-05-14T14:26:19.587Z",
+      "limits": null,
+      "member": {
+        "id": "65f72e1dd2c25f5adbfa85e9",
+        "activityBlocked": false,
+        "avatarHash": "6f5bb87f2fbabe67be91ef5b27eee617",
+        "avatarUrl": "https://trello-members.s3.amazonaws.com/65f72e1dd2c25f5adbfa85e9/6f5bb87f2fbabe67be91ef5b27eee617",
+        "fullName": "Tiago Alves Ferreira",
+        "idMemberReferrer": null,
+        "initials": "TF",
+        "nonPublic": {
+          "fullName": "Tiago Alves Ferreira",
+          "initials": "TF",
+          "avatarHash": null
+        },
+        "nonPublicAvailable": true,
+        "username": "tiagoalvesferreira27"
+      },
+      "memberCreator": {
+        "id": "65f72e1dd2c25f5adbfa85e9",
+        "activityBlocked": false,
+        "avatarHash": "6f5bb87f2fbabe67be91ef5b27eee617",
+        "avatarUrl": "https://trello-members.s3.amazonaws.com/65f72e1dd2c25f5adbfa85e9/6f5bb87f2fbabe67be91ef5b27eee617",
+        "fullName": "Tiago Alves Ferreira",
+        "idMemberReferrer": null,
+        "initials": "TF",
+        "nonPublic": {
+          "fullName": "Tiago Alves Ferreira",
+          "initials": "TF",
+          "avatarHash": null
+        },
+        "nonPublicAvailable": true,
+        "username": "tiagoalvesferreira27"
+      }
+    },
+    {
+      "id": "66437481e9680d16e4f10066",
+      "idMemberCreator": "65f72e1dd2c25f5adbfa85e9",
+      "data": {
+        "card": {
+          "due": null,
+          "id": "664372e85f9cf9d22717ca34",
+          "name": "Gráfico de ocupação das salas",
+          "idShort": 3,
+          "shortLink": "qc6agGwC"
+        },
+        "old": {
+          "due": "2024-05-13T22:59:00.000Z"
+        },
+        "board": {
+          "id": "663ecb69bda37ccc18e29e3f",
+          "name": "Product Backlog",
+          "shortLink": "lcngm0L3"
+        },
+        "list": {
+          "id": "664372e75f9cf9d22717c4a1",
+          "name": "Requisitos"
+        }
+      },
+      "appCreator": null,
+      "type": "updateCard",
+      "date": "2024-05-14T14:26:09.766Z",
+      "limits": null,
+      "memberCreator": {
+        "id": "65f72e1dd2c25f5adbfa85e9",
+        "activityBlocked": false,
+        "avatarHash": "6f5bb87f2fbabe67be91ef5b27eee617",
+        "avatarUrl": "https://trello-members.s3.amazonaws.com/65f72e1dd2c25f5adbfa85e9/6f5bb87f2fbabe67be91ef5b27eee617",
+        "fullName": "Tiago Alves Ferreira",
+        "idMemberReferrer": null,
+        "initials": "TF",
+        "nonPublic": {
+          "fullName": "Tiago Alves Ferreira",
+          "initials": "TF",
+          "avatarHash": null
+        },
+        "nonPublicAvailable": true,
+        "username": "tiagoalvesferreira27"
+      }
+    },
+    {
+      "id": "6643746f9d62658bfffbfaa2",
+      "idMemberCreator": "65f72e1dd2c25f5adbfa85e9",
+      "data": {
+        "attachment": {
+          "name": "main",
+          "id": "664372e75f9cf9d22717c76f"
+        },
+        "card": {
+          "id": "664372e75f9cf9d22717c625",
+          "name": "Branch GitHub",
+          "idShort": 8,
+          "shortLink": "gFD8hgOv"
+        },
+        "board": {
+          "id": "663ecb69bda37ccc18e29e3f",
+          "name": "Product Backlog",
+          "shortLink": "lcngm0L3"
+        }
+      },
+      "appCreator": null,
+      "type": "deleteAttachmentFromCard",
+      "date": "2024-05-14T14:25:51.377Z",
+      "limits": null,
+      "memberCreator": {
+        "id": "65f72e1dd2c25f5adbfa85e9",
+        "activityBlocked": false,
+        "avatarHash": "6f5bb87f2fbabe67be91ef5b27eee617",
+        "avatarUrl": "https://trello-members.s3.amazonaws.com/65f72e1dd2c25f5adbfa85e9/6f5bb87f2fbabe67be91ef5b27eee617",
+        "fullName": "Tiago Alves Ferreira",
+        "idMemberReferrer": null,
+        "initials": "TF",
+        "nonPublic": {
+          "fullName": "Tiago Alves Ferreira",
+          "initials": "TF",
+          "avatarHash": null
+        },
+        "nonPublicAvailable": true,
+        "username": "tiagoalvesferreira27"
+      }
+    },
+    {
+      "id": "66437459d6ebbde1e0c0c394",
+      "idMemberCreator": "65f72e1dd2c25f5adbfa85e9",
+      "data": {
+        "card": {
+          "due": null,
+          "id": "664372e75f9cf9d22717c607",
+          "name": "Adicionar Ficheiros no GitHub",
+          "idShort": 6,
+          "shortLink": "3BNtiB6x"
+        },
+        "old": {
+          "due": "2024-05-13T22:59:00.000Z"
+        },
+        "board": {
+          "id": "663ecb69bda37ccc18e29e3f",
+          "name": "Product Backlog",
+          "shortLink": "lcngm0L3"
+        },
+        "list": {
+          "id": "664372e75f9cf9d22717c4a1",
+          "name": "Requisitos"
+        }
+      },
+      "appCreator": null,
+      "type": "updateCard",
+      "date": "2024-05-14T14:25:29.053Z",
+      "limits": null,
+      "memberCreator": {
+        "id": "65f72e1dd2c25f5adbfa85e9",
+        "activityBlocked": false,
+        "avatarHash": "6f5bb87f2fbabe67be91ef5b27eee617",
+        "avatarUrl": "https://trello-members.s3.amazonaws.com/65f72e1dd2c25f5adbfa85e9/6f5bb87f2fbabe67be91ef5b27eee617",
+        "fullName": "Tiago Alves Ferreira",
+        "idMemberReferrer": null,
+        "initials": "TF",
+        "nonPublic": {
+          "fullName": "Tiago Alves Ferreira",
+          "initials": "TF",
+          "avatarHash": null
+        },
+        "nonPublicAvailable": true,
+        "username": "tiagoalvesferreira27"
+      }
+    },
+    {
+      "id": "66437314cdb11f76fa84274d",
+      "idMemberCreator": "65f72e1dd2c25f5adbfa85e9",
+      "data": {
+        "list": {
+          "id": "664372e75f9cf9d22717c4a1",
+          "name": "Requisitos"
+        },
+        "boardSource": {
+          "id": "663ecaee91385956bccb3803"
+        },
+        "board": {
+          "id": "663ecb69bda37ccc18e29e3f",
+          "name": "Product Backlog",
+          "shortLink": "lcngm0L3"
+        },
+        "member": {
+          "id": "65f72e1dd2c25f5adbfa85e9",
+          "name": "Tiago Alves Ferreira"
+        }
+      },
+      "appCreator": null,
+      "type": "moveListToBoard",
+      "date": "2024-05-14T14:20:04.070Z",
+      "limits": null,
+      "memberCreator": {
+        "id": "65f72e1dd2c25f5adbfa85e9",
+        "activityBlocked": false,
+        "avatarHash": "6f5bb87f2fbabe67be91ef5b27eee617",
+        "avatarUrl": "https://trello-members.s3.amazonaws.com/65f72e1dd2c25f5adbfa85e9/6f5bb87f2fbabe67be91ef5b27eee617",
+        "fullName": "Tiago Alves Ferreira",
+        "idMemberReferrer": null,
+        "initials": "TF",
+        "nonPublic": {
+          "fullName": "Tiago Alves Ferreira",
+          "initials": "TF",
+          "avatarHash": null
+        },
+        "nonPublicAvailable": true,
+        "username": "tiagoalvesferreira27"
+      }
+    },
+    {
+      "id": "664372e95f9cf9d22717cbc8",
+      "idMemberCreator": "65f72e1dd2c25f5adbfa85e9",
+      "data": {
+        "idMember": "65f72e1dd2c25f5adbfa85e9",
+        "fromCopy": true,
+        "member": {
+          "id": "65f72e1dd2c25f5adbfa85e9",
+          "name": "Tiago Alves Ferreira"
+        },
+        "card": {
+          "id": "664372e85f9cf9d22717ca34",
+          "name": "Gráfico de ocupação das salas",
+          "idShort": 32,
+          "shortLink": "qc6agGwC"
+        },
+        "board": {
+          "id": "663ecb69bda37ccc18e29e3f",
+          "name": "Product Backlog",
+          "shortLink": "lcngm0L3"
+        }
+      },
+      "appCreator": null,
+      "type": "addMemberToCard",
+      "date": "2024-05-14T14:19:21.297Z",
+      "limits": null,
+      "member": {
+        "id": "65f72e1dd2c25f5adbfa85e9",
+        "activityBlocked": false,
+        "avatarHash": "6f5bb87f2fbabe67be91ef5b27eee617",
+        "avatarUrl": "https://trello-members.s3.amazonaws.com/65f72e1dd2c25f5adbfa85e9/6f5bb87f2fbabe67be91ef5b27eee617",
+        "fullName": "Tiago Alves Ferreira",
+        "idMemberReferrer": null,
+        "initials": "TF",
+        "nonPublic": {
+          "fullName": "Tiago Alves Ferreira",
+          "initials": "TF",
+          "avatarHash": null
+        },
+        "nonPublicAvailable": true,
+        "username": "tiagoalvesferreira27"
+      },
+      "memberCreator": {
+        "id": "65f72e1dd2c25f5adbfa85e9",
+        "activityBlocked": false,
+        "avatarHash": "6f5bb87f2fbabe67be91ef5b27eee617",
+        "avatarUrl": "https://trello-members.s3.amazonaws.com/65f72e1dd2c25f5adbfa85e9/6f5bb87f2fbabe67be91ef5b27eee617",
+        "fullName": "Tiago Alves Ferreira",
+        "idMemberReferrer": null,
+        "initials": "TF",
+        "nonPublic": {
+          "fullName": "Tiago Alves Ferreira",
+          "initials": "TF",
+          "avatarHash": null
+        },
+        "nonPublicAvailable": true,
+        "username": "tiagoalvesferreira27"
+      }
+    },
+    {
+      "id": "664372e95f9cf9d22717cbbb",
+      "idMemberCreator": "65f72e1dd2c25f5adbfa85e9",
+      "data": {
+        "idMember": "65f74b33519bd66230394583",
+        "fromCopy": true,
+        "member": {
+          "id": "65f74b33519bd66230394583",
+          "name": "Rafael Guedes"
+        },
+        "card": {
+          "id": "664372e85f9cf9d22717ca34",
+          "name": "Gráfico de ocupação das salas",
+          "idShort": 32,
+          "shortLink": "qc6agGwC"
+        },
+        "board": {
+          "id": "663ecb69bda37ccc18e29e3f",
+          "name": "Product Backlog",
+          "shortLink": "lcngm0L3"
+        }
+      },
+      "appCreator": null,
+      "type": "addMemberToCard",
+      "date": "2024-05-14T14:19:21.270Z",
+      "limits": null,
+      "member": {
+        "id": "65f74b33519bd66230394583",
+        "activityBlocked": false,
+        "avatarHash": "47bfe32c2032094a4f8488ec91adbf6a",
+        "avatarUrl": "https://trello-members.s3.amazonaws.com/65f74b33519bd66230394583/47bfe32c2032094a4f8488ec91adbf6a",
+        "fullName": "Rafael Guedes",
+        "idMemberReferrer": "65f72e1dd2c25f5adbfa85e9",
+        "initials": "RG",
+        "nonPublic": {
+
+        },
+        "nonPublicAvailable": true,
+        "username": "rafaelguedes108"
+      },
+      "memberCreator": {
+        "id": "65f72e1dd2c25f5adbfa85e9",
+        "activityBlocked": false,
+        "avatarHash": "6f5bb87f2fbabe67be91ef5b27eee617",
+        "avatarUrl": "https://trello-members.s3.amazonaws.com/65f72e1dd2c25f5adbfa85e9/6f5bb87f2fbabe67be91ef5b27eee617",
+        "fullName": "Tiago Alves Ferreira",
+        "idMemberReferrer": null,
+        "initials": "TF",
+        "nonPublic": {
+          "fullName": "Tiago Alves Ferreira",
+          "initials": "TF",
+          "avatarHash": null
+        },
+        "nonPublicAvailable": true,
+        "username": "tiagoalvesferreira27"
+      }
+    },
+    {
+      "id": "664372e85f9cf9d22717caac",
+      "idMemberCreator": "65f72e1dd2c25f5adbfa85e9",
+      "data": {
+        "idMember": "65f72e6d047337e3c74df3aa",
+        "fromCopy": true,
+        "member": {
+          "id": "65f72e6d047337e3c74df3aa",
+          "name": "Vasco Araújo"
+        },
+        "card": {
+          "id": "664372e75f9cf9d22717c625",
+          "name": "Branch GitHub",
+          "idShort": 28,
+          "shortLink": "gFD8hgOv"
+        },
+        "board": {
+          "id": "663ecb69bda37ccc18e29e3f",
+          "name": "Product Backlog",
+          "shortLink": "lcngm0L3"
+        }
+      },
+      "appCreator": null,
+      "type": "addMemberToCard",
+      "date": "2024-05-14T14:19:20.804Z",
+      "limits": null,
+      "member": {
+        "id": "65f72e6d047337e3c74df3aa",
+        "activityBlocked": false,
+        "avatarHash": "425848de7a05a5d66f368f55d434d25d",
+        "avatarUrl": "https://trello-members.s3.amazonaws.com/65f72e6d047337e3c74df3aa/425848de7a05a5d66f368f55d434d25d",
+        "fullName": "Vasco Araújo",
+        "idMemberReferrer": null,
+        "initials": "VA",
+        "nonPublic": {
+
+        },
+        "nonPublicAvailable": true,
+        "username": "vcaaa"
+      },
+      "memberCreator": {
+        "id": "65f72e1dd2c25f5adbfa85e9",
+        "activityBlocked": false,
+        "avatarHash": "6f5bb87f2fbabe67be91ef5b27eee617",
+        "avatarUrl": "https://trello-members.s3.amazonaws.com/65f72e1dd2c25f5adbfa85e9/6f5bb87f2fbabe67be91ef5b27eee617",
+        "fullName": "Tiago Alves Ferreira",
+        "idMemberReferrer": null,
+        "initials": "TF",
+        "nonPublic": {
+          "fullName": "Tiago Alves Ferreira",
+          "initials": "TF",
+          "avatarHash": null
+        },
+        "nonPublicAvailable": true,
+        "username": "tiagoalvesferreira27"
+      }
+    },
+    {
+      "id": "664372e85f9cf9d22717ca9f",
+      "idMemberCreator": "65f72e1dd2c25f5adbfa85e9",
+      "data": {
+        "idMember": "65f74b598847ff0876692e4a",
+        "fromCopy": true,
+        "member": {
+          "id": "65f74b598847ff0876692e4a",
+          "name": "Tiago Lopes"
+        },
+        "card": {
+          "id": "664372e75f9cf9d22717c625",
+          "name": "Branch GitHub",
+          "idShort": 28,
+          "shortLink": "gFD8hgOv"
+        },
+        "board": {
+          "id": "663ecb69bda37ccc18e29e3f",
+          "name": "Product Backlog",
+          "shortLink": "lcngm0L3"
+        }
+      },
+      "appCreator": null,
+      "type": "addMemberToCard",
+      "date": "2024-05-14T14:19:20.783Z",
+      "limits": null,
+      "member": {
+        "id": "65f74b598847ff0876692e4a",
+        "activityBlocked": false,
+        "avatarHash": "52f6b2514dc20abe33f87725e25f503e",
+        "avatarUrl": "https://trello-members.s3.amazonaws.com/65f74b598847ff0876692e4a/52f6b2514dc20abe33f87725e25f503e",
+        "fullName": "Tiago Lopes",
+        "idMemberReferrer": "65f72e1dd2c25f5adbfa85e9",
+        "initials": "TL",
+        "nonPublic": {
+
+        },
+        "nonPublicAvailable": true,
+        "username": "tiagolopes278"
+      },
+      "memberCreator": {
+        "id": "65f72e1dd2c25f5adbfa85e9",
+        "activityBlocked": false,
+        "avatarHash": "6f5bb87f2fbabe67be91ef5b27eee617",
+        "avatarUrl": "https://trello-members.s3.amazonaws.com/65f72e1dd2c25f5adbfa85e9/6f5bb87f2fbabe67be91ef5b27eee617",
+        "fullName": "Tiago Alves Ferreira",
+        "idMemberReferrer": null,
+        "initials": "TF",
+        "nonPublic": {
+          "fullName": "Tiago Alves Ferreira",
+          "initials": "TF",
+          "avatarHash": null
+        },
+        "nonPublicAvailable": true,
+        "username": "tiagoalvesferreira27"
+      }
+    },
+    {
+      "id": "664372e85f9cf9d22717ca85",
+      "idMemberCreator": "65f72e1dd2c25f5adbfa85e9",
+      "data": {
+        "idMember": "65f72df3086d973e2cef7390",
+        "fromCopy": true,
+        "member": {
+          "id": "65f72df3086d973e2cef7390",
+          "name": "Rodrigo Silva"
+        },
+        "card": {
+          "id": "664372e75f9cf9d22717c625",
+          "name": "Branch GitHub",
+          "idShort": 28,
+          "shortLink": "gFD8hgOv"
+        },
+        "board": {
+          "id": "663ecb69bda37ccc18e29e3f",
+          "name": "Product Backlog",
+          "shortLink": "lcngm0L3"
+        }
+      },
+      "appCreator": null,
+      "type": "addMemberToCard",
+      "date": "2024-05-14T14:19:20.755Z",
+      "limits": null,
+      "member": {
+        "id": "65f72df3086d973e2cef7390",
+        "activityBlocked": false,
+        "avatarHash": "3cbc49f6f674864f1be538d6f35b80b4",
+        "avatarUrl": "https://trello-members.s3.amazonaws.com/65f72df3086d973e2cef7390/3cbc49f6f674864f1be538d6f35b80b4",
+        "fullName": "Rodrigo Silva",
+        "idMemberReferrer": null,
+        "initials": "RS",
+        "nonPublic": {
+
+        },
+        "nonPublicAvailable": true,
+        "username": "rfcss"
+      },
+      "memberCreator": {
+        "id": "65f72e1dd2c25f5adbfa85e9",
+        "activityBlocked": false,
+        "avatarHash": "6f5bb87f2fbabe67be91ef5b27eee617",
+        "avatarUrl": "https://trello-members.s3.amazonaws.com/65f72e1dd2c25f5adbfa85e9/6f5bb87f2fbabe67be91ef5b27eee617",
+        "fullName": "Tiago Alves Ferreira",
+        "idMemberReferrer": null,
+        "initials": "TF",
+        "nonPublic": {
+          "fullName": "Tiago Alves Ferreira",
+          "initials": "TF",
+          "avatarHash": null
+        },
+        "nonPublicAvailable": true,
+        "username": "tiagoalvesferreira27"
+      }
+    },
+    {
+      "id": "664372e85f9cf9d22717ca10",
+      "idMemberCreator": "65f72e1dd2c25f5adbfa85e9",
+      "data": {
+        "idMember": "65f74b33519bd66230394583",
+        "fromCopy": true,
+        "member": {
+          "id": "65f74b33519bd66230394583",
+          "name": "Rafael Guedes"
+        },
+        "card": {
+          "id": "664372e75f9cf9d22717c625",
+          "name": "Branch GitHub",
+          "idShort": 28,
+          "shortLink": "gFD8hgOv"
+        },
+        "board": {
+          "id": "663ecb69bda37ccc18e29e3f",
+          "name": "Product Backlog",
+          "shortLink": "lcngm0L3"
+        }
+      },
+      "appCreator": null,
+      "type": "addMemberToCard",
+      "date": "2024-05-14T14:19:20.581Z",
+      "limits": null,
+      "member": {
+        "id": "65f74b33519bd66230394583",
+        "activityBlocked": false,
+        "avatarHash": "47bfe32c2032094a4f8488ec91adbf6a",
+        "avatarUrl": "https://trello-members.s3.amazonaws.com/65f74b33519bd66230394583/47bfe32c2032094a4f8488ec91adbf6a",
+        "fullName": "Rafael Guedes",
+        "idMemberReferrer": "65f72e1dd2c25f5adbfa85e9",
+        "initials": "RG",
+        "nonPublic": {
+
+        },
+        "nonPublicAvailable": true,
+        "username": "rafaelguedes108"
+      },
+      "memberCreator": {
+        "id": "65f72e1dd2c25f5adbfa85e9",
+        "activityBlocked": false,
+        "avatarHash": "6f5bb87f2fbabe67be91ef5b27eee617",
+        "avatarUrl": "https://trello-members.s3.amazonaws.com/65f72e1dd2c25f5adbfa85e9/6f5bb87f2fbabe67be91ef5b27eee617",
+        "fullName": "Tiago Alves Ferreira",
+        "idMemberReferrer": null,
+        "initials": "TF",
+        "nonPublic": {
+          "fullName": "Tiago Alves Ferreira",
+          "initials": "TF",
+          "avatarHash": null
+        },
+        "nonPublicAvailable": true,
+        "username": "tiagoalvesferreira27"
+      }
+    },
+    {
+      "id": "664372e85f9cf9d22717ca01",
+      "idMemberCreator": "65f72e1dd2c25f5adbfa85e9",
+      "data": {
+        "idMember": "65f74b33519bd66230394583",
+        "fromCopy": true,
+        "member": {
+          "id": "65f74b33519bd66230394583",
+          "name": "Rafael Guedes"
+        },
+        "card": {
+          "id": "664372e75f9cf9d22717c607",
+          "name": "Adicionar Ficheiros no GitHub",
+          "idShort": 22,
+          "shortLink": "3BNtiB6x"
+        },
+        "board": {
+          "id": "663ecb69bda37ccc18e29e3f",
+          "name": "Product Backlog",
+          "shortLink": "lcngm0L3"
+        }
+      },
+      "appCreator": null,
+      "type": "addMemberToCard",
+      "date": "2024-05-14T14:19:20.552Z",
+      "limits": null,
+      "member": {
+        "id": "65f74b33519bd66230394583",
+        "activityBlocked": false,
+        "avatarHash": "47bfe32c2032094a4f8488ec91adbf6a",
+        "avatarUrl": "https://trello-members.s3.amazonaws.com/65f74b33519bd66230394583/47bfe32c2032094a4f8488ec91adbf6a",
+        "fullName": "Rafael Guedes",
+        "idMemberReferrer": "65f72e1dd2c25f5adbfa85e9",
+        "initials": "RG",
+        "nonPublic": {
+
+        },
+        "nonPublicAvailable": true,
+        "username": "rafaelguedes108"
+      },
+      "memberCreator": {
+        "id": "65f72e1dd2c25f5adbfa85e9",
+        "activityBlocked": false,
+        "avatarHash": "6f5bb87f2fbabe67be91ef5b27eee617",
+        "avatarUrl": "https://trello-members.s3.amazonaws.com/65f72e1dd2c25f5adbfa85e9/6f5bb87f2fbabe67be91ef5b27eee617",
+        "fullName": "Tiago Alves Ferreira",
+        "idMemberReferrer": null,
+        "initials": "TF",
+        "nonPublic": {
+          "fullName": "Tiago Alves Ferreira",
+          "initials": "TF",
+          "avatarHash": null
+        },
+        "nonPublicAvailable": true,
+        "username": "tiagoalvesferreira27"
+      }
+    },
+    {
+      "id": "664372e85f9cf9d22717c9ac",
+      "idMemberCreator": "65f72e1dd2c25f5adbfa85e9",
+      "data": {
+        "idMember": "65f72e54047337e3c74ddb9e",
+        "fromCopy": true,
+        "member": {
+          "id": "65f72e54047337e3c74ddb9e",
+          "name": "joao sequeira"
+        },
+        "card": {
+          "id": "664372e75f9cf9d22717c625",
+          "name": "Branch GitHub",
+          "idShort": 28,
+          "shortLink": "gFD8hgOv"
+        },
+        "board": {
+          "id": "663ecb69bda37ccc18e29e3f",
+          "name": "Product Backlog",
+          "shortLink": "lcngm0L3"
+        }
+      },
+      "appCreator": null,
+      "type": "addMemberToCard",
+      "date": "2024-05-14T14:19:20.473Z",
+      "limits": null,
+      "member": {
+        "id": "65f72e54047337e3c74ddb9e",
+        "activityBlocked": false,
+        "avatarHash": "cc5b84c48a57b299e2559ef4ec4e7d32",
+        "avatarUrl": "https://trello-members.s3.amazonaws.com/65f72e54047337e3c74ddb9e/cc5b84c48a57b299e2559ef4ec4e7d32",
+        "fullName": "joao sequeira",
+        "idMemberReferrer": null,
+        "initials": "JS",
+        "nonPublic": {
+
+        },
+        "nonPublicAvailable": true,
+        "username": "jbsaa1"
+      },
+      "memberCreator": {
+        "id": "65f72e1dd2c25f5adbfa85e9",
+        "activityBlocked": false,
+        "avatarHash": "6f5bb87f2fbabe67be91ef5b27eee617",
+        "avatarUrl": "https://trello-members.s3.amazonaws.com/65f72e1dd2c25f5adbfa85e9/6f5bb87f2fbabe67be91ef5b27eee617",
+        "fullName": "Tiago Alves Ferreira",
+        "idMemberReferrer": null,
+        "initials": "TF",
+        "nonPublic": {
+          "fullName": "Tiago Alves Ferreira",
+          "initials": "TF",
+          "avatarHash": null
+        },
+        "nonPublicAvailable": true,
+        "username": "tiagoalvesferreira27"
+      }
+    },
+    {
+      "id": "664372e85f9cf9d22717c99f",
+      "idMemberCreator": "65f72e1dd2c25f5adbfa85e9",
+      "data": {
+        "idMember": "65f72e6d047337e3c74df3aa",
+        "fromCopy": true,
+        "member": {
+          "id": "65f72e6d047337e3c74df3aa",
+          "name": "Vasco Araújo"
+        },
+        "card": {
+          "id": "664372e75f9cf9d22717c61c",
+          "name": "Atualizar Trello",
+          "idShort": 23,
+          "shortLink": "l7iKWW34"
+        },
+        "board": {
+          "id": "663ecb69bda37ccc18e29e3f",
+          "name": "Product Backlog",
+          "shortLink": "lcngm0L3"
+        }
+      },
+      "appCreator": null,
+      "type": "addMemberToCard",
+      "date": "2024-05-14T14:19:20.460Z",
+      "limits": null,
+      "member": {
+        "id": "65f72e6d047337e3c74df3aa",
+        "activityBlocked": false,
+        "avatarHash": "425848de7a05a5d66f368f55d434d25d",
+        "avatarUrl": "https://trello-members.s3.amazonaws.com/65f72e6d047337e3c74df3aa/425848de7a05a5d66f368f55d434d25d",
+        "fullName": "Vasco Araújo",
+        "idMemberReferrer": null,
+        "initials": "VA",
+        "nonPublic": {
+
+        },
+        "nonPublicAvailable": true,
+        "username": "vcaaa"
+      },
+      "memberCreator": {
+        "id": "65f72e1dd2c25f5adbfa85e9",
+        "activityBlocked": false,
+        "avatarHash": "6f5bb87f2fbabe67be91ef5b27eee617",
+        "avatarUrl": "https://trello-members.s3.amazonaws.com/65f72e1dd2c25f5adbfa85e9/6f5bb87f2fbabe67be91ef5b27eee617",
+        "fullName": "Tiago Alves Ferreira",
+        "idMemberReferrer": null,
+        "initials": "TF",
+        "nonPublic": {
+          "fullName": "Tiago Alves Ferreira",
+          "initials": "TF",
+          "avatarHash": null
+        },
+        "nonPublicAvailable": true,
+        "username": "tiagoalvesferreira27"
+      }
+    },
+    {
+      "id": "664372e85f9cf9d22717c99d",
+      "idMemberCreator": "65f72e1dd2c25f5adbfa85e9",
+      "data": {
+        "idMember": "65f72e6d047337e3c74df3aa",
+        "fromCopy": true,
+        "member": {
+          "id": "65f72e6d047337e3c74df3aa",
+          "name": "Vasco Araújo"
+        },
+        "card": {
+          "id": "664372e75f9cf9d22717c607",
+          "name": "Adicionar Ficheiros no GitHub",
+          "idShort": 22,
+          "shortLink": "3BNtiB6x"
+        },
+        "board": {
+          "id": "663ecb69bda37ccc18e29e3f",
+          "name": "Product Backlog",
+          "shortLink": "lcngm0L3"
+        }
+      },
+      "appCreator": null,
+      "type": "addMemberToCard",
+      "date": "2024-05-14T14:19:20.460Z",
+      "limits": null,
+      "member": {
+        "id": "65f72e6d047337e3c74df3aa",
+        "activityBlocked": false,
+        "avatarHash": "425848de7a05a5d66f368f55d434d25d",
+        "avatarUrl": "https://trello-members.s3.amazonaws.com/65f72e6d047337e3c74df3aa/425848de7a05a5d66f368f55d434d25d",
+        "fullName": "Vasco Araújo",
+        "idMemberReferrer": null,
+        "initials": "VA",
+        "nonPublic": {
+
+        },
+        "nonPublicAvailable": true,
+        "username": "vcaaa"
+      },
+      "memberCreator": {
+        "id": "65f72e1dd2c25f5adbfa85e9",
+        "activityBlocked": false,
+        "avatarHash": "6f5bb87f2fbabe67be91ef5b27eee617",
+        "avatarUrl": "https://trello-members.s3.amazonaws.com/65f72e1dd2c25f5adbfa85e9/6f5bb87f2fbabe67be91ef5b27eee617",
+        "fullName": "Tiago Alves Ferreira",
+        "idMemberReferrer": null,
+        "initials": "TF",
+        "nonPublic": {
+          "fullName": "Tiago Alves Ferreira",
+          "initials": "TF",
+          "avatarHash": null
+        },
+        "nonPublicAvailable": true,
+        "username": "tiagoalvesferreira27"
+      }
+    },
+    {
+      "id": "664372e85f9cf9d22717c98b",
+      "idMemberCreator": "65f72e1dd2c25f5adbfa85e9",
+      "data": {
+        "idMember": "65f72e1dd2c25f5adbfa85e9",
+        "fromCopy": true,
+        "member": {
+          "id": "65f72e1dd2c25f5adbfa85e9",
+          "name": "Tiago Alves Ferreira"
+        },
+        "card": {
+          "id": "664372e75f9cf9d22717c625",
+          "name": "Branch GitHub",
+          "idShort": 28,
+          "shortLink": "gFD8hgOv"
+        },
+        "board": {
+          "id": "663ecb69bda37ccc18e29e3f",
+          "name": "Product Backlog",
+          "shortLink": "lcngm0L3"
+        }
+      },
+      "appCreator": null,
+      "type": "addMemberToCard",
+      "date": "2024-05-14T14:19:20.441Z",
+      "limits": null,
+      "member": {
+        "id": "65f72e1dd2c25f5adbfa85e9",
+        "activityBlocked": false,
+        "avatarHash": "6f5bb87f2fbabe67be91ef5b27eee617",
+        "avatarUrl": "https://trello-members.s3.amazonaws.com/65f72e1dd2c25f5adbfa85e9/6f5bb87f2fbabe67be91ef5b27eee617",
+        "fullName": "Tiago Alves Ferreira",
+        "idMemberReferrer": null,
+        "initials": "TF",
+        "nonPublic": {
+          "fullName": "Tiago Alves Ferreira",
+          "initials": "TF",
+          "avatarHash": null
+        },
+        "nonPublicAvailable": true,
+        "username": "tiagoalvesferreira27"
+      },
+      "memberCreator": {
+        "id": "65f72e1dd2c25f5adbfa85e9",
+        "activityBlocked": false,
+        "avatarHash": "6f5bb87f2fbabe67be91ef5b27eee617",
+        "avatarUrl": "https://trello-members.s3.amazonaws.com/65f72e1dd2c25f5adbfa85e9/6f5bb87f2fbabe67be91ef5b27eee617",
+        "fullName": "Tiago Alves Ferreira",
+        "idMemberReferrer": null,
+        "initials": "TF",
+        "nonPublic": {
+          "fullName": "Tiago Alves Ferreira",
+          "initials": "TF",
+          "avatarHash": null
+        },
+        "nonPublicAvailable": true,
+        "username": "tiagoalvesferreira27"
+      }
+    },
+    {
+      "id": "664372e85f9cf9d22717c960",
+      "idMemberCreator": "65f72e1dd2c25f5adbfa85e9",
+      "data": {
+        "idMember": "65f74b598847ff0876692e4a",
+        "fromCopy": true,
+        "member": {
+          "id": "65f74b598847ff0876692e4a",
+          "name": "Tiago Lopes"
+        },
+        "card": {
+          "id": "664372e75f9cf9d22717c627",
+          "name": "Visualização da alocação das aulas de substituição e de uma UC",
+          "idShort": 26,
+          "shortLink": "olRT8nDl"
+        },
+        "board": {
+          "id": "663ecb69bda37ccc18e29e3f",
+          "name": "Product Backlog",
+          "shortLink": "lcngm0L3"
+        }
+      },
+      "appCreator": null,
+      "type": "addMemberToCard",
+      "date": "2024-05-14T14:19:20.390Z",
+      "limits": null,
+      "member": {
+        "id": "65f74b598847ff0876692e4a",
+        "activityBlocked": false,
+        "avatarHash": "52f6b2514dc20abe33f87725e25f503e",
+        "avatarUrl": "https://trello-members.s3.amazonaws.com/65f74b598847ff0876692e4a/52f6b2514dc20abe33f87725e25f503e",
+        "fullName": "Tiago Lopes",
+        "idMemberReferrer": "65f72e1dd2c25f5adbfa85e9",
+        "initials": "TL",
+        "nonPublic": {
+
+        },
+        "nonPublicAvailable": true,
+        "username": "tiagolopes278"
+      },
+      "memberCreator": {
+        "id": "65f72e1dd2c25f5adbfa85e9",
+        "activityBlocked": false,
+        "avatarHash": "6f5bb87f2fbabe67be91ef5b27eee617",
+        "avatarUrl": "https://trello-members.s3.amazonaws.com/65f72e1dd2c25f5adbfa85e9/6f5bb87f2fbabe67be91ef5b27eee617",
+        "fullName": "Tiago Alves Ferreira",
+        "idMemberReferrer": null,
+        "initials": "TF",
+        "nonPublic": {
+          "fullName": "Tiago Alves Ferreira",
+          "initials": "TF",
+          "avatarHash": null
+        },
+        "nonPublicAvailable": true,
+        "username": "tiagoalvesferreira27"
+      }
+    },
+    {
+      "id": "664372e85f9cf9d22717c94d",
+      "idMemberCreator": "65f72e1dd2c25f5adbfa85e9",
+      "data": {
+        "idMember": "65f74b598847ff0876692e4a",
+        "fromCopy": true,
+        "member": {
+          "id": "65f74b598847ff0876692e4a",
+          "name": "Tiago Lopes"
+        },
+        "card": {
+          "id": "664372e75f9cf9d22717c624",
+          "name": "Alocação de aulas de uma UC",
+          "idShort": 25,
+          "shortLink": "WMry3l2K"
+        },
+        "board": {
+          "id": "663ecb69bda37ccc18e29e3f",
+          "name": "Product Backlog",
+          "shortLink": "lcngm0L3"
+        }
+      },
+      "appCreator": null,
+      "type": "addMemberToCard",
+      "date": "2024-05-14T14:19:20.367Z",
+      "limits": null,
+      "member": {
+        "id": "65f74b598847ff0876692e4a",
+        "activityBlocked": false,
+        "avatarHash": "52f6b2514dc20abe33f87725e25f503e",
+        "avatarUrl": "https://trello-members.s3.amazonaws.com/65f74b598847ff0876692e4a/52f6b2514dc20abe33f87725e25f503e",
+        "fullName": "Tiago Lopes",
+        "idMemberReferrer": "65f72e1dd2c25f5adbfa85e9",
+        "initials": "TL",
+        "nonPublic": {
+
+        },
+        "nonPublicAvailable": true,
+        "username": "tiagolopes278"
+      },
+      "memberCreator": {
+        "id": "65f72e1dd2c25f5adbfa85e9",
+        "activityBlocked": false,
+        "avatarHash": "6f5bb87f2fbabe67be91ef5b27eee617",
+        "avatarUrl": "https://trello-members.s3.amazonaws.com/65f72e1dd2c25f5adbfa85e9/6f5bb87f2fbabe67be91ef5b27eee617",
+        "fullName": "Tiago Alves Ferreira",
+        "idMemberReferrer": null,
+        "initials": "TF",
+        "nonPublic": {
+          "fullName": "Tiago Alves Ferreira",
+          "initials": "TF",
+          "avatarHash": null
+        },
+        "nonPublicAvailable": true,
+        "username": "tiagoalvesferreira27"
+      }
+    },
+    {
+      "id": "664372e85f9cf9d22717c94a",
+      "idMemberCreator": "65f72e1dd2c25f5adbfa85e9",
+      "data": {
+        "idMember": "65f74b598847ff0876692e4a",
+        "fromCopy": true,
+        "member": {
+          "id": "65f74b598847ff0876692e4a",
+          "name": "Tiago Lopes"
+        },
+        "card": {
+          "id": "664372e75f9cf9d22717c61f",
+          "name": "Alocação de aulas de substituição",
+          "idShort": 31,
+          "shortLink": "FWYj605F"
+        },
+        "board": {
+          "id": "663ecb69bda37ccc18e29e3f",
+          "name": "Product Backlog",
+          "shortLink": "lcngm0L3"
+        }
+      },
+      "appCreator": null,
+      "type": "addMemberToCard",
+      "date": "2024-05-14T14:19:20.365Z",
+      "limits": null,
+      "member": {
+        "id": "65f74b598847ff0876692e4a",
+        "activityBlocked": false,
+        "avatarHash": "52f6b2514dc20abe33f87725e25f503e",
+        "avatarUrl": "https://trello-members.s3.amazonaws.com/65f74b598847ff0876692e4a/52f6b2514dc20abe33f87725e25f503e",
+        "fullName": "Tiago Lopes",
+        "idMemberReferrer": "65f72e1dd2c25f5adbfa85e9",
+        "initials": "TL",
+        "nonPublic": {
+
+        },
+        "nonPublicAvailable": true,
+        "username": "tiagolopes278"
+      },
+      "memberCreator": {
+        "id": "65f72e1dd2c25f5adbfa85e9",
+        "activityBlocked": false,
+        "avatarHash": "6f5bb87f2fbabe67be91ef5b27eee617",
+        "avatarUrl": "https://trello-members.s3.amazonaws.com/65f72e1dd2c25f5adbfa85e9/6f5bb87f2fbabe67be91ef5b27eee617",
+        "fullName": "Tiago Alves Ferreira",
+        "idMemberReferrer": null,
+        "initials": "TF",
+        "nonPublic": {
+          "fullName": "Tiago Alves Ferreira",
+          "initials": "TF",
+          "avatarHash": null
+        },
+        "nonPublicAvailable": true,
+        "username": "tiagoalvesferreira27"
+      }
+    },
+    {
+      "id": "664372e85f9cf9d22717c947",
+      "idMemberCreator": "65f72e1dd2c25f5adbfa85e9",
+      "data": {
+        "idMember": "65f72df3086d973e2cef7390",
+        "fromCopy": true,
+        "member": {
+          "id": "65f72df3086d973e2cef7390",
+          "name": "Rodrigo Silva"
+        },
+        "card": {
+          "id": "664372e75f9cf9d22717c61c",
+          "name": "Atualizar Trello",
+          "idShort": 23,
+          "shortLink": "l7iKWW34"
+        },
+        "board": {
+          "id": "663ecb69bda37ccc18e29e3f",
+          "name": "Product Backlog",
+          "shortLink": "lcngm0L3"
+        }
+      },
+      "appCreator": null,
+      "type": "addMemberToCard",
+      "date": "2024-05-14T14:19:20.363Z",
+      "limits": null,
+      "member": {
+        "id": "65f72df3086d973e2cef7390",
+        "activityBlocked": false,
+        "avatarHash": "3cbc49f6f674864f1be538d6f35b80b4",
+        "avatarUrl": "https://trello-members.s3.amazonaws.com/65f72df3086d973e2cef7390/3cbc49f6f674864f1be538d6f35b80b4",
+        "fullName": "Rodrigo Silva",
+        "idMemberReferrer": null,
+        "initials": "RS",
+        "nonPublic": {
+
+        },
+        "nonPublicAvailable": true,
+        "username": "rfcss"
+      },
+      "memberCreator": {
+        "id": "65f72e1dd2c25f5adbfa85e9",
+        "activityBlocked": false,
+        "avatarHash": "6f5bb87f2fbabe67be91ef5b27eee617",
+        "avatarUrl": "https://trello-members.s3.amazonaws.com/65f72e1dd2c25f5adbfa85e9/6f5bb87f2fbabe67be91ef5b27eee617",
+        "fullName": "Tiago Alves Ferreira",
+        "idMemberReferrer": null,
+        "initials": "TF",
+        "nonPublic": {
+          "fullName": "Tiago Alves Ferreira",
+          "initials": "TF",
+          "avatarHash": null
+        },
+        "nonPublicAvailable": true,
+        "username": "tiagoalvesferreira27"
+      }
+    },
+    {
+      "id": "664372e85f9cf9d22717c92d",
+      "idMemberCreator": "65f72e1dd2c25f5adbfa85e9",
+      "data": {
+        "idMember": "65f74b598847ff0876692e4a",
+        "fromCopy": true,
+        "member": {
+          "id": "65f74b598847ff0876692e4a",
+          "name": "Tiago Lopes"
+        },
+        "card": {
+          "id": "664372e75f9cf9d22717c607",
+          "name": "Adicionar Ficheiros no GitHub",
+          "idShort": 22,
+          "shortLink": "3BNtiB6x"
+        },
+        "board": {
+          "id": "663ecb69bda37ccc18e29e3f",
+          "name": "Product Backlog",
+          "shortLink": "lcngm0L3"
+        }
+      },
+      "appCreator": null,
+      "type": "addMemberToCard",
+      "date": "2024-05-14T14:19:20.338Z",
+      "limits": null,
+      "member": {
+        "id": "65f74b598847ff0876692e4a",
+        "activityBlocked": false,
+        "avatarHash": "52f6b2514dc20abe33f87725e25f503e",
+        "avatarUrl": "https://trello-members.s3.amazonaws.com/65f74b598847ff0876692e4a/52f6b2514dc20abe33f87725e25f503e",
+        "fullName": "Tiago Lopes",
+        "idMemberReferrer": "65f72e1dd2c25f5adbfa85e9",
+        "initials": "TL",
+        "nonPublic": {
+
+        },
+        "nonPublicAvailable": true,
+        "username": "tiagolopes278"
+      },
+      "memberCreator": {
+        "id": "65f72e1dd2c25f5adbfa85e9",
+        "activityBlocked": false,
+        "avatarHash": "6f5bb87f2fbabe67be91ef5b27eee617",
+        "avatarUrl": "https://trello-members.s3.amazonaws.com/65f72e1dd2c25f5adbfa85e9/6f5bb87f2fbabe67be91ef5b27eee617",
+        "fullName": "Tiago Alves Ferreira",
+        "idMemberReferrer": null,
+        "initials": "TF",
+        "nonPublic": {
+          "fullName": "Tiago Alves Ferreira",
+          "initials": "TF",
+          "avatarHash": null
+        },
+        "nonPublicAvailable": true,
+        "username": "tiagoalvesferreira27"
+      }
+    },
+    {
+      "id": "664372e85f9cf9d22717c921",
+      "idMemberCreator": "65f72e1dd2c25f5adbfa85e9",
+      "data": {
+        "idMember": "65f74b33519bd66230394583",
+        "fromCopy": true,
+        "member": {
+          "id": "65f74b33519bd66230394583",
+          "name": "Rafael Guedes"
+        },
+        "card": {
+          "id": "664372e75f9cf9d22717c61d",
+          "name": "Gráfico de conflitos entre aulas",
+          "idShort": 30,
+          "shortLink": "Vwr4l1lK"
+        },
+        "board": {
+          "id": "663ecb69bda37ccc18e29e3f",
+          "name": "Product Backlog",
+          "shortLink": "lcngm0L3"
+        }
+      },
+      "appCreator": null,
+      "type": "addMemberToCard",
+      "date": "2024-05-14T14:19:20.330Z",
+      "limits": null,
+      "member": {
+        "id": "65f74b33519bd66230394583",
+        "activityBlocked": false,
+        "avatarHash": "47bfe32c2032094a4f8488ec91adbf6a",
+        "avatarUrl": "https://trello-members.s3.amazonaws.com/65f74b33519bd66230394583/47bfe32c2032094a4f8488ec91adbf6a",
+        "fullName": "Rafael Guedes",
+        "idMemberReferrer": "65f72e1dd2c25f5adbfa85e9",
+        "initials": "RG",
+        "nonPublic": {
+
+        },
+        "nonPublicAvailable": true,
+        "username": "rafaelguedes108"
+      },
+      "memberCreator": {
+        "id": "65f72e1dd2c25f5adbfa85e9",
+        "activityBlocked": false,
+        "avatarHash": "6f5bb87f2fbabe67be91ef5b27eee617",
+        "avatarUrl": "https://trello-members.s3.amazonaws.com/65f72e1dd2c25f5adbfa85e9/6f5bb87f2fbabe67be91ef5b27eee617",
+        "fullName": "Tiago Alves Ferreira",
+        "idMemberReferrer": null,
+        "initials": "TF",
+        "nonPublic": {
+          "fullName": "Tiago Alves Ferreira",
+          "initials": "TF",
+          "avatarHash": null
+        },
+        "nonPublicAvailable": true,
+        "username": "tiagoalvesferreira27"
+      }
+    },
+    {
+      "id": "664372e85f9cf9d22717c8fb",
+      "idMemberCreator": "65f72e1dd2c25f5adbfa85e9",
+      "data": {
+        "idMember": "65f72e54047337e3c74ddb9e",
+        "fromCopy": true,
+        "member": {
+          "id": "65f72e54047337e3c74ddb9e",
+          "name": "joao sequeira"
+        },
+        "card": {
+          "id": "664372e75f9cf9d22717c627",
+          "name": "Visualização da alocação das aulas de substituição e de uma UC",
+          "idShort": 26,
+          "shortLink": "olRT8nDl"
+        },
+        "board": {
+          "id": "663ecb69bda37ccc18e29e3f",
+          "name": "Product Backlog",
+          "shortLink": "lcngm0L3"
+        }
+      },
+      "appCreator": null,
+      "type": "addMemberToCard",
+      "date": "2024-05-14T14:19:20.289Z",
+      "limits": null,
+      "member": {
+        "id": "65f72e54047337e3c74ddb9e",
+        "activityBlocked": false,
+        "avatarHash": "cc5b84c48a57b299e2559ef4ec4e7d32",
+        "avatarUrl": "https://trello-members.s3.amazonaws.com/65f72e54047337e3c74ddb9e/cc5b84c48a57b299e2559ef4ec4e7d32",
+        "fullName": "joao sequeira",
+        "idMemberReferrer": null,
+        "initials": "JS",
+        "nonPublic": {
+
+        },
+        "nonPublicAvailable": true,
+        "username": "jbsaa1"
+      },
+      "memberCreator": {
+        "id": "65f72e1dd2c25f5adbfa85e9",
+        "activityBlocked": false,
+        "avatarHash": "6f5bb87f2fbabe67be91ef5b27eee617",
+        "avatarUrl": "https://trello-members.s3.amazonaws.com/65f72e1dd2c25f5adbfa85e9/6f5bb87f2fbabe67be91ef5b27eee617",
+        "fullName": "Tiago Alves Ferreira",
+        "idMemberReferrer": null,
+        "initials": "TF",
+        "nonPublic": {
+          "fullName": "Tiago Alves Ferreira",
+          "initials": "TF",
+          "avatarHash": null
+        },
+        "nonPublicAvailable": true,
+        "username": "tiagoalvesferreira27"
+      }
+    },
+    {
+      "id": "664372e85f9cf9d22717c8f6",
+      "idMemberCreator": "65f72e1dd2c25f5adbfa85e9",
+      "data": {
+        "idMember": "65f72e1dd2c25f5adbfa85e9",
+        "fromCopy": true,
+        "member": {
+          "id": "65f72e1dd2c25f5adbfa85e9",
+          "name": "Tiago Alves Ferreira"
+        },
+        "card": {
+          "id": "664372e75f9cf9d22717c61d",
+          "name": "Gráfico de conflitos entre aulas",
+          "idShort": 30,
+          "shortLink": "Vwr4l1lK"
+        },
+        "board": {
+          "id": "663ecb69bda37ccc18e29e3f",
+          "name": "Product Backlog",
+          "shortLink": "lcngm0L3"
+        }
+      },
+      "appCreator": null,
+      "type": "addMemberToCard",
+      "date": "2024-05-14T14:19:20.284Z",
+      "limits": null,
+      "member": {
+        "id": "65f72e1dd2c25f5adbfa85e9",
+        "activityBlocked": false,
+        "avatarHash": "6f5bb87f2fbabe67be91ef5b27eee617",
+        "avatarUrl": "https://trello-members.s3.amazonaws.com/65f72e1dd2c25f5adbfa85e9/6f5bb87f2fbabe67be91ef5b27eee617",
+        "fullName": "Tiago Alves Ferreira",
+        "idMemberReferrer": null,
+        "initials": "TF",
+        "nonPublic": {
+          "fullName": "Tiago Alves Ferreira",
+          "initials": "TF",
+          "avatarHash": null
+        },
+        "nonPublicAvailable": true,
+        "username": "tiagoalvesferreira27"
+      },
+      "memberCreator": {
+        "id": "65f72e1dd2c25f5adbfa85e9",
+        "activityBlocked": false,
+        "avatarHash": "6f5bb87f2fbabe67be91ef5b27eee617",
+        "avatarUrl": "https://trello-members.s3.amazonaws.com/65f72e1dd2c25f5adbfa85e9/6f5bb87f2fbabe67be91ef5b27eee617",
+        "fullName": "Tiago Alves Ferreira",
+        "idMemberReferrer": null,
+        "initials": "TF",
+        "nonPublic": {
+          "fullName": "Tiago Alves Ferreira",
+          "initials": "TF",
+          "avatarHash": null
+        },
+        "nonPublicAvailable": true,
+        "username": "tiagoalvesferreira27"
+      }
+    },
+    {
+      "id": "664372e85f9cf9d22717c8f4",
+      "idMemberCreator": "65f72e1dd2c25f5adbfa85e9",
+      "data": {
+        "idMember": "65f72e1dd2c25f5adbfa85e9",
+        "fromCopy": true,
+        "member": {
+          "id": "65f72e1dd2c25f5adbfa85e9",
+          "name": "Tiago Alves Ferreira"
+        },
+        "card": {
+          "id": "664372e75f9cf9d22717c61c",
+          "name": "Atualizar Trello",
+          "idShort": 23,
+          "shortLink": "l7iKWW34"
+        },
+        "board": {
+          "id": "663ecb69bda37ccc18e29e3f",
+          "name": "Product Backlog",
+          "shortLink": "lcngm0L3"
+        }
+      },
+      "appCreator": null,
+      "type": "addMemberToCard",
+      "date": "2024-05-14T14:19:20.283Z",
+      "limits": null,
+      "member": {
+        "id": "65f72e1dd2c25f5adbfa85e9",
+        "activityBlocked": false,
+        "avatarHash": "6f5bb87f2fbabe67be91ef5b27eee617",
+        "avatarUrl": "https://trello-members.s3.amazonaws.com/65f72e1dd2c25f5adbfa85e9/6f5bb87f2fbabe67be91ef5b27eee617",
+        "fullName": "Tiago Alves Ferreira",
+        "idMemberReferrer": null,
+        "initials": "TF",
+        "nonPublic": {
+          "fullName": "Tiago Alves Ferreira",
+          "initials": "TF",
+          "avatarHash": null
+        },
+        "nonPublicAvailable": true,
+        "username": "tiagoalvesferreira27"
+      },
+      "memberCreator": {
+        "id": "65f72e1dd2c25f5adbfa85e9",
+        "activityBlocked": false,
+        "avatarHash": "6f5bb87f2fbabe67be91ef5b27eee617",
+        "avatarUrl": "https://trello-members.s3.amazonaws.com/65f72e1dd2c25f5adbfa85e9/6f5bb87f2fbabe67be91ef5b27eee617",
+        "fullName": "Tiago Alves Ferreira",
+        "idMemberReferrer": null,
+        "initials": "TF",
+        "nonPublic": {
+          "fullName": "Tiago Alves Ferreira",
+          "initials": "TF",
+          "avatarHash": null
+        },
+        "nonPublicAvailable": true,
+        "username": "tiagoalvesferreira27"
+      }
+    },
+    {
+      "id": "664372e85f9cf9d22717c8f2",
+      "idMemberCreator": "65f72e1dd2c25f5adbfa85e9",
+      "data": {
+        "idMember": "65f72e1dd2c25f5adbfa85e9",
+        "fromCopy": true,
+        "member": {
+          "id": "65f72e1dd2c25f5adbfa85e9",
+          "name": "Tiago Alves Ferreira"
+        },
+        "card": {
+          "id": "664372e75f9cf9d22717c628",
+          "name": "Powerups",
+          "idShort": 27,
+          "shortLink": "V3TQGMGL"
+        },
+        "board": {
+          "id": "663ecb69bda37ccc18e29e3f",
+          "name": "Product Backlog",
+          "shortLink": "lcngm0L3"
+        }
+      },
+      "appCreator": null,
+      "type": "addMemberToCard",
+      "date": "2024-05-14T14:19:20.282Z",
+      "limits": null,
+      "member": {
+        "id": "65f72e1dd2c25f5adbfa85e9",
+        "activityBlocked": false,
+        "avatarHash": "6f5bb87f2fbabe67be91ef5b27eee617",
+        "avatarUrl": "https://trello-members.s3.amazonaws.com/65f72e1dd2c25f5adbfa85e9/6f5bb87f2fbabe67be91ef5b27eee617",
+        "fullName": "Tiago Alves Ferreira",
+        "idMemberReferrer": null,
+        "initials": "TF",
+        "nonPublic": {
+          "fullName": "Tiago Alves Ferreira",
+          "initials": "TF",
+          "avatarHash": null
+        },
+        "nonPublicAvailable": true,
+        "username": "tiagoalvesferreira27"
+      },
+      "memberCreator": {
+        "id": "65f72e1dd2c25f5adbfa85e9",
+        "activityBlocked": false,
+        "avatarHash": "6f5bb87f2fbabe67be91ef5b27eee617",
+        "avatarUrl": "https://trello-members.s3.amazonaws.com/65f72e1dd2c25f5adbfa85e9/6f5bb87f2fbabe67be91ef5b27eee617",
+        "fullName": "Tiago Alves Ferreira",
+        "idMemberReferrer": null,
+        "initials": "TF",
+        "nonPublic": {
+          "fullName": "Tiago Alves Ferreira",
+          "initials": "TF",
+          "avatarHash": null
+        },
+        "nonPublicAvailable": true,
+        "username": "tiagoalvesferreira27"
+      }
+    },
+    {
+      "id": "664372e85f9cf9d22717c8e0",
+      "idMemberCreator": "65f72e1dd2c25f5adbfa85e9",
+      "data": {
+        "idMember": "65f72e54047337e3c74ddb9e",
+        "fromCopy": true,
+        "member": {
+          "id": "65f72e54047337e3c74ddb9e",
+          "name": "joao sequeira"
+        },
+        "card": {
+          "id": "664372e75f9cf9d22717c61f",
+          "name": "Alocação de aulas de substituição",
+          "idShort": 31,
+          "shortLink": "FWYj605F"
+        },
+        "board": {
+          "id": "663ecb69bda37ccc18e29e3f",
+          "name": "Product Backlog",
+          "shortLink": "lcngm0L3"
+        }
+      },
+      "appCreator": null,
+      "type": "addMemberToCard",
+      "date": "2024-05-14T14:19:20.257Z",
+      "limits": null,
+      "member": {
+        "id": "65f72e54047337e3c74ddb9e",
+        "activityBlocked": false,
+        "avatarHash": "cc5b84c48a57b299e2559ef4ec4e7d32",
+        "avatarUrl": "https://trello-members.s3.amazonaws.com/65f72e54047337e3c74ddb9e/cc5b84c48a57b299e2559ef4ec4e7d32",
+        "fullName": "joao sequeira",
+        "idMemberReferrer": null,
+        "initials": "JS",
+        "nonPublic": {
+
+        },
+        "nonPublicAvailable": true,
+        "username": "jbsaa1"
+      },
+      "memberCreator": {
+        "id": "65f72e1dd2c25f5adbfa85e9",
+        "activityBlocked": false,
+        "avatarHash": "6f5bb87f2fbabe67be91ef5b27eee617",
+        "avatarUrl": "https://trello-members.s3.amazonaws.com/65f72e1dd2c25f5adbfa85e9/6f5bb87f2fbabe67be91ef5b27eee617",
+        "fullName": "Tiago Alves Ferreira",
+        "idMemberReferrer": null,
+        "initials": "TF",
+        "nonPublic": {
+          "fullName": "Tiago Alves Ferreira",
+          "initials": "TF",
+          "avatarHash": null
+        },
+        "nonPublicAvailable": true,
+        "username": "tiagoalvesferreira27"
+      }
+    },
+    {
+      "id": "664372e85f9cf9d22717c8de",
+      "idMemberCreator": "65f72e1dd2c25f5adbfa85e9",
+      "data": {
+        "idMember": "65f72e54047337e3c74ddb9e",
+        "fromCopy": true,
+        "member": {
+          "id": "65f72e54047337e3c74ddb9e",
+          "name": "joao sequeira"
+        },
+        "card": {
+          "id": "664372e75f9cf9d22717c624",
+          "name": "Alocação de aulas de uma UC",
+          "idShort": 25,
+          "shortLink": "WMry3l2K"
+        },
+        "board": {
+          "id": "663ecb69bda37ccc18e29e3f",
+          "name": "Product Backlog",
+          "shortLink": "lcngm0L3"
+        }
+      },
+      "appCreator": null,
+      "type": "addMemberToCard",
+      "date": "2024-05-14T14:19:20.257Z",
+      "limits": null,
+      "member": {
+        "id": "65f72e54047337e3c74ddb9e",
+        "activityBlocked": false,
+        "avatarHash": "cc5b84c48a57b299e2559ef4ec4e7d32",
+        "avatarUrl": "https://trello-members.s3.amazonaws.com/65f72e54047337e3c74ddb9e/cc5b84c48a57b299e2559ef4ec4e7d32",
+        "fullName": "joao sequeira",
+        "idMemberReferrer": null,
+        "initials": "JS",
+        "nonPublic": {
+
+        },
+        "nonPublicAvailable": true,
+        "username": "jbsaa1"
+      },
+      "memberCreator": {
+        "id": "65f72e1dd2c25f5adbfa85e9",
+        "activityBlocked": false,
+        "avatarHash": "6f5bb87f2fbabe67be91ef5b27eee617",
+        "avatarUrl": "https://trello-members.s3.amazonaws.com/65f72e1dd2c25f5adbfa85e9/6f5bb87f2fbabe67be91ef5b27eee617",
+        "fullName": "Tiago Alves Ferreira",
+        "idMemberReferrer": null,
+        "initials": "TF",
+        "nonPublic": {
+          "fullName": "Tiago Alves Ferreira",
+          "initials": "TF",
+          "avatarHash": null
+        },
+        "nonPublicAvailable": true,
+        "username": "tiagoalvesferreira27"
+      }
+    },
+    {
+      "id": "664372e85f9cf9d22717c8dc",
+      "idMemberCreator": "65f72e1dd2c25f5adbfa85e9",
+      "data": {
+        "idMember": "65f74b33519bd66230394583",
+        "fromCopy": true,
+        "member": {
+          "id": "65f74b33519bd66230394583",
+          "name": "Rafael Guedes"
+        },
+        "card": {
+          "id": "664372e75f9cf9d22717c626",
+          "name": "Testes",
+          "idShort": 24,
+          "shortLink": "YJkOvgKX"
+        },
+        "board": {
+          "id": "663ecb69bda37ccc18e29e3f",
+          "name": "Product Backlog",
+          "shortLink": "lcngm0L3"
+        }
+      },
+      "appCreator": null,
+      "type": "addMemberToCard",
+      "date": "2024-05-14T14:19:20.255Z",
+      "limits": null,
+      "member": {
+        "id": "65f74b33519bd66230394583",
+        "activityBlocked": false,
+        "avatarHash": "47bfe32c2032094a4f8488ec91adbf6a",
+        "avatarUrl": "https://trello-members.s3.amazonaws.com/65f74b33519bd66230394583/47bfe32c2032094a4f8488ec91adbf6a",
+        "fullName": "Rafael Guedes",
+        "idMemberReferrer": "65f72e1dd2c25f5adbfa85e9",
+        "initials": "RG",
+        "nonPublic": {
+
+        },
+        "nonPublicAvailable": true,
+        "username": "rafaelguedes108"
+      },
+      "memberCreator": {
+        "id": "65f72e1dd2c25f5adbfa85e9",
+        "activityBlocked": false,
+        "avatarHash": "6f5bb87f2fbabe67be91ef5b27eee617",
+        "avatarUrl": "https://trello-members.s3.amazonaws.com/65f72e1dd2c25f5adbfa85e9/6f5bb87f2fbabe67be91ef5b27eee617",
+        "fullName": "Tiago Alves Ferreira",
+        "idMemberReferrer": null,
+        "initials": "TF",
+        "nonPublic": {
+          "fullName": "Tiago Alves Ferreira",
+          "initials": "TF",
+          "avatarHash": null
+        },
+        "nonPublicAvailable": true,
+        "username": "tiagoalvesferreira27"
+      }
+    },
+    {
+      "id": "664372e85f9cf9d22717c89c",
+      "idMemberCreator": "65f72e1dd2c25f5adbfa85e9",
+      "data": {
+        "idMember": "65f72e1dd2c25f5adbfa85e9",
+        "fromCopy": true,
+        "member": {
+          "id": "65f72e1dd2c25f5adbfa85e9",
+          "name": "Tiago Alves Ferreira"
+        },
+        "card": {
+          "id": "664372e75f9cf9d22717c61e",
+          "name": "Relatório de avaliação da qualidade do software do projeto",
+          "idShort": 29,
+          "shortLink": "7A7U9YET"
+        },
+        "board": {
+          "id": "663ecb69bda37ccc18e29e3f",
+          "name": "Product Backlog",
+          "shortLink": "lcngm0L3"
+        }
+      },
+      "appCreator": null,
+      "type": "addMemberToCard",
+      "date": "2024-05-14T14:19:20.194Z",
+      "limits": null,
+      "member": {
+        "id": "65f72e1dd2c25f5adbfa85e9",
+        "activityBlocked": false,
+        "avatarHash": "6f5bb87f2fbabe67be91ef5b27eee617",
+        "avatarUrl": "https://trello-members.s3.amazonaws.com/65f72e1dd2c25f5adbfa85e9/6f5bb87f2fbabe67be91ef5b27eee617",
+        "fullName": "Tiago Alves Ferreira",
+        "idMemberReferrer": null,
+        "initials": "TF",
+        "nonPublic": {
+          "fullName": "Tiago Alves Ferreira",
+          "initials": "TF",
+          "avatarHash": null
+        },
+        "nonPublicAvailable": true,
+        "username": "tiagoalvesferreira27"
+      },
+      "memberCreator": {
+        "id": "65f72e1dd2c25f5adbfa85e9",
+        "activityBlocked": false,
+        "avatarHash": "6f5bb87f2fbabe67be91ef5b27eee617",
+        "avatarUrl": "https://trello-members.s3.amazonaws.com/65f72e1dd2c25f5adbfa85e9/6f5bb87f2fbabe67be91ef5b27eee617",
+        "fullName": "Tiago Alves Ferreira",
+        "idMemberReferrer": null,
+        "initials": "TF",
+        "nonPublic": {
+          "fullName": "Tiago Alves Ferreira",
+          "initials": "TF",
+          "avatarHash": null
+        },
+        "nonPublicAvailable": true,
+        "username": "tiagoalvesferreira27"
+      }
+    },
+    {
+      "id": "663ecb9e4c8e7b6b6d942e9f",
+      "idMemberCreator": "65f72e1dd2c25f5adbfa85e9",
+      "data": {
+        "board": {
+          "prefs": {
+            "background": "663eca05f72855d13438e2b9"
+          },
+          "id": "663ecb69bda37ccc18e29e3f",
+          "name": "Product Backlog",
+          "shortLink": "lcngm0L3"
+        },
+        "old": {
+          "prefs": {
+            "background": "663ebe904237a53b8c4165f3"
+          }
+        }
+      },
+      "appCreator": null,
+      "type": "updateBoard",
+      "date": "2024-05-11T01:36:30.904Z",
+      "limits": null,
+      "memberCreator": {
+        "id": "65f72e1dd2c25f5adbfa85e9",
+        "activityBlocked": false,
+        "avatarHash": "6f5bb87f2fbabe67be91ef5b27eee617",
+        "avatarUrl": "https://trello-members.s3.amazonaws.com/65f72e1dd2c25f5adbfa85e9/6f5bb87f2fbabe67be91ef5b27eee617",
+        "fullName": "Tiago Alves Ferreira",
+        "idMemberReferrer": null,
+        "initials": "TF",
+        "nonPublic": {
+          "fullName": "Tiago Alves Ferreira",
+          "initials": "TF",
+          "avatarHash": null
+        },
+        "nonPublicAvailable": true,
+        "username": "tiagoalvesferreira27"
+      }
+    },
+    {
+      "id": "663ecb9323d9b9a14dd9f68c",
+      "idMemberCreator": "65f72e1dd2c25f5adbfa85e9",
+      "data": {
+        "board": {
+          "prefs": {
+            "background": "663ebe904237a53b8c4165f3"
+          },
+          "id": "663ecb69bda37ccc18e29e3f",
+          "name": "Product Backlog",
+          "shortLink": "lcngm0L3"
+        },
+        "old": {
+          "prefs": {
+            "background": "663ec4811aa0a8a4ebec93e4"
+          }
+        }
+      },
+      "appCreator": null,
+      "type": "updateBoard",
+      "date": "2024-05-11T01:36:19.500Z",
+      "limits": null,
+      "memberCreator": {
+        "id": "65f72e1dd2c25f5adbfa85e9",
+        "activityBlocked": false,
+        "avatarHash": "6f5bb87f2fbabe67be91ef5b27eee617",
+        "avatarUrl": "https://trello-members.s3.amazonaws.com/65f72e1dd2c25f5adbfa85e9/6f5bb87f2fbabe67be91ef5b27eee617",
+        "fullName": "Tiago Alves Ferreira",
+        "idMemberReferrer": null,
+        "initials": "TF",
+        "nonPublic": {
+          "fullName": "Tiago Alves Ferreira",
+          "initials": "TF",
+          "avatarHash": null
+        },
+        "nonPublicAvailable": true,
+        "username": "tiagoalvesferreira27"
+      }
+    },
+    {
+      "id": "663ecb8d5cdb9e3716549258",
+      "idMemberCreator": "65f72e1dd2c25f5adbfa85e9",
+      "data": {
+        "board": {
+          "prefs": {
+            "background": "663ec4811aa0a8a4ebec93e4"
+          },
+          "id": "663ecb69bda37ccc18e29e3f",
+          "name": "Product Backlog",
+          "shortLink": "lcngm0L3"
+        },
+        "old": {
+          "prefs": {
+            "background": "663ecb7e5ca3a7ac09dc183f"
+          }
+        }
+      },
+      "appCreator": null,
+      "type": "updateBoard",
+      "date": "2024-05-11T01:36:13.749Z",
+      "limits": null,
+      "memberCreator": {
+        "id": "65f72e1dd2c25f5adbfa85e9",
+        "activityBlocked": false,
+        "avatarHash": "6f5bb87f2fbabe67be91ef5b27eee617",
+        "avatarUrl": "https://trello-members.s3.amazonaws.com/65f72e1dd2c25f5adbfa85e9/6f5bb87f2fbabe67be91ef5b27eee617",
+        "fullName": "Tiago Alves Ferreira",
+        "idMemberReferrer": null,
+        "initials": "TF",
+        "nonPublic": {
+          "fullName": "Tiago Alves Ferreira",
+          "initials": "TF",
+          "avatarHash": null
+        },
+        "nonPublicAvailable": true,
+        "username": "tiagoalvesferreira27"
+      }
+    },
+    {
+      "id": "663ecb7e5ca3a7ac09dc185b",
+      "idMemberCreator": "65f72e1dd2c25f5adbfa85e9",
+      "data": {
+        "board": {
+          "prefs": {
+            "background": "663ecb7e5ca3a7ac09dc183f"
+          },
+          "id": "663ecb69bda37ccc18e29e3f",
+          "name": "Product Backlog",
+          "shortLink": "lcngm0L3"
+        },
+        "old": {
+          "prefs": {
+            "background": "663ec9e30b612961fdf64e6c"
+          }
+        }
+      },
+      "appCreator": null,
+      "type": "updateBoard",
+      "date": "2024-05-11T01:35:58.808Z",
+      "limits": null,
+      "memberCreator": {
+        "id": "65f72e1dd2c25f5adbfa85e9",
+        "activityBlocked": false,
+        "avatarHash": "6f5bb87f2fbabe67be91ef5b27eee617",
+        "avatarUrl": "https://trello-members.s3.amazonaws.com/65f72e1dd2c25f5adbfa85e9/6f5bb87f2fbabe67be91ef5b27eee617",
+        "fullName": "Tiago Alves Ferreira",
+        "idMemberReferrer": null,
+        "initials": "TF",
+        "nonPublic": {
+          "fullName": "Tiago Alves Ferreira",
+          "initials": "TF",
+          "avatarHash": null
+        },
+        "nonPublicAvailable": true,
+        "username": "tiagoalvesferreira27"
+      }
+    },
+    {
+      "id": "663ecb69bda37ccc18e29ea9",
+      "idMemberCreator": "65f72e1dd2c25f5adbfa85e9",
+      "data": {
+        "board": {
+          "id": "663ecb69bda37ccc18e29e3f",
+          "name": "Product Backlog",
+          "shortLink": "lcngm0L3"
+        },
+        "organization": {
+          "id": "65f72f4355af4bc543d041b8",
+          "name": "Sexta-Feira-LIGEPL-Grupo-G"
+        }
+      },
+      "appCreator": null,
+      "type": "addToOrganizationBoard",
+      "date": "2024-05-11T01:35:37.771Z",
+      "limits": null,
+      "memberCreator": {
+        "id": "65f72e1dd2c25f5adbfa85e9",
+        "activityBlocked": false,
+        "avatarHash": "6f5bb87f2fbabe67be91ef5b27eee617",
+        "avatarUrl": "https://trello-members.s3.amazonaws.com/65f72e1dd2c25f5adbfa85e9/6f5bb87f2fbabe67be91ef5b27eee617",
+        "fullName": "Tiago Alves Ferreira",
+        "idMemberReferrer": null,
+        "initials": "TF",
+        "nonPublic": {
+          "fullName": "Tiago Alves Ferreira",
+          "initials": "TF",
+          "avatarHash": null
+        },
+        "nonPublicAvailable": true,
+        "username": "tiagoalvesferreira27"
+      }
+    },
+    {
+      "id": "663ecb69bda37ccc18e29ea6",
+      "idMemberCreator": "65f72e1dd2c25f5adbfa85e9",
+      "data": {
+        "board": {
+          "id": "663ecb69bda37ccc18e29e3f",
+          "name": "Product Backlog",
+          "shortLink": "lcngm0L3"
+        }
+      },
+      "appCreator": null,
+      "type": "createBoard",
+      "date": "2024-05-11T01:35:37.766Z",
+      "limits": null,
+      "memberCreator": {
+        "id": "65f72e1dd2c25f5adbfa85e9",
+        "activityBlocked": false,
+        "avatarHash": "6f5bb87f2fbabe67be91ef5b27eee617",
+        "avatarUrl": "https://trello-members.s3.amazonaws.com/65f72e1dd2c25f5adbfa85e9/6f5bb87f2fbabe67be91ef5b27eee617",
+        "fullName": "Tiago Alves Ferreira",
+        "idMemberReferrer": null,
+        "initials": "TF",
+        "nonPublic": {
+          "fullName": "Tiago Alves Ferreira",
+          "initials": "TF",
+          "avatarHash": null
+        },
+        "nonPublicAvailable": true,
+        "username": "tiagoalvesferreira27"
+      }
+    }
+  ],
+  "cards": [
+    {
+      "id": "664372e85f9cf9d22717ca34",
+      "address": null,
+      "badges": {
+        "attachmentsByType": {
+          "trello": {
+            "board": 0,
+            "card": 0
+          }
+        },
+        "location": false,
+        "votes": 0,
+        "viewingMemberVoted": false,
+        "subscribed": false,
+        "fogbugz": "",
+        "checkItems": 0,
+        "checkItemsChecked": 0,
+        "checkItemsEarliestDue": null,
+        "comments": 0,
+        "attachments": 0,
+        "description": false,
+        "due": null,
+        "dueComplete": false,
+        "start": null
+      },
+      "checkItemStates": [],
+      "closed": false,
+      "coordinates": null,
+      "creationMethod": null,
+      "dueComplete": false,
+      "dateLastActivity": "2024-05-14T14:28:54.115Z",
+      "desc": "",
+      "descData": {
+        "emoji": {
+
+        }
+      },
+      "due": null,
+      "dueReminder": -1,
+      "email": "tiagoalvesfer+32538s4m80m7owapyp5+32gobadmtlsp1j7w65w+15dzaz1mor@boards.trello.com",
+      "idBoard": "663ecb69bda37ccc18e29e3f",
+      "idChecklists": [],
+      "idLabels": [
+        "66437310cdb11f76fa84203e"
+      ],
+      "idList": "664372e75f9cf9d22717c4a1",
+      "idMembers": [],
+      "idMembersVoted": [],
+      "idOrganization": "65f72f4355af4bc543d041b8",
+      "idShort": 3,
+      "idAttachmentCover": null,
+      "labels": [
+        {
+          "id": "66437310cdb11f76fa84203e",
+          "idBoard": "663ecb69bda37ccc18e29e3f",
+          "name": "BackEnd",
+          "color": "yellow",
+          "uses": 4
+        }
+      ],
+      "limits": {
+        "attachments": {
+          "perCard": {
+            "status": "ok",
+            "disableAt": 1000,
+            "warnAt": 800
+          }
+        },
+        "checklists": {
+          "perCard": {
+            "status": "ok",
+            "disableAt": 500,
+            "warnAt": 400
+          }
+        },
+        "stickers": {
+          "perCard": {
+            "status": "ok",
+            "disableAt": 70,
+            "warnAt": 56
+          }
+        }
+      },
+      "locationName": null,
+      "manualCoverAttachment": true,
+      "name": "Gráfico de ocupação das salas",
+      "nodeId": "ari:cloud:trello::card/workspace/65f72f4355af4bc543d041b8/664372e85f9cf9d22717ca34",
+      "pos": 32768,
+      "shortLink": "qc6agGwC",
+      "shortUrl": "https://trello.com/c/qc6agGwC",
+      "staticMapUrl": null,
+      "start": null,
+      "subscribed": false,
+      "url": "https://trello.com/c/qc6agGwC/3-gr%C3%A1fico-de-ocupa%C3%A7%C3%A3o-das-salas",
+      "cover": {
+        "idAttachment": null,
+        "color": "yellow",
+        "idUploadedBackground": null,
+        "size": "normal",
+        "brightness": "light",
+        "idPlugin": null
+      },
+      "isTemplate": false,
+      "cardRole": null,
+      "attachments": [],
+      "pluginData": [
+        {
+          "id": "664372e95f9cf9d22717cb20",
+          "idPlugin": "5eda444d3be9d07a01eb82a4",
+          "scope": "card",
+          "idModel": "664372e85f9cf9d22717ca34",
+          "value": "{\"points\":\"9\"}",
+          "access": "shared",
+          "dateLastUpdated": "2024-05-14T14:19:21.065Z"
+        }
+      ],
+      "customFieldItems": []
+    },
+    {
+      "id": "664372e75f9cf9d22717c61d",
+      "address": null,
+      "badges": {
+        "attachmentsByType": {
+          "trello": {
+            "board": 0,
+            "card": 0
+          }
+        },
+        "location": false,
+        "votes": 0,
+        "viewingMemberVoted": false,
+        "subscribed": false,
+        "fogbugz": "",
+        "checkItems": 0,
+        "checkItemsChecked": 0,
+        "checkItemsEarliestDue": null,
+        "comments": 0,
+        "attachments": 0,
+        "description": false,
+        "due": null,
+        "dueComplete": false,
+        "start": null
+      },
+      "checkItemStates": [],
+      "closed": false,
+      "coordinates": null,
+      "creationMethod": null,
+      "dueComplete": false,
+      "dateLastActivity": "2024-05-14T14:28:39.155Z",
+      "desc": "",
+      "descData": {
+        "emoji": {
+
+        }
+      },
+      "due": null,
+      "dueReminder": -1,
+      "email": "tiagoalvesfer+32538s4m80m7owapyp5+32goba9qo7rnzd33okd+094blknlqb@boards.trello.com",
+      "idBoard": "663ecb69bda37ccc18e29e3f",
+      "idChecklists": [],
+      "idLabels": [
+        "66437310cdb11f76fa84203e"
+      ],
+      "idList": "664372e75f9cf9d22717c4a1",
+      "idMembers": [],
+      "idMembersVoted": [],
+      "idOrganization": "65f72f4355af4bc543d041b8",
+      "idShort": 2,
+      "idAttachmentCover": null,
+      "labels": [
+        {
+          "id": "66437310cdb11f76fa84203e",
+          "idBoard": "663ecb69bda37ccc18e29e3f",
+          "name": "BackEnd",
+          "color": "yellow",
+          "uses": 4
+        }
+      ],
+      "limits": {
+        "attachments": {
+          "perCard": {
+            "status": "ok",
+            "disableAt": 1000,
+            "warnAt": 800
+          }
+        },
+        "checklists": {
+          "perCard": {
+            "status": "ok",
+            "disableAt": 500,
+            "warnAt": 400
+          }
+        },
+        "stickers": {
+          "perCard": {
+            "status": "ok",
+            "disableAt": 70,
+            "warnAt": 56
+          }
+        }
+      },
+      "locationName": null,
+      "manualCoverAttachment": true,
+      "name": "Gráfico de conflitos entre aulas",
+      "nodeId": "ari:cloud:trello::card/workspace/65f72f4355af4bc543d041b8/664372e75f9cf9d22717c61d",
+      "pos": 49152,
+      "shortLink": "Vwr4l1lK",
+      "shortUrl": "https://trello.com/c/Vwr4l1lK",
+      "staticMapUrl": null,
+      "start": null,
+      "subscribed": false,
+      "url": "https://trello.com/c/Vwr4l1lK/2-gr%C3%A1fico-de-conflitos-entre-aulas",
+      "cover": {
+        "idAttachment": null,
+        "color": "yellow",
+        "idUploadedBackground": null,
+        "size": "normal",
+        "brightness": "light",
+        "idPlugin": null
+      },
+      "isTemplate": false,
+      "cardRole": null,
+      "attachments": [],
+      "pluginData": [
+        {
+          "id": "664372e75f9cf9d22717c776",
+          "idPlugin": "5eda444d3be9d07a01eb82a4",
+          "scope": "card",
+          "idModel": "664372e75f9cf9d22717c61d",
+          "value": "{\"points\":9}",
+          "access": "shared",
+          "dateLastUpdated": "2024-05-14T14:19:19.760Z"
+        }
+      ],
+      "customFieldItems": []
+    },
+    {
+      "id": "664372e75f9cf9d22717c626",
+      "address": null,
+      "badges": {
+        "attachmentsByType": {
+          "trello": {
+            "board": 0,
+            "card": 0
+          }
+        },
+        "location": false,
+        "votes": 0,
+        "viewingMemberVoted": false,
+        "subscribed": false,
+        "fogbugz": "",
+        "checkItems": 0,
+        "checkItemsChecked": 0,
+        "checkItemsEarliestDue": null,
+        "comments": 0,
+        "attachments": 0,
+        "description": false,
+        "due": null,
+        "dueComplete": false,
+        "start": null
+      },
+      "checkItemStates": [],
+      "closed": false,
+      "coordinates": null,
+      "creationMethod": null,
+      "dueComplete": false,
+      "dateLastActivity": "2024-05-14T14:30:41.137Z",
+      "desc": "",
+      "descData": {
+        "emoji": {
+
+        }
+      },
+      "due": null,
+      "dueReminder": -1,
+      "email": "tiagoalvesfer+32538s4m80m7owapyp5+32goba9qo7rnzd33okm+1uwcs1dtnh@boards.trello.com",
+      "idBoard": "663ecb69bda37ccc18e29e3f",
+      "idChecklists": [],
+      "idLabels": [
+        "66437310cdb11f76fa84203e"
+      ],
+      "idList": "664372e75f9cf9d22717c4a1",
+      "idMembers": [],
+      "idMembersVoted": [],
+      "idOrganization": "65f72f4355af4bc543d041b8",
+      "idShort": 11,
+      "idAttachmentCover": null,
+      "labels": [
+        {
+          "id": "66437310cdb11f76fa84203e",
+          "idBoard": "663ecb69bda37ccc18e29e3f",
+          "name": "BackEnd",
+          "color": "yellow",
+          "uses": 4
+        }
+      ],
+      "limits": {
+        "attachments": {
+          "perCard": {
+            "status": "ok",
+            "disableAt": 1000,
+            "warnAt": 800
+          }
+        },
+        "checklists": {
+          "perCard": {
+            "status": "ok",
+            "disableAt": 500,
+            "warnAt": 400
+          }
+        },
+        "stickers": {
+          "perCard": {
+            "status": "ok",
+            "disableAt": 70,
+            "warnAt": 56
+          }
+        }
+      },
+      "locationName": null,
+      "manualCoverAttachment": true,
+      "name": "Testes",
+      "nodeId": "ari:cloud:trello::card/workspace/65f72f4355af4bc543d041b8/664372e75f9cf9d22717c626",
+      "pos": 65536,
+      "shortLink": "YJkOvgKX",
+      "shortUrl": "https://trello.com/c/YJkOvgKX",
+      "staticMapUrl": null,
+      "start": null,
+      "subscribed": false,
+      "url": "https://trello.com/c/YJkOvgKX/11-testes",
+      "cover": {
+        "idAttachment": null,
+        "color": "pink",
+        "idUploadedBackground": null,
+        "size": "normal",
+        "brightness": "light",
+        "idPlugin": null
+      },
+      "isTemplate": false,
+      "cardRole": null,
+      "attachments": [],
+      "pluginData": [
+        {
+          "id": "664372e75f9cf9d22717c777",
+          "idPlugin": "5eda444d3be9d07a01eb82a4",
+          "scope": "card",
+          "idModel": "664372e75f9cf9d22717c626",
+          "value": "{\"points\":7}",
+          "access": "shared",
+          "dateLastUpdated": "2024-05-14T14:19:19.760Z"
+        }
+      ],
+      "customFieldItems": []
+    },
+    {
+      "id": "664372e75f9cf9d22717c628",
+      "address": null,
+      "badges": {
+        "attachmentsByType": {
+          "trello": {
+            "board": 0,
+            "card": 0
+          }
+        },
+        "location": false,
+        "votes": 0,
+        "viewingMemberVoted": false,
+        "subscribed": false,
+        "fogbugz": "",
+        "checkItems": 0,
+        "checkItemsChecked": 0,
+        "checkItemsEarliestDue": null,
+        "comments": 0,
+        "attachments": 0,
+        "description": false,
+        "due": null,
+        "dueComplete": false,
+        "start": null
+      },
+      "checkItemStates": [],
+      "closed": false,
+      "coordinates": null,
+      "creationMethod": null,
+      "dueComplete": false,
+      "dateLastActivity": "2024-05-14T14:30:26.816Z",
+      "desc": "",
+      "descData": {
+        "emoji": {
+
+        }
+      },
+      "due": null,
+      "dueReminder": -1,
+      "email": "tiagoalvesfer+32538s4m80m7owapyp5+32goba9qo7rnzd33oko+0lmk7v7lkg@boards.trello.com",
+      "idBoard": "663ecb69bda37ccc18e29e3f",
+      "idChecklists": [],
+      "idLabels": [
+        "66437311cdb11f76fa8421b5"
+      ],
+      "idList": "664372e75f9cf9d22717c4a1",
+      "idMembers": [],
+      "idMembersVoted": [],
+      "idOrganization": "65f72f4355af4bc543d041b8",
+      "idShort": 5,
+      "idAttachmentCover": null,
+      "labels": [
+        {
+          "id": "66437311cdb11f76fa8421b5",
+          "idBoard": "663ecb69bda37ccc18e29e3f",
+          "name": "Trello",
+          "color": "purple_dark",
+          "uses": 2
+        }
+      ],
+      "limits": {
+        "attachments": {
+          "perCard": {
+            "status": "ok",
+            "disableAt": 1000,
+            "warnAt": 800
+          }
+        },
+        "checklists": {
+          "perCard": {
+            "status": "ok",
+            "disableAt": 500,
+            "warnAt": 400
+          }
+        },
+        "stickers": {
+          "perCard": {
+            "status": "ok",
+            "disableAt": 70,
+            "warnAt": 56
+          }
+        }
+      },
+      "locationName": null,
+      "manualCoverAttachment": true,
+      "name": "Powerups",
+      "nodeId": "ari:cloud:trello::card/workspace/65f72f4355af4bc543d041b8/664372e75f9cf9d22717c628",
+      "pos": 81920,
+      "shortLink": "V3TQGMGL",
+      "shortUrl": "https://trello.com/c/V3TQGMGL",
+      "staticMapUrl": null,
+      "start": null,
+      "subscribed": false,
+      "url": "https://trello.com/c/V3TQGMGL/5-powerups",
+      "cover": {
+        "idAttachment": null,
+        "color": "green",
+        "idUploadedBackground": null,
+        "size": "normal",
+        "brightness": "light",
+        "idPlugin": null
+      },
+      "isTemplate": false,
+      "cardRole": null,
+      "attachments": [],
+      "pluginData": [
+        {
+          "id": "664372e75f9cf9d22717c791",
+          "idPlugin": "5eda444d3be9d07a01eb82a4",
+          "scope": "card",
+          "idModel": "664372e75f9cf9d22717c628",
+          "value": "{\"points\":2}",
+          "access": "shared",
+          "dateLastUpdated": "2024-05-14T14:19:19.793Z"
+        }
+      ],
+      "customFieldItems": []
+    },
+    {
+      "id": "664372e75f9cf9d22717c627",
+      "address": null,
+      "badges": {
+        "attachmentsByType": {
+          "trello": {
+            "board": 0,
+            "card": 0
+          }
+        },
+        "location": false,
+        "votes": 0,
+        "viewingMemberVoted": false,
+        "subscribed": false,
+        "fogbugz": "",
+        "checkItems": 0,
+        "checkItemsChecked": 0,
+        "checkItemsEarliestDue": null,
+        "comments": 0,
+        "attachments": 0,
+        "description": false,
+        "due": null,
+        "dueComplete": false,
+        "start": null
+      },
+      "checkItemStates": [],
+      "closed": false,
+      "coordinates": null,
+      "creationMethod": null,
+      "dueComplete": false,
+      "dateLastActivity": "2024-05-14T14:27:57.063Z",
+      "desc": "",
+      "descData": {
+        "emoji": {
+
+        }
+      },
+      "due": null,
+      "dueReminder": -1,
+      "email": "tiagoalvesfer+32538s4m80m7owapyp5+32goba9qo7rnzd33okn+0r8ycxywio@boards.trello.com",
+      "idBoard": "663ecb69bda37ccc18e29e3f",
+      "idChecklists": [],
+      "idLabels": [
+        "66437311cdb11f76fa84237d"
+      ],
+      "idList": "664372e75f9cf9d22717c4a1",
+      "idMembers": [],
+      "idMembersVoted": [],
+      "idOrganization": "65f72f4355af4bc543d041b8",
+      "idShort": 7,
+      "idAttachmentCover": null,
+      "labels": [
+        {
+          "id": "66437311cdb11f76fa84237d",
+          "idBoard": "663ecb69bda37ccc18e29e3f",
+          "name": "Front-End",
+          "color": "green",
+          "uses": 1
+        }
+      ],
+      "limits": {
+        "attachments": {
+          "perCard": {
+            "status": "ok",
+            "disableAt": 1000,
+            "warnAt": 800
+          }
+        },
+        "checklists": {
+          "perCard": {
+            "status": "ok",
+            "disableAt": 500,
+            "warnAt": 400
+          }
+        },
+        "stickers": {
+          "perCard": {
+            "status": "ok",
+            "disableAt": 70,
+            "warnAt": 56
+          }
+        }
+      },
+      "locationName": null,
+      "manualCoverAttachment": true,
+      "name": "Visualização da alocação das aulas de substituição e de uma UC",
+      "nodeId": "ari:cloud:trello::card/workspace/65f72f4355af4bc543d041b8/664372e75f9cf9d22717c627",
+      "pos": 98304,
+      "shortLink": "olRT8nDl",
+      "shortUrl": "https://trello.com/c/olRT8nDl",
+      "staticMapUrl": null,
+      "start": null,
+      "subscribed": false,
+      "url": "https://trello.com/c/olRT8nDl/7-visualiza%C3%A7%C3%A3o-da-aloca%C3%A7%C3%A3o-das-aulas-de-substitui%C3%A7%C3%A3o-e-de-uma-uc",
+      "cover": {
+        "idAttachment": null,
+        "color": "yellow",
+        "idUploadedBackground": null,
+        "size": "normal",
+        "brightness": "light",
+        "idPlugin": null
+      },
+      "isTemplate": false,
+      "cardRole": null,
+      "attachments": [],
+      "pluginData": [
+        {
+          "id": "664372e75f9cf9d22717c78c",
+          "idPlugin": "5eda444d3be9d07a01eb82a4",
+          "scope": "card",
+          "idModel": "664372e75f9cf9d22717c627",
+          "value": "{\"points\":\"6\"}",
+          "access": "shared",
+          "dateLastUpdated": "2024-05-14T14:19:19.789Z"
+        }
+      ],
+      "customFieldItems": []
+    },
+    {
+      "id": "664372e75f9cf9d22717c61f",
+      "address": null,
+      "badges": {
+        "attachmentsByType": {
+          "trello": {
+            "board": 0,
+            "card": 0
+          }
+        },
+        "location": false,
+        "votes": 0,
+        "viewingMemberVoted": false,
+        "subscribed": false,
+        "fogbugz": "",
+        "checkItems": 0,
+        "checkItemsChecked": 0,
+        "checkItemsEarliestDue": null,
+        "comments": 0,
+        "attachments": 0,
+        "description": false,
+        "due": null,
+        "dueComplete": false,
+        "start": null
+      },
+      "checkItemStates": [],
+      "closed": false,
+      "coordinates": null,
+      "creationMethod": null,
+      "dueComplete": false,
+      "dateLastActivity": "2024-05-14T14:27:51.329Z",
+      "desc": "",
+      "descData": {
+        "emoji": {
+
+        }
+      },
+      "due": null,
+      "dueReminder": -1,
+      "email": "tiagoalvesfer+32538s4m80m7owapyp5+32goba9qo7rnzd33okf+1cdw2ylyyo@boards.trello.com",
+      "idBoard": "663ecb69bda37ccc18e29e3f",
+      "idChecklists": [],
+      "idLabels": [
+        "66437310cdb11f76fa84203d"
+      ],
+      "idList": "664372e75f9cf9d22717c4a1",
+      "idMembers": [],
+      "idMembersVoted": [],
+      "idOrganization": "65f72f4355af4bc543d041b8",
+      "idShort": 1,
+      "idAttachmentCover": null,
+      "labels": [
+        {
+          "id": "66437310cdb11f76fa84203d",
+          "idBoard": "663ecb69bda37ccc18e29e3f",
+          "name": "BackEnd",
+          "color": "yellow",
+          "uses": 1
+        }
+      ],
+      "limits": {
+        "attachments": {
+          "perCard": {
+            "status": "ok",
+            "disableAt": 1000,
+            "warnAt": 800
+          }
+        },
+        "checklists": {
+          "perCard": {
+            "status": "ok",
+            "disableAt": 500,
+            "warnAt": 400
+          }
+        },
+        "stickers": {
+          "perCard": {
+            "status": "ok",
+            "disableAt": 70,
+            "warnAt": 56
+          }
+        }
+      },
+      "locationName": null,
+      "manualCoverAttachment": true,
+      "name": "Alocação de aulas de substituição",
+      "nodeId": "ari:cloud:trello::card/workspace/65f72f4355af4bc543d041b8/664372e75f9cf9d22717c61f",
+      "pos": 114688,
+      "shortLink": "FWYj605F",
+      "shortUrl": "https://trello.com/c/FWYj605F",
+      "staticMapUrl": null,
+      "start": null,
+      "subscribed": false,
+      "url": "https://trello.com/c/FWYj605F/1-aloca%C3%A7%C3%A3o-de-aulas-de-substitui%C3%A7%C3%A3o",
+      "cover": {
+        "idAttachment": null,
+        "color": "yellow",
+        "idUploadedBackground": null,
+        "size": "normal",
+        "brightness": "light",
+        "idPlugin": null
+      },
+      "isTemplate": false,
+      "cardRole": null,
+      "attachments": [],
+      "pluginData": [
+        {
+          "id": "664372e75f9cf9d22717c771",
+          "idPlugin": "5eda444d3be9d07a01eb82a4",
+          "scope": "card",
+          "idModel": "664372e75f9cf9d22717c61f",
+          "value": "{\"points\":\"7\"}",
+          "access": "shared",
+          "dateLastUpdated": "2024-05-14T14:19:19.753Z"
+        }
+      ],
+      "customFieldItems": []
+    },
+    {
+      "id": "664372e75f9cf9d22717c624",
+      "address": null,
+      "badges": {
+        "attachmentsByType": {
+          "trello": {
+            "board": 0,
+            "card": 0
+          }
+        },
+        "location": false,
+        "votes": 0,
+        "viewingMemberVoted": false,
+        "subscribed": false,
+        "fogbugz": "",
+        "checkItems": 0,
+        "checkItemsChecked": 0,
+        "checkItemsEarliestDue": null,
+        "comments": 0,
+        "attachments": 0,
+        "description": false,
+        "due": null,
+        "dueComplete": false,
+        "start": null
+      },
+      "checkItemStates": [],
+      "closed": false,
+      "coordinates": null,
+      "creationMethod": null,
+      "dueComplete": false,
+      "dateLastActivity": "2024-05-14T14:27:39.833Z",
+      "desc": "",
+      "descData": {
+        "emoji": {
+
+        }
+      },
+      "due": null,
+      "dueReminder": -1,
+      "email": "tiagoalvesfer+32538s4m80m7owapyp5+32goba9qo7rnzd33okk+0sg3v26tgh@boards.trello.com",
+      "idBoard": "663ecb69bda37ccc18e29e3f",
+      "idChecklists": [],
+      "idLabels": [
+        "66437310cdb11f76fa84203e"
+      ],
+      "idList": "664372e75f9cf9d22717c4a1",
+      "idMembers": [],
+      "idMembersVoted": [],
+      "idOrganization": "65f72f4355af4bc543d041b8",
+      "idShort": 9,
+      "idAttachmentCover": null,
+      "labels": [
+        {
+          "id": "66437310cdb11f76fa84203e",
+          "idBoard": "663ecb69bda37ccc18e29e3f",
+          "name": "BackEnd",
+          "color": "yellow",
+          "uses": 4
+        }
+      ],
+      "limits": {
+        "attachments": {
+          "perCard": {
+            "status": "ok",
+            "disableAt": 1000,
+            "warnAt": 800
+          }
+        },
+        "checklists": {
+          "perCard": {
+            "status": "ok",
+            "disableAt": 500,
+            "warnAt": 400
+          }
+        },
+        "stickers": {
+          "perCard": {
+            "status": "ok",
+            "disableAt": 70,
+            "warnAt": 56
+          }
+        }
+      },
+      "locationName": null,
+      "manualCoverAttachment": true,
+      "name": "Alocação de aulas de uma UC",
+      "nodeId": "ari:cloud:trello::card/workspace/65f72f4355af4bc543d041b8/664372e75f9cf9d22717c624",
+      "pos": 131072,
+      "shortLink": "WMry3l2K",
+      "shortUrl": "https://trello.com/c/WMry3l2K",
+      "staticMapUrl": null,
+      "start": null,
+      "subscribed": false,
+      "url": "https://trello.com/c/WMry3l2K/9-aloca%C3%A7%C3%A3o-de-aulas-de-uma-uc",
+      "cover": {
+        "idAttachment": null,
+        "color": "yellow",
+        "idUploadedBackground": null,
+        "size": "normal",
+        "brightness": "light",
+        "idPlugin": null
+      },
+      "isTemplate": false,
+      "cardRole": null,
+      "attachments": [],
+      "pluginData": [
+        {
+          "id": "664372e75f9cf9d22717c784",
+          "idPlugin": "5eda444d3be9d07a01eb82a4",
+          "scope": "card",
+          "idModel": "664372e75f9cf9d22717c624",
+          "value": "{\"points\":7}",
+          "access": "shared",
+          "dateLastUpdated": "2024-05-14T14:19:19.775Z"
+        }
+      ],
+      "customFieldItems": []
+    },
+    {
+      "id": "664372e75f9cf9d22717c61c",
+      "address": null,
+      "badges": {
+        "attachmentsByType": {
+          "trello": {
+            "board": 0,
+            "card": 0
+          }
+        },
+        "location": false,
+        "votes": 0,
+        "viewingMemberVoted": false,
+        "subscribed": false,
+        "fogbugz": "",
+        "checkItems": 0,
+        "checkItemsChecked": 0,
+        "checkItemsEarliestDue": null,
+        "comments": 0,
+        "attachments": 0,
+        "description": false,
+        "due": null,
+        "dueComplete": false,
+        "start": null
+      },
+      "checkItemStates": [],
+      "closed": false,
+      "coordinates": null,
+      "creationMethod": null,
+      "dueComplete": false,
+      "dateLastActivity": "2024-05-14T14:30:15.168Z",
+      "desc": "",
+      "descData": {
+        "emoji": {
+
+        }
+      },
+      "due": null,
+      "dueReminder": -1,
+      "email": "tiagoalvesfer+32538s4m80m7owapyp5+32goba9qo7rnzd33okc+20zdz1nujb@boards.trello.com",
+      "idBoard": "663ecb69bda37ccc18e29e3f",
+      "idChecklists": [],
+      "idLabels": [
+        "66437311cdb11f76fa8421b5"
+      ],
+      "idList": "664372e75f9cf9d22717c4a1",
+      "idMembers": [],
+      "idMembersVoted": [],
+      "idOrganization": "65f72f4355af4bc543d041b8",
+      "idShort": 4,
+      "idAttachmentCover": null,
+      "labels": [
+        {
+          "id": "66437311cdb11f76fa8421b5",
+          "idBoard": "663ecb69bda37ccc18e29e3f",
+          "name": "Trello",
+          "color": "purple_dark",
+          "uses": 2
+        }
+      ],
+      "limits": {
+        "attachments": {
+          "perCard": {
+            "status": "ok",
+            "disableAt": 1000,
+            "warnAt": 800
+          }
+        },
+        "checklists": {
+          "perCard": {
+            "status": "ok",
+            "disableAt": 500,
+            "warnAt": 400
+          }
+        },
+        "stickers": {
+          "perCard": {
+            "status": "ok",
+            "disableAt": 70,
+            "warnAt": 56
+          }
+        }
+      },
+      "locationName": null,
+      "manualCoverAttachment": true,
+      "name": "Atualizar Trello",
+      "nodeId": "ari:cloud:trello::card/workspace/65f72f4355af4bc543d041b8/664372e75f9cf9d22717c61c",
+      "pos": 147456,
+      "shortLink": "l7iKWW34",
+      "shortUrl": "https://trello.com/c/l7iKWW34",
+      "staticMapUrl": null,
+      "start": null,
+      "subscribed": false,
+      "url": "https://trello.com/c/l7iKWW34/4-atualizar-trello",
+      "cover": {
+        "idAttachment": null,
+        "color": "green",
+        "idUploadedBackground": null,
+        "size": "normal",
+        "brightness": "light",
+        "idPlugin": null
+      },
+      "isTemplate": false,
+      "cardRole": null,
+      "attachments": [],
+      "pluginData": [
+        {
+          "id": "664372e75f9cf9d22717c783",
+          "idPlugin": "5eda444d3be9d07a01eb82a4",
+          "scope": "card",
+          "idModel": "664372e75f9cf9d22717c61c",
+          "value": "{\"points\":2}",
+          "access": "shared",
+          "dateLastUpdated": "2024-05-14T14:19:19.775Z"
+        }
+      ],
+      "customFieldItems": []
+    },
+    {
+      "id": "664372e75f9cf9d22717c625",
+      "address": null,
+      "badges": {
+        "attachmentsByType": {
+          "trello": {
+            "board": 0,
+            "card": 0
+          }
+        },
+        "location": false,
+        "votes": 0,
+        "viewingMemberVoted": false,
+        "subscribed": false,
+        "fogbugz": "",
+        "checkItems": 0,
+        "checkItemsChecked": 0,
+        "checkItemsEarliestDue": null,
+        "comments": 0,
+        "attachments": 0,
+        "description": false,
+        "due": null,
+        "dueComplete": false,
+        "start": null
+      },
+      "checkItemStates": [],
+      "closed": false,
+      "coordinates": null,
+      "creationMethod": null,
+      "dueComplete": false,
+      "dateLastActivity": "2024-05-14T14:30:02.221Z",
+      "desc": "",
+      "descData": {
+        "emoji": {
+
+        }
+      },
+      "due": null,
+      "dueReminder": -1,
+      "email": "tiagoalvesfer+32538s4m80m7owapyp5+32goba9qo7rnzd33okl+19dn76h431@boards.trello.com",
+      "idBoard": "663ecb69bda37ccc18e29e3f",
+      "idChecklists": [],
+      "idLabels": [
+        "66437311cdb11f76fa8422ea"
+      ],
+      "idList": "664372e75f9cf9d22717c4a1",
+      "idMembers": [],
+      "idMembersVoted": [],
+      "idOrganization": "65f72f4355af4bc543d041b8",
+      "idShort": 8,
+      "idAttachmentCover": null,
+      "labels": [
+        {
+          "id": "66437311cdb11f76fa8422ea",
+          "idBoard": "663ecb69bda37ccc18e29e3f",
+          "name": "GitHub",
+          "color": "yellow_dark",
+          "uses": 2
+        }
+      ],
+      "limits": {
+        "attachments": {
+          "perCard": {
+            "status": "ok",
+            "disableAt": 1000,
+            "warnAt": 800
+          }
+        },
+        "checklists": {
+          "perCard": {
+            "status": "ok",
+            "disableAt": 500,
+            "warnAt": 400
+          }
+        },
+        "stickers": {
+          "perCard": {
+            "status": "ok",
+            "disableAt": 70,
+            "warnAt": 56
+          }
+        }
+      },
+      "locationName": null,
+      "manualCoverAttachment": true,
+      "name": "Branch GitHub",
+      "nodeId": "ari:cloud:trello::card/workspace/65f72f4355af4bc543d041b8/664372e75f9cf9d22717c625",
+      "pos": 163840,
+      "shortLink": "gFD8hgOv",
+      "shortUrl": "https://trello.com/c/gFD8hgOv",
+      "staticMapUrl": null,
+      "start": null,
+      "subscribed": false,
+      "url": "https://trello.com/c/gFD8hgOv/8-branch-github",
+      "cover": {
+        "idAttachment": null,
+        "color": "purple",
+        "idUploadedBackground": null,
+        "size": "normal",
+        "brightness": "light",
+        "idPlugin": null
+      },
+      "isTemplate": false,
+      "cardRole": null,
+      "attachments": [],
+      "pluginData": [
+        {
+          "id": "664372e75f9cf9d22717c7d6",
+          "idPlugin": "5eda444d3be9d07a01eb82a4",
+          "scope": "card",
+          "idModel": "664372e75f9cf9d22717c625",
+          "value": "{\"points\":5}",
+          "access": "shared",
+          "dateLastUpdated": "2024-05-14T14:19:19.889Z"
+        }
+      ],
+      "customFieldItems": []
+    },
+    {
+      "id": "664372e75f9cf9d22717c61e",
+      "address": null,
+      "badges": {
+        "attachmentsByType": {
+          "trello": {
+            "board": 0,
+            "card": 0
+          }
+        },
+        "location": false,
+        "votes": 0,
+        "viewingMemberVoted": false,
+        "subscribed": false,
+        "fogbugz": "",
+        "checkItems": 0,
+        "checkItemsChecked": 0,
+        "checkItemsEarliestDue": null,
+        "comments": 0,
+        "attachments": 0,
+        "description": false,
+        "due": null,
+        "dueComplete": false,
+        "start": null
+      },
+      "checkItemStates": [],
+      "closed": false,
+      "coordinates": null,
+      "creationMethod": null,
+      "dueComplete": false,
+      "dateLastActivity": "2024-05-14T14:29:15.042Z",
+      "desc": "",
+      "descData": {
+        "emoji": {
+
+        }
+      },
+      "due": null,
+      "dueReminder": -1,
+      "email": "tiagoalvesfer+32538s4m80m7owapyp5+32goba9qo7rnzd33oke+0zda800sro@boards.trello.com",
+      "idBoard": "663ecb69bda37ccc18e29e3f",
+      "idChecklists": [],
+      "idLabels": [],
+      "idList": "664372e75f9cf9d22717c4a1",
+      "idMembers": [],
+      "idMembersVoted": [],
+      "idOrganization": "65f72f4355af4bc543d041b8",
+      "idShort": 10,
+      "idAttachmentCover": null,
+      "labels": [],
+      "limits": {
+        "attachments": {
+          "perCard": {
+            "status": "ok",
+            "disableAt": 1000,
+            "warnAt": 800
+          }
+        },
+        "checklists": {
+          "perCard": {
+            "status": "ok",
+            "disableAt": 500,
+            "warnAt": 400
+          }
+        },
+        "stickers": {
+          "perCard": {
+            "status": "ok",
+            "disableAt": 70,
+            "warnAt": 56
+          }
+        }
+      },
+      "locationName": null,
+      "manualCoverAttachment": true,
+      "name": "Relatório de avaliação da qualidade do software do projeto",
+      "nodeId": "ari:cloud:trello::card/workspace/65f72f4355af4bc543d041b8/664372e75f9cf9d22717c61e",
+      "pos": 172032,
+      "shortLink": "7A7U9YET",
+      "shortUrl": "https://trello.com/c/7A7U9YET",
+      "staticMapUrl": null,
+      "start": null,
+      "subscribed": false,
+      "url": "https://trello.com/c/7A7U9YET/10-relat%C3%B3rio-de-avalia%C3%A7%C3%A3o-da-qualidade-do-software-do-projeto",
+      "cover": {
+        "idAttachment": null,
+        "color": "black",
+        "idUploadedBackground": null,
+        "size": "normal",
+        "brightness": "dark",
+        "idPlugin": null
+      },
+      "isTemplate": false,
+      "cardRole": null,
+      "attachments": [],
+      "pluginData": [],
+      "customFieldItems": []
+    },
+    {
+      "id": "664372e75f9cf9d22717c607",
+      "address": null,
+      "badges": {
+        "attachmentsByType": {
+          "trello": {
+            "board": 0,
+            "card": 0
+          }
+        },
+        "location": false,
+        "votes": 0,
+        "viewingMemberVoted": false,
+        "subscribed": false,
+        "fogbugz": "",
+        "checkItems": 0,
+        "checkItemsChecked": 0,
+        "checkItemsEarliestDue": null,
+        "comments": 0,
+        "attachments": 0,
+        "description": false,
+        "due": null,
+        "dueComplete": false,
+        "start": null
+      },
+      "checkItemStates": [],
+      "closed": false,
+      "coordinates": null,
+      "creationMethod": null,
+      "dueComplete": false,
+      "dateLastActivity": "2024-05-14T14:29:51.049Z",
+      "desc": "",
+      "descData": {
+        "emoji": {
+
+        }
+      },
+      "due": null,
+      "dueReminder": -1,
+      "email": "tiagoalvesfer+32538s4m80m7owapyp5+32goba9qo7rnzd33ojr+1ehk58ntcc@boards.trello.com",
+      "idBoard": "663ecb69bda37ccc18e29e3f",
+      "idChecklists": [],
+      "idLabels": [
+        "66437311cdb11f76fa8422ea"
+      ],
+      "idList": "664372e75f9cf9d22717c4a1",
+      "idMembers": [],
+      "idMembersVoted": [],
+      "idOrganization": "65f72f4355af4bc543d041b8",
+      "idShort": 6,
+      "idAttachmentCover": null,
+      "labels": [
+        {
+          "id": "66437311cdb11f76fa8422ea",
+          "idBoard": "663ecb69bda37ccc18e29e3f",
+          "name": "GitHub",
+          "color": "yellow_dark",
+          "uses": 2
+        }
+      ],
+      "limits": {
+        "attachments": {
+          "perCard": {
+            "status": "ok",
+            "disableAt": 1000,
+            "warnAt": 800
+          }
+        },
+        "checklists": {
+          "perCard": {
+            "status": "ok",
+            "disableAt": 500,
+            "warnAt": 400
+          }
+        },
+        "stickers": {
+          "perCard": {
+            "status": "ok",
+            "disableAt": 70,
+            "warnAt": 56
+          }
+        }
+      },
+      "locationName": null,
+      "manualCoverAttachment": true,
+      "name": "Adicionar Ficheiros no GitHub",
+      "nodeId": "ari:cloud:trello::card/workspace/65f72f4355af4bc543d041b8/664372e75f9cf9d22717c607",
+      "pos": 180224,
+      "shortLink": "3BNtiB6x",
+      "shortUrl": "https://trello.com/c/3BNtiB6x",
+      "staticMapUrl": null,
+      "start": null,
+      "subscribed": false,
+      "url": "https://trello.com/c/3BNtiB6x/6-adicionar-ficheiros-no-github",
+      "cover": {
+        "idAttachment": null,
+        "color": "purple",
+        "idUploadedBackground": null,
+        "size": "normal",
+        "brightness": "light",
+        "idPlugin": null
+      },
+      "isTemplate": false,
+      "cardRole": null,
+      "attachments": [],
+      "pluginData": [
+        {
+          "id": "664372e75f9cf9d22717c78d",
+          "idPlugin": "5eda444d3be9d07a01eb82a4",
+          "scope": "card",
+          "idModel": "664372e75f9cf9d22717c607",
+          "value": "{\"points\":1}",
+          "access": "shared",
+          "dateLastUpdated": "2024-05-14T14:19:19.789Z"
+        }
+      ],
+      "customFieldItems": []
+    }
+  ],
+  "labels": [
+    {
+      "id": "66437310cdb11f76fa84203e",
+      "idBoard": "663ecb69bda37ccc18e29e3f",
+      "name": "BackEnd",
+      "color": "yellow",
+      "uses": 4
+    },
+    {
+      "id": "66437311cdb11f76fa8421b5",
+      "idBoard": "663ecb69bda37ccc18e29e3f",
+      "name": "Trello",
+      "color": "purple_dark",
+      "uses": 2
+    },
+    {
+      "id": "66437311cdb11f76fa8422ea",
+      "idBoard": "663ecb69bda37ccc18e29e3f",
+      "name": "GitHub",
+      "color": "yellow_dark",
+      "uses": 2
+    },
+    {
+      "id": "66437311cdb11f76fa84237d",
+      "idBoard": "663ecb69bda37ccc18e29e3f",
+      "name": "Front-End",
+      "color": "green",
+      "uses": 1
+    },
+    {
+      "id": "66437310cdb11f76fa84203d",
+      "idBoard": "663ecb69bda37ccc18e29e3f",
+      "name": "BackEnd",
+      "color": "yellow",
+      "uses": 1
+    },
+    {
+      "id": "663ecb691dc51400eba84a83",
+      "idBoard": "663ecb69bda37ccc18e29e3f",
+      "name": "",
+      "color": "blue",
+      "uses": 0
+    },
+    {
+      "id": "663ecb691dc51400eba84a79",
+      "idBoard": "663ecb69bda37ccc18e29e3f",
+      "name": "",
+      "color": "green",
+      "uses": 0
+    },
+    {
+      "id": "663ecb691dc51400eba84a7e",
+      "idBoard": "663ecb69bda37ccc18e29e3f",
+      "name": "",
+      "color": "orange",
+      "uses": 0
+    },
+    {
+      "id": "663ecb691dc51400eba84a81",
+      "idBoard": "663ecb69bda37ccc18e29e3f",
+      "name": "",
+      "color": "purple",
+      "uses": 0
+    },
+    {
+      "id": "663ecb691dc51400eba84a80",
+      "idBoard": "663ecb69bda37ccc18e29e3f",
+      "name": "",
+      "color": "red",
+      "uses": 0
+    },
+    {
+      "id": "663ecb691dc51400eba84a7a",
+      "idBoard": "663ecb69bda37ccc18e29e3f",
+      "name": "",
+      "color": "yellow",
+      "uses": 0
+    }
+  ],
+  "lists": [
+    {
+      "id": "664372e75f9cf9d22717c4a1",
+      "name": "Requisitos",
+      "closed": false,
+      "color": null,
+      "idBoard": "663ecb69bda37ccc18e29e3f",
+      "pos": 458752,
+      "subscribed": false,
+      "softLimit": null,
+      "creationMethod": null,
+      "idOrganization": "65f72f4355af4bc543d041b8",
+      "limits": {
+        "cards": {
+          "openPerList": {
+            "status": "ok",
+            "disableAt": 5000,
+            "warnAt": 4000
+          },
+          "totalPerList": {
+            "status": "ok",
+            "disableAt": 1000000,
+            "warnAt": 800000
+          }
+        }
+      },
+      "nodeId": "ari:cloud:trello::list/workspace/65f72f4355af4bc543d041b8/664372e75f9cf9d22717c4a1"
+    }
+  ],
+  "members": [
+    {
+      "id": "65f72e1dd2c25f5adbfa85e9",
+      "aaId": "712020:4c82fda1-4cd0-48f7-8546-a647e01ebc6f",
+      "activityBlocked": false,
+      "avatarHash": "6f5bb87f2fbabe67be91ef5b27eee617",
+      "avatarUrl": "https://trello-members.s3.amazonaws.com/65f72e1dd2c25f5adbfa85e9/6f5bb87f2fbabe67be91ef5b27eee617",
+      "bio": "",
+      "bioData": null,
+      "confirmed": true,
+      "fullName": "Tiago Alves Ferreira",
+      "idEnterprise": null,
+      "idEnterprisesDeactivated": [],
+      "idMemberReferrer": null,
+      "idPremOrgsAdmin": [],
+      "initials": "TF",
+      "memberType": "normal",
+      "nonPublic": {
+        "fullName": "Tiago Alves Ferreira",
+        "initials": "TF",
+        "avatarHash": null
+      },
+      "nonPublicAvailable": true,
+      "products": [],
+      "url": "https://trello.com/tiagoalvesferreira27",
+      "username": "tiagoalvesferreira27",
+      "status": "disconnected"
+    }
+  ],
+  "checklists": [],
+  "customFields": [],
+  "memberships": [
+    {
+      "id": "663ecb69bda37ccc18e29e6a",
+      "idMember": "65f72e1dd2c25f5adbfa85e9",
+      "memberType": "admin",
+      "unconfirmed": false,
+      "deactivated": false
+    }
+  ],
+  "pluginData": []
+}
