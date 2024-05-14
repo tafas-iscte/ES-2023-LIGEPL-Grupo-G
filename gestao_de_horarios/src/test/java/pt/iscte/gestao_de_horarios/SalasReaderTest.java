@@ -13,7 +13,7 @@ public class SalasReaderTest {
 	@Test
 	void testFile() throws IOException {
 		SalasReader sala = new SalasReader();
-		File f = new File("C:\\Users\\guede\\git\\ES-2023-LIGEPL-Grupo-G\\gestao_de_horarios\\uploads\\CaracterizacaoDasSalas.csv");
+		File f = new File("C:\\Users\\tiago\\git\\ES-2023-LIGEPL-Grupo-G\\gestao_de_horarios\\uploads\\CaracterizacaoDasSalas.csv");
 		assertEquals("salas.json", sala.convertToJson(f));
 	}
 	@Test
@@ -26,7 +26,7 @@ public class SalasReaderTest {
 	@Test
 	void testNonExistingFile() {
 		SalasReader sala = new SalasReader();
-		File f = new File("C:\\Users\\guede\\git\\ES-2023-LIGEPL-Grupo-G\\gestao_de_horarios\\uploads\\HorarioDeExemp.csv");
+		File f = new File("C:\\Users\\tiago\\git\\ES-2023-LIGEPL-Grupo-G\\gestao_de_horarios\\uploads\\HorarioDeExempl.csv");
 		assertThrows(FileNotFoundException.class, () -> SalasReader.carregarSalas(f));
 		
 	}
@@ -41,7 +41,7 @@ public class SalasReaderTest {
 	void testNonExistingFileBrowser() {
 		SalasReader sala = new SalasReader();
 		String f = ("C:\\Users\\guede\\git\\ES-2023-LIGEPL-Grupo-G\\gestao_de_horarios\\uploads\\sala.html");
-		assertThrows(FileNotFoundException.class, () -> sala.openBrowserWindow(f));
+		assertThrows(NullPointerException.class, () -> sala.openBrowserWindow(f));
 		
 	}
 

@@ -1,1 +1,1 @@
-packageSearchIndex = [{"l":"All Packages","url":"allpackages-index.html"},{"l":"pt.iscte.gestao_de_horarios"}]
+packageSearchIndex = [{"l":"All Packages","u":"allpackages-index.html"},{"l":"pt.iscte.gestao_de_horarios"}];updateSearchResults();

@@ -42,7 +42,24 @@
     <version>3.141.59</version>
 	</dependency>
         
+        
+        
+     <dependency>
+        <groupId>com.github.vlsi.mxgraph</groupId>
+        <artifactId>jgraphx</artifactId>
+        <version>4.2.2</version>
+    </dependency>
+
+
+    <dependency>
+        <groupId>org.jfree</groupId>
+        <artifactId>jfreechart</artifactId>
+        <version>1.5.3</version>
+    </dependency>
+        
   </dependencies>
+  
+ 
 
   <build>
     <pluginManagement><!-- lock down plugins versions to avoid using Maven defaults (may be moved to parent pom) -->
